@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/module.css">
 </head>
-<body class="account">
+<body>
 
 <!-- #include file="/code/header.shtml" -->
 
-<div class="page">
+<div class="page account">
 
 	<div class="container">
 

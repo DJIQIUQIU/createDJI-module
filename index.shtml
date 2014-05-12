@@ -41,11 +41,12 @@
 		<a href="code/manage_vice_nav.shtml" title="">分类导航(manage_vice_nav.shtml)</a>
 		<a href="code/manage_my_profile.shtml" title="">my_profile(manage_my_profile.shtml)</a>
 		<a href="code/manage_work_edit.shtml" title="">作品编辑(manage_work_edit.shtml)</a>
-		<a href="code/manage_change_password.shtml" title="">密码修改(manage_change_password.shtml)</a><br />
-		<a href="code/manage_upload.shtml" title="">上传(manage_upload.shtml)</a>
+		<a href="code/manage_change_password.shtml" title="">密码修改(manage_change_password.shtml)</a>
 		<br /><br />
 		<p>作品相关：</p>
 		<a href="code/works.shtml" title="">作品单元格(works.shtml)</a>
+		<p>upload</p>
+		<a href="code/upload.shtml" title="">首页(upload.shtml)</a>
 	<div>
 </div>
 
