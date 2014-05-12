@@ -1,0 +1,44 @@
+
+/* 头部 
+============================================================= */
+.header{width:100%;height:@header-height;border-bottom:1px solid @header-border-color;}
+.header a{color:@header-link-color;}
+
+.header .header-logo{float:left;width:152px;height:@header-height - 1;overflow:hidden;}
+.header .header-nav{float:left;padding-top:22px;padding-left: 2px;}
+.header .header-nav li{display:inline-block;float:left;height:43px;padding:3px 0;z-index:1;}
+.header .header-nav li.active{border-bottom: 4px solid @header-nav-border-color;}
+.header .header-nav a{display:block;padding:0 25px;border-left:1px solid @header-nav-border-color;font-size:@font-size-large;z-index:1;}
+
+.header .header-login{float:right;padding-top:24px;}
+.header .header-login li{position:relative;display:inline-block;float:left;padding:0 0 0 15px;margin-left:15px;font-size:@font-size-large;}
+.header .header-login a{display:inline-block;color:#0077be;}
+
+.logined-box .header-login{padding-top:16px;}
+.logined-box .header-login li{margin-left:4px;}
+.logined-box .header-login a{font-size:@font-size-headNav;}
+.logined-box .header-login a.button-blue{color:@button-color;}
+.logined-box .header-login .user-link{display:inline-block;float:left;width:33px;height:33px;}
+.logined-box .header-login .user-link img{position:relative;border-radius:4px;}
+
+.header .header-drop-down:before{
+	content: "";
+	display: block;
+	position: absolute;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid @header-drop-down-bg;
+	height: 8px;
+	top: -16px;
+	left: 50%;
+	margin-left: 24px;
+}
+.header .header-drop-down{display:none;position:absolute;top:44px;left:-68px;width:136px;height:211px;background-color:@header-drop-down-bg;background-color:@header-drop-down-bg-ie; z-index:91;}
+.header .header-drop-down li{width:100%;padding:14px 21px 14px 21px;margin:0;border-bottom:1px solid rgba(255,255,255,.36);}
+.header .header-drop-down li.last{border:none;background-color:rgba(0,0,0,.5);}
+.header .header-drop-down a{display:block;width:100%;height:100%;color:#fff;}
+.header .header-drop-down a:hover{color:#30c5e5}
+.header .show-drop-down .header-drop-down{display:block;}
+
+.header .header-search{float:right;width:171px;height:34px;margin-top:16px;}
+.header .header-search input{height:@header-search-height;padding-top:10px;padding-left:35px;border-radius:30px;background-color:@header-search-bg;background-position:-466px -251px;color:#5e5b5b;}
