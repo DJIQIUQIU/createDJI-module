@@ -1,6 +1,9 @@
 .form-control {
   height: 42px;
 }
+.container {
+  width: 1230px;
+}
 .spr {
   background: url(../img/spr.png) no-repeat;
 }
@@ -1143,7 +1146,7 @@
   border: none;
 }
 .upload .upload-tab .tab-item.active a.fake-link {
-  font-weight: bold;
+  font-weight: normal;
 }
 .upload .upload-photo {
   display: none;
@@ -1190,6 +1193,51 @@
 }
 .upload .upload-video a.youku {
   background-position: -253px -184px;
+}
+.upload-edit-sidebar {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  width: 255px;
+  color: #707070;
+  z-index: 22;
+}
+.upload-edit-sidebar input,
+.upload-edit-sidebar textarea {
+  font-size: 18px;
+  font-weight: bold;
+  color: #bfbfbf;
+}
+.upload-edit-sidebar label {
+  font-weight: normal;
+}
+.upload-edit-sidebar .edit-status {
+  width: 100%;
+  height: 52px;
+  font-size: 18px;
+  line-height: 52px;
+}
+.upload-edit-sidebar .single-line {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.upload-edit-sidebar .label-radio {
+  width: 40%;
+}
+.upload-edit-sidebar .button {
+  width: 100%;
+  margin-bottom: 14px;
+  padding-top: 15px 0;
+  text-align: center;
+  font-size: 18px;
+}
+.upload-edit-sidebar .button-select {
+  background-color: #59bd00;
+  color: #fff;
+}
+.upload-edit-sidebar .button-confirm {
+  background-color: #00abd0;
+  color: #fff;
 }
 .logined-box {
   display: none;
