@@ -1115,6 +1115,9 @@
 .upload-page-bg {
   background-color: rgba(0, 0, 0, 0.75);
 }
+.upload-page .manage-pagecont-warp {
+  padding: 25px 0 25px 16px;
+}
 .upload {
   width: 846px;
   min-height: 644px;
@@ -1238,6 +1241,184 @@
 .upload-edit-sidebar .button-confirm {
   background-color: #00abd0;
   color: #fff;
+}
+.upload-cell-warp {
+  width: 105%;
+}
+.upload-work-cell {
+  position: relative;
+  float: left;
+  width: 180px;
+  padding: 9px 7px;
+  margin-bottom: 24px;
+}
+.upload-work-cell.video {
+  width: 225px;
+}
+.upload-work-cell .upload-work-img {
+  position: relative;
+  width: 100%;
+  border: 4px solid #959595;
+}
+.upload-work-cell .upload-work-img img {
+  display: block;
+}
+.upload-work-cell .upload-work-mask {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .7;
+}
+.upload-work-cell .upload-work-status {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  width: 96%;
+  height: 33px;
+  margin-top: -16px;
+  line-height: 33px;
+  color: #FFF;
+  font-size: 18px;
+  text-align: center;
+}
+.upload-work-cell .upload-work-status.error {
+  background-color: #8b0202;
+}
+.upload-work-cell .upload-progress {
+  display: none;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.upload-work-cell .upload-progress .progress-bar {
+  height: 8px;
+  background-color: #59bd00;
+}
+.upload-work-cell .form-control {
+  height: 34px;
+  margin-top: 4px;
+  border-radius: 0px;
+  font-size: 18px;
+  border-color: #f6f6f6;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
+  -webkit-transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;
+  transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;
+}
+.upload-work-cell .upload-work-btns {
+  display: none;
+}
+.upload-work-cell .btn {
+  position: absolute;
+  top: -8px;
+  width: 28px;
+  height: 28px;
+  border: 2px solid #FFF;
+  background-color: #000;
+  border-radius: 25px;
+  opacity: 0.6;
+  line-height: 25px;
+  text-align: center;
+  color: #FFF;
+  font-size: 14px;
+}
+.upload-work-cell .btn-check {
+  left: -8px;
+}
+.upload-work-cell .btn-del {
+  right: -8px;
+}
+.upload-work-cell .video-play-btn {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  background-position: -203px -226px;
+}
+.upload-work-cell:hover {
+  background-color: #e5e5e5;
+}
+.upload-work-cell:hover .upload-work-btns {
+  display: block;
+}
+.upload-work-cell:hover .form-control {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.upload-work-cell.foucs .upload-work-img {
+  border: 4px solid #eb6100;
+}
+.upload-work-cell.status-error .upload-work-status.error,
+.upload-work-cell.status-success .upload-work-status.success,
+.upload-work-cell.status-uploading .upload-work-status.uploading,
+.upload-work-cell.status-uploading .upload-progress,
+.upload-work-cell.status-error .upload-work-mask,
+.upload-work-cell.status-success .upload-work-mask,
+.upload-work-cell.status-uploading .upload-work-mask {
+  display: block;
+}
+.pop-mask {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .5;
+  filter: alpha(opacity=50);
+  z-index: 99998;
+}
+.pop.small {
+  width: 642px;
+  margin-left: -321px;
+}
+.pop.normal {
+  width: 800px;
+  margin-left: -400px;
+}
+.pop.large {
+  width: 1000px;
+  margin-left: -500px;
+}
+.pop {
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  padding: 25px;
+  background-color: #FFFFFF;
+  color: #626262;
+  z-index: 99999;
+}
+.pop .pop-close-btn {
+  position: absolute;
+  right: 4px;
+  top: 8px;
+  font-size: 18px;
+  color: #9f9f9f;
+}
+.pop .pop-btns-line {
+  width: 100%;
+  padding-top: 28px;
+  border-top: 1px solid #d6d6d6;
+  text-align: right;
+}
+.pop .pop-btns-line .button {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 8px;
 }
 .logined-box {
   display: none;

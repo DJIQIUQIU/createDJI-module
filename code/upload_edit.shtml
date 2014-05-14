@@ -43,7 +43,7 @@
 
 				<div class="single-line">
 					<label class="control-label">TAGS:</label>
-					<input type="email" class="form-control" id="inputEmail3" placeholder="Title">
+					<input type="email" class="form-control" id="inputEmail3" placeholder="TAGS">
 				</div>
 
 				<div class="single-line">
@@ -68,7 +68,188 @@
 		<div class="manage-pagecont">
 			<div class="bg"></div>
 			<div class="manage-pagecont-warp">
-				<!-- 右侧内容填充区域 -->
+				
+				<div class="upload-cell-warp">
+					
+					<!-- 选取事件触发 给upload-work-cell添加样式 foucs； -->
+					<p style="padding-bottom:8px;">图片</p>
+
+					<div class="upload-work-cell">
+						<div class="upload-work-img">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=160x160/fff" />
+							<div class="upload-work-mask"></div>
+							<div class="upload-work-status error">上传失败</div>
+							<div class="upload-work-status success">上传成功</div>
+							<div class="upload-work-status uploading">上传中...</div>
+							<div class="upload-progress">
+								<div class="progress-bar" style="width:59%;"></div>
+							</div>
+						</div>
+						<div class="upload-work-edit">
+							<input class="form-control" type="text" name="title" value="Title" placeholder="Add a Title">
+							<input class="form-control" type="text" name="desc" value="Description" placeholder="Add a Description">
+						</div>
+						<div class="upload-work-btns">
+							<a class="btn btn-check" href="#none"><i class="icon-search"></i></a>
+							<a class="btn btn-del" href="#none"><i class="icon-cancel"></i></a>
+						</div>
+					</div>
+
+					<div class="upload-work-cell status-uploading">
+						<div class="upload-work-img">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=160x160/fff" />
+							<div class="upload-work-mask"></div>
+							<div class="upload-work-status error">上传失败</div>
+							<div class="upload-work-status success">上传成功</div>
+							<div class="upload-work-status uploading">上传中...</div>
+							<div class="upload-progress">
+								<div class="progress-bar" style="width:59%;"></div>
+							</div>
+						</div>
+						<div class="upload-work-edit">
+							<input class="form-control" type="text" name="title" value="Title" placeholder="Add a Title">
+							<input class="form-control" type="text" name="desc" value="Description" placeholder="Add a Description">
+						</div>
+						<div class="upload-work-btns">
+							<a class="btn btn-check" href="#none"><i class="icon-search"></i></a>
+							<a class="btn btn-del" href="#none"><i class="icon-cancel"></i></a>
+						</div>
+					</div>
+
+					<div class="upload-work-cell status-error">
+						<div class="upload-work-img">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=160x160/fff" />
+							<div class="upload-work-mask"></div>
+							<div class="upload-work-status error">上传失败</div>
+							<div class="upload-work-status success">上传成功</div>
+							<div class="upload-work-status uploading">上传中...</div>
+							<div class="upload-progress">
+								<div class="progress-bar" style="width:59%;"></div>
+							</div>
+						</div>
+						<div class="upload-work-edit">
+							<input class="form-control" type="text" name="title" value="Title" placeholder="Add a Title">
+							<input class="form-control" type="text" name="desc" value="Description" placeholder="Add a Description">
+						</div>
+						<div class="upload-work-btns">
+							<a class="btn btn-check" href="#none"><i class="icon-search"></i></a>
+							<a class="btn btn-del" href="#none"><i class="icon-cancel"></i></a>
+						</div>
+					</div>
+
+					<div class="upload-work-cell status-success">
+						<div class="upload-work-img">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=160x160/fff" />
+							<div class="upload-work-mask"></div>
+							<div class="upload-work-status error">上传失败</div>
+							<div class="upload-work-status success">上传成功</div>
+							<div class="upload-work-status uploading">上传中...</div>
+							<div class="upload-progress">
+								<div class="progress-bar" style="width:59%;"></div>
+							</div>
+						</div>
+						<div class="upload-work-edit">
+							<input class="form-control" type="text" name="title" value="Title" placeholder="Add a Title">
+							<input class="form-control" type="text" name="desc" value="Description" placeholder="Add a Description">
+						</div>
+						<div class="upload-work-btns">
+							<a class="btn btn-check" href="#none"><i class="icon-search"></i></a>
+							<a class="btn btn-del" href="#none"><i class="icon-cancel"></i></a>
+						</div>
+					</div>
+
+					<p style="display:block;float:left;width:100%;padding-bottom:8px;">视频</p>
+
+					<div class="upload-work-cell video">
+						<div class="upload-work-img">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=204x150/fff" />
+							<span class="spr video-play-btn"></span>
+							<div class="upload-work-mask"></div>
+							<div class="upload-work-status error">上传失败</div>
+							<div class="upload-work-status success">上传成功</div>
+							<div class="upload-work-status uploading">上传中...</div>
+							<div class="upload-progress">
+								<div class="progress-bar" style="width:59%;"></div>
+							</div>
+						</div>
+						<div class="upload-work-edit">
+							<input class="form-control" type="text" name="title" value="Title" placeholder="Add a Title">
+							<input class="form-control" type="text" name="desc" value="Description" placeholder="Add a Description">
+						</div>
+						<div class="upload-work-btns">
+							<a class="btn btn-check" href="#none"><i class="icon-search"></i></a>
+							<a class="btn btn-del" href="#none"><i class="icon-cancel"></i></a>
+						</div>
+					</div>
+
+					<div class="upload-work-cell video status-uploading">
+						<div class="upload-work-img">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=204x150/fff" />
+							<span class="spr video-play-btn"></span>
+							<div class="upload-work-mask"></div>
+							<div class="upload-work-status error">上传失败</div>
+							<div class="upload-work-status success">上传成功</div>
+							<div class="upload-work-status uploading">上传中...</div>
+							<div class="upload-progress">
+								<div class="progress-bar" style="width:59%;"></div>
+							</div>
+						</div>
+						<div class="upload-work-edit">
+							<input class="form-control" type="text" name="title" value="Title" placeholder="Add a Title">
+							<input class="form-control" type="text" name="desc" value="Description" placeholder="Add a Description">
+						</div>
+						<div class="upload-work-btns">
+							<a class="btn btn-check" href="#none"><i class="icon-search"></i></a>
+							<a class="btn btn-del" href="#none"><i class="icon-cancel"></i></a>
+						</div>
+					</div>
+
+					<div class="upload-work-cell video status-error">
+						<div class="upload-work-img">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=204x150/fff" />
+							<span class="spr video-play-btn"></span>
+							<div class="upload-work-mask"></div>
+							<div class="upload-work-status error">上传失败</div>
+							<div class="upload-work-status success">上传成功</div>
+							<div class="upload-work-status uploading">上传中...</div>
+							<div class="upload-progress">
+								<div class="progress-bar" style="width:59%;"></div>
+							</div>
+						</div>
+						<div class="upload-work-edit">
+							<input class="form-control" type="text" name="title" value="Title" placeholder="Add a Title">
+							<input class="form-control" type="text" name="desc" value="Description" placeholder="Add a Description">
+						</div>
+						<div class="upload-work-btns">
+							<a class="btn btn-check" href="#none"><i class="icon-search"></i></a>
+							<a class="btn btn-del" href="#none"><i class="icon-cancel"></i></a>
+						</div>
+					</div>
+
+					<div class="upload-work-cell video status-success">
+						<div class="upload-work-img">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=204x150/fff" />
+							<span class="spr video-play-btn"></span>
+							<div class="upload-work-mask"></div>
+							<div class="upload-work-status error">上传失败</div>
+							<div class="upload-work-status success">上传成功</div>
+							<div class="upload-work-status uploading">上传中...</div>
+							<div class="upload-progress">
+								<div class="progress-bar" style="width:59%;"></div>
+							</div>
+						</div>
+						<div class="upload-work-edit">
+							<input class="form-control" type="text" name="title" value="Title" placeholder="Add a Title">
+							<input class="form-control" type="text" name="desc" value="Description" placeholder="Add a Description">
+						</div>
+						<div class="upload-work-btns">
+							<a class="btn btn-check" href="#none"><i class="icon-search"></i></a>
+							<a class="btn btn-del" href="#none"><i class="icon-cancel"></i></a>
+						</div>
+					</div>
+
+				</div>
+
 			</div>
 		</div>
 
@@ -76,10 +257,26 @@
 
 </div>
 
+<div class="pop-mask"></div>
+<div class="pop small">
+	<a class="pop-close-btn" href="#none"><i class="icon-cancel"></i></a>
+	<div class="pop-cont">
+		<p class="upload-pop-text" style="text-align:center;padding:65px 0 100px 0;font-size:18px;color:#626262;">Picture upload finished you can edit the picture information</p>
+	</div>
+	<div class="pop-btns-line">
+		<a class="button button-green" title="">Edit</a>
+		<a class="button button-blue" title="">Confirm</a>
+	</div><!-- / -->
+</div>
 
 <!-- #include file="/code/footer.shtml" -->
 
 <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="../js/custom.js"></script>
+<script type="text/javascript">
+	$('.upload-work-cell').click(function() {
+		$(this).toggleClass('foucs');
+	});
+</script>
 </body>
 </html>
