@@ -15,13 +15,17 @@
 .upload .upload-photo .button{padding: @button-large;font-size: 30px;text-shadow: 2px 2px 2px rgba(0,0,0,0.2);}
 .upload .upload-photo .upload-photo-text{padding-top:25px;font-size: 18px;}
 
-.upload .upload-video{width: 100%;padding-top: 66px;text-align: center;} 
+.upload .upload-video{display: none;width: 100%;padding-top: 66px;text-align: center;} 
 .upload .upload-video .upload-video-text{font-size:30px;color: #FFF;}
 .upload .upload-video .video-platform{width: 100%;padding-top: 60px; overflow: hidden;}
 .upload .upload-video a{display: inline-block;width: 172px;height: 91px;margin:0 9px;line-height: 300px;overflow: hidden;}
 .upload .upload-video a.youtube{background-position: -253px 0;}
 .upload .upload-video a.vimeo{background-position: -253px -92px;}
 .upload .upload-video a.youku{background-position: -253px -184px;}
+
+.upload.show-photo .upload-photo,
+.upload.show-video .upload-video{display: block;}
+
 
 // sidebar
 .upload-edit-sidebar{position: absolute;top: 0px;left: 15px;width: 255px;color:#707070;z-index: 22;}
@@ -42,14 +46,20 @@
 .upload-cell-warp{width: 105%;}
 .upload-work-cell{position: relative;float:left; width:180px;padding: 9px 7px;margin-bottom: 24px;}
 .upload-work-cell.video{width: 225px;}
+.import-list .upload-work-cell.video{margin: 16px 6px 8px 6px;}
+
 .upload-work-cell .upload-work-img{position: relative; width: 100%; border:4px solid #959595;}
 .upload-work-cell .upload-work-img img{display: block;}
 .upload-work-cell .upload-work-mask{display: none; position: absolute;top: 0px;left: 0px; width: 100%;height: 100%;background-color: #000;opacity: .7;}
 .upload-work-cell .upload-work-status{display: none; position: absolute;top:50%;left:2%; width: 96%;height: 33px;margin-top:-16px;line-height: 33px;color: #FFF;font-size: 18px;text-align: center;}
 .upload-work-cell .upload-work-status.error{background-color:#8b0202;}
+.upload-work-cell .checked{display: none; position: absolute;top:0px;right:0px;width: 34px;height: 30px;background-color: #f39800;text-align: center;line-height: 30px;font-size: 24px;color: #FFF;}
 
 .upload-work-cell .upload-progress{display: none; position: absolute;left:0px;bottom:0px;width: 100%;height: 8px;background-color: rgba(0, 0, 0, 0.5);}
 .upload-work-cell .upload-progress .progress-bar{height: 8px;background-color: #59bd00;}
+
+.upload-work-cell p.work-info-title{margin:8px 0 4px 2px;font-weight:bold;font-size:@font-size-normal;}
+.upload-work-cell p.work-info-date{font-size:@font-size-small;}
 
 .upload-work-cell .form-control{height: 34px;margin-top: 4px;border-radius: 0px;font-size: 18px;border-color:#f6f6f6;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.0);
@@ -68,6 +78,7 @@
 .upload-work-cell:hover .form-control{border: 1px solid #ccc;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);}
 
 .upload-work-cell.foucs .upload-work-img{border:4px solid #eb6100;}
+.import-list .upload-work-cell.foucs .upload-work-img{border-color: #f39800;}
 
 .upload-work-cell.status-error .upload-work-status.error,
 .upload-work-cell.status-success .upload-work-status.success,
@@ -75,5 +86,6 @@
 .upload-work-cell.status-uploading .upload-progress,
 .upload-work-cell.status-error .upload-work-mask,
 .upload-work-cell.status-success .upload-work-mask,
-.upload-work-cell.status-uploading .upload-work-mask,{display: block;}
+.upload-work-cell.status-uploading .upload-work-mask,
+.upload-work-cell.foucs .checked{display: block;}
 

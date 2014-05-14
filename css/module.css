@@ -1167,6 +1167,7 @@
   font-size: 18px;
 }
 .upload .upload-video {
+  display: none;
   width: 100%;
   padding-top: 66px;
   text-align: center;
@@ -1196,6 +1197,10 @@
 }
 .upload .upload-video a.youku {
   background-position: -253px -184px;
+}
+.upload.show-photo .upload-photo,
+.upload.show-video .upload-video {
+  display: block;
 }
 .upload-edit-sidebar {
   position: absolute;
@@ -1255,6 +1260,9 @@
 .upload-work-cell.video {
   width: 225px;
 }
+.import-list .upload-work-cell.video {
+  margin: 16px 6px 8px 6px;
+}
 .upload-work-cell .upload-work-img {
   position: relative;
   width: 100%;
@@ -1289,6 +1297,19 @@
 .upload-work-cell .upload-work-status.error {
   background-color: #8b0202;
 }
+.upload-work-cell .checked {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 34px;
+  height: 30px;
+  background-color: #f39800;
+  text-align: center;
+  line-height: 30px;
+  font-size: 24px;
+  color: #FFF;
+}
 .upload-work-cell .upload-progress {
   display: none;
   position: absolute;
@@ -1301,6 +1322,14 @@
 .upload-work-cell .upload-progress .progress-bar {
   height: 8px;
   background-color: #59bd00;
+}
+.upload-work-cell p.work-info-title {
+  margin: 8px 0 4px 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.upload-work-cell p.work-info-date {
+  font-size: 12px;
 }
 .upload-work-cell .form-control {
   height: 34px;
@@ -1359,17 +1388,20 @@
 .upload-work-cell.foucs .upload-work-img {
   border: 4px solid #eb6100;
 }
+.import-list .upload-work-cell.foucs .upload-work-img {
+  border-color: #f39800;
+}
 .upload-work-cell.status-error .upload-work-status.error,
 .upload-work-cell.status-success .upload-work-status.success,
 .upload-work-cell.status-uploading .upload-work-status.uploading,
 .upload-work-cell.status-uploading .upload-progress,
 .upload-work-cell.status-error .upload-work-mask,
 .upload-work-cell.status-success .upload-work-mask,
-.upload-work-cell.status-uploading .upload-work-mask {
+.upload-work-cell.status-uploading .upload-work-mask,
+.upload-work-cell.foucs .checked {
   display: block;
 }
 .pop-mask {
-  display: none;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -1389,11 +1421,10 @@
   margin-left: -400px;
 }
 .pop.large {
-  width: 1000px;
-  margin-left: -500px;
+  width: 998px;
+  margin-left: -499px;
 }
 .pop {
-  display: none;
   position: absolute;
   top: 10%;
   left: 50%;
@@ -1415,10 +1446,20 @@
   border-top: 1px solid #d6d6d6;
   text-align: right;
 }
+.pop .pop-btns-line.top {
+  padding-top: 14px;
+  padding-bottom: 28px;
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+}
 .pop .pop-btns-line .button {
   padding-left: 25px;
   padding-right: 25px;
   margin-left: 8px;
+}
+.pop .pop-btns-line .pop-btns-title {
+  float: left;
+  padding: 12px 0 8px 0;
 }
 .logined-box {
   display: none;

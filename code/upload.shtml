@@ -22,8 +22,8 @@
 
 			<div class="upload show-photo">
 				<ul class="upload-tab clearfix">
-					<li class="tab-item active"><a class="fake-link" href="#none">Upload my photos</a></li>
-					<li class="tab-item last"><a class="fake-link" href="#none">Upload my videos</a></li>
+					<li class="tab-item active"><a class="fake-link js-tab-photo" href="#none">Upload my photos</a></li>
+					<li class="tab-item last"><a class="fake-link js-tab-video" href="#none">Upload my videos</a></li>
 				</ul>
 				<div class="upload-photo">
 					<a class="button button-upload" href="#none">Choose photos from your computer</a>
@@ -43,6 +43,82 @@
 		</div>
 	</div>
 </div>
+
+<div class="pop-mask" style="display:block;"></div>
+<div class="pop large" style="display:block;">
+	<a class="pop-close-btn" href="#none"><i class="icon-cancel"></i></a>
+	<div class="pop-btns-line top">
+		<span class="pop-btns-title">Your videos in YOUTUBE</span>
+		<a class="button" title="">Cancel</a>
+		<a class="button button-blue" title="">Import</a>
+	</div>
+	<div class="pop-cont">
+		<div class="upload-cell-warp import-list">
+
+			<div class="upload-work-cell video">
+				<div class="upload-work-img">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=204x150/fff" />
+					<span class="spr video-play-btn"></span>
+					<span class="checked"><i class="icon-ok"></i></span>
+				</div>
+				<div class="upload-work-info">
+					<p class="work-info-title">Harbour of sunset</p>
+					<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+				</div>
+			</div>
+
+			<div class="upload-work-cell video">
+				<div class="upload-work-img">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=204x150/fff" />
+					<span class="spr video-play-btn"></span>
+					<span class="checked"><i class="icon-ok"></i></span>
+				</div>
+				<div class="upload-work-info">
+					<p class="work-info-title">Harbour of sunset</p>
+					<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+				</div>
+			</div>
+
+			<div class="upload-work-cell video">
+				<div class="upload-work-img">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=204x150/fff" />
+					<span class="spr video-play-btn"></span>
+					<span class="checked"><i class="icon-ok"></i></span>
+				</div>
+				<div class="upload-work-info">
+					<p class="work-info-title">Harbour of sunset</p>
+					<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+				</div>
+			</div>
+
+			<div class="upload-work-cell video">
+				<div class="upload-work-img">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=204x150/fff" />
+					<span class="spr video-play-btn"></span>
+					<span class="checked"><i class="icon-ok"></i></span>
+				</div>
+				<div class="upload-work-info">
+					<p class="work-info-title">Harbour of sunset</p>
+					<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+				</div>
+			</div>
+
+			<div class="upload-work-cell video">
+				<div class="upload-work-img">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=204x150/fff" />
+					<span class="spr video-play-btn"></span>
+					<span class="checked"><i class="icon-ok"></i></span>
+				</div>
+				<div class="upload-work-info">
+					<p class="work-info-title">Harbour of sunset</p>
+					<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
 <!-- #include file="/code/footer.shtml" -->
 <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="../js/custom.js"></script>
@@ -53,6 +129,22 @@
 		$(this).parent().toggleClass("active");
 	});
 
+	$('.js-tab-photo').click(function() {
+		$('.upload').removeClass('show-video');
+		$('.upload').addClass('show-photo')
+	});
+
+	$('.js-tab-video').click(function() {
+		$('.upload').removeClass('show-photo');
+		$('.upload').addClass('show-video')
+	});
+	$('.upload-work-cell').click(function() {
+		$(this).toggleClass('foucs');
+	});
+	$('.pop-close-btn').click(function() {
+		$('.pop-mask').css('display', 'none');
+		$('.pop').css('display', 'none');
+	});
 </script>
 </body>
 </html>
