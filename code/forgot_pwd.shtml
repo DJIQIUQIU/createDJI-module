@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/module.css">
 </head>
-<body class="account forgot-pwd">
+<body>
 
 <!-- #include file="/code/header.shtml" -->
 
-<div class="page">
+<div class="page account forgot-pwd">
 
 	<div class="container">
 
@@ -32,7 +32,7 @@
 				</div>
 				
 				<div class="account-form-other">
-					<a class="button button-green" href="">Confirmation</a>
+					<a class="button button-green button-submit" href="">Confirmation</a>
 				</div>
 			</div>
 

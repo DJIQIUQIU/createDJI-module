@@ -14,30 +14,22 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/module.css">
 </head>
-<body>
+<body class="account">
 
 <!-- #include file="/code/header.shtml" -->
 
-<div class="page account forgot-pwd">
+<div class="page account signup-success">
 
 	<div class="container">
 
 		<div class="account-warp">
-			<h1>Reset your password</h1>
-			
-			<div class="account-forgot-pwd">
-				<div class="form-group">
-					<label class="title" for="exampleInputEmail1">Please  enter your new password.</label>
-					<input type="password" class="form-control" id="exampleInputEmail1" placeholder="New Password">
-				</div>
-				<div class="form-group">
-					<input type="password" class="form-control" id="exampleInputEmail1" placeholder="Repeat password">
-				</div>
-				
-				<div class="account-form-other">
-					<a class="button button-green button-submit" href="index_logined.shtml">Confirmation</a>
-				</div>
-			</div>
+			<h1>Your account has been created</h1>
+
+			<div class="account-signup-success">
+				<a class="button button-green" href="#none">Experience Now</a>
+				<p>comfirm your email address to improve your account security. <br />A confirmation message was sent to</p>
+				<p>landy.zhou@dji.com</p>
+			</div><!-- / -->
 
 		</div>
 
@@ -45,10 +37,9 @@
 
 </div>
 
-
 <!-- #include file="/code/footer.shtml" -->
 
-<script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="../js/custom.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>

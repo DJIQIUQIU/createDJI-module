@@ -32,8 +32,10 @@
 		<p>账户相关：</p>
 		<a href="code/login.shtml" title="">登录(login.shtml)</a>
 		<a href="code/register.shtml" title="">注册(register.shtml)</a>
+		<a href="code/signup_success.shtml" title="">注册成功(signup_success.shtml)</a>
 		<a href="code/forgot_pwd.shtml" title="">忘记密码(forgot_pwd.shtml)</a>
 		<a href="code/reset_pwd.shtml" title="">重置密码(reset_pwd.shtml)</a>
+		<a href="code/email.shtml" title="">激活邮件(email.shtml)</a>
 		<br /><br />
 		<p>个人中心：</p>
 		<a href="code/manage_header.shtml" title="">头部(manage_header.shtml)</a>

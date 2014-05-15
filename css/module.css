@@ -396,7 +396,7 @@
   cursor: pointer;
 }
 .button-green {
-  background-color: #2fac22;
+  background-color: #5abe00;
   color: #ffffff;
 }
 .button-blue {
@@ -494,14 +494,13 @@
   border-radius: 2px;
   color: #959595;
 }
-.account-warp .button-green,
+.account-warp .button-submit,
 .account-warp .button-login,
 .account-warp .button-signup {
   width: 100%;
   padding: 15px 0;
   text-align: center;
   font-size: 18px;
-  background-color: #5abe00;
 }
 .account-warp .account-form-other p {
   padding-top: 18px;
@@ -527,6 +526,21 @@
   font-size: 14px;
   color: #959595;
   font-weight: normal;
+}
+.account.signup-success h1 {
+  padding-left: 0px;
+  text-align: center;
+}
+.account-signup-success {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  text-align: center;
+}
+.account-signup-success p {
+  padding-top: 25px;
+  line-height: 25px;
+  color: #959595;
 }
 .work-warp {
   padding-top: 18px;

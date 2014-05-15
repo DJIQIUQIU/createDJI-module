@@ -277,7 +277,7 @@
 	$('.upload-work-cell').click(function() {
 		$(this).toggleClass('foucs');
 	});
-	$('.pop-close-btn').click(function() {
+	$('.pop-close').click(function() {
 		$('.pop-mask').css('display', 'none');
 		$('.pop').css('display', 'none');
 	});
