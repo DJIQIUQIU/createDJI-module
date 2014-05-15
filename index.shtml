@@ -48,6 +48,10 @@
 		<p>upload</p>
 		<a href="code/upload.shtml" title="">首页(upload.shtml)</a>
 		<a href="code/upload_edit.shtml" title="">侧边栏(upload_edit.shtml)</a>
+		<p>弹层</p>
+		<a href="code/pop.shtml" title="">信息弹层(pop.shtml)</a>
+		<p>轮播组件</p>
+
 	<div>
 </div>
 

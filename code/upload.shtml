@@ -46,8 +46,8 @@
 
 <div class="pop-mask" style="display:block;"></div>
 <div class="pop large" style="display:block;">
-	<a class="pop-close-btn" href="#none"><i class="icon-cancel"></i></a>
-	<div class="pop-btns-line top">
+	<a class="pop-close" href="#none"><i class="icon-cancel"></i></a>
+	<div class="pop-btns top">
 		<span class="pop-btns-title">Your videos in YOUTUBE</span>
 		<a class="button" title="">Cancel</a>
 		<a class="button button-blue" title="">Import</a>
@@ -141,7 +141,7 @@
 	$('.upload-work-cell').click(function() {
 		$(this).toggleClass('foucs');
 	});
-	$('.pop-close-btn').click(function() {
+	$('.pop-close').click(function() {
 		$('.pop-mask').css('display', 'none');
 		$('.pop').css('display', 'none');
 	});

@@ -259,11 +259,11 @@
 
 <div class="pop-mask"></div>
 <div class="pop small">
-	<a class="pop-close-btn" href="#none"><i class="icon-cancel"></i></a>
+	<a class="pop-close" href="#none"><i class="icon-cancel"></i></a>
 	<div class="pop-cont">
 		<p class="upload-pop-text" style="text-align:center;padding:65px 0 100px 0;font-size:18px;color:#626262;">Picture upload finished you can edit the picture information</p>
 	</div>
-	<div class="pop-btns-line">
+	<div class="pop-btns">
 		<a class="button button-green" title="">Edit</a>
 		<a class="button button-blue" title="">Confirm</a>
 	</div><!-- / -->

@@ -4,8 +4,16 @@
 .pop.normal{width: 800px;margin-left:-400px;}
 .pop.large{width: 998px;margin-left:-499px;}
 .pop{position:absolute;top:10%;left:50%;padding: 25px;background-color:#FFFFFF;color: #626262;z-index: 99999;}
-.pop .pop-close-btn{position: absolute;right: 4px;top: 8px;font-size: 18px;color: #9f9f9f;}
-.pop .pop-btns-line{width: 100%;padding-top:28px;border-top:1px solid #d6d6d6;text-align: right;}
-.pop .pop-btns-line.top{padding-top:14px;padding-bottom:28px;border: none;border-bottom: 1px solid #d6d6d6;}
-.pop .pop-btns-line .button{padding-left:25px;padding-right: 25px;margin-left: 8px;}
-.pop .pop-btns-line .pop-btns-title{float: left;padding: 12px 0 8px 0;}
+.pop .pop-close{position: absolute;right: 4px;top: 8px;font-size: 18px;color: #9f9f9f;}
+.pop .pop-title{width: 100%;text-transform: uppercase;font-size: 18px;font-weight: bold;}
+
+.pop .pop-cont{padding: 25px 0;line-height: 24px;}
+.pop .pop-cont-title{font-size: @font-size-normal; margin-bottom: 8px;font-weight: bold;}
+.pop .pop-cont-text,
+.pop .pop-cont-other{font-size:@font-size-small;line-height: 20px;}
+.pop .pop-cont-other{margin-top: 8px;}
+
+.pop .pop-btns{width: 100%;padding-top:25px;border-top:1px solid #d6d6d6;text-align: right;}
+.pop .pop-btns.top{padding-top:14px;padding-bottom:25px;border: none;border-bottom: 1px solid #d6d6d6;}
+.pop .pop-btns .button{padding-left:25px;padding-right: 25px;margin-left: 8px;}
+.pop .pop-btns .pop-btns-title{float: left;padding: 12px 0 8px 0;}

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-store, must-revalidate">
+	<meta http-equiv="expires" content="wed, 26 feb 1997 08:21:57 gmt">
+	<meta http-equiv="expires" content="0">
+	<meta name="author" content="jia.xu">
+	<meta name="keywords" content="CreateDJI" />
+	<meta name="description" content="CreateDJI" />
+	<title>CreateDJI</title>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/module.css">
+</head>
+<body>
+
+<div class="page">
+
+	<div class="pop-mask"></div>
+	<!-- 弹层尺寸目前定义了3种：
+	small  宽度：642px;
+	normal 宽度：800px;
+	large  宽度：998px; -->
+	<div class="pop small" style="top:40px;">
+		<a class="pop-close" href="#none"><i class="icon-cancel"></i></a>
+		<div class="pop-title">
+			Phantom Shell Contest
+		</div>
+		<div class="pop-cont">
+			<div class="pop-cont-title">Chance to color a Phantom Shell and win great prizes with your design!</div>
+			<div class="pop-cont-text">The Phantom, an iconic product from DJI, has enjoyed immense popularity over the past few years. From the hobbyist to the experienced, the Phantom range has helped countless people enjoy the spirit of flying, alongside taking epic aerial shots.</div>
+		</div>
+		<div class="pop-btns">
+			<a class="button" title="">Grey</a>
+			<a class="button button-green" title="">Green</a>
+			<a class="button button-blue" title="">Blue</a>
+		</div>
+	</div>
+
+	<div class="pop normal" style="top:340px;">
+		<a class="pop-close" href="#none"><i class="icon-cancel"></i></a>
+		<div class="pop-btns top">
+			<span class="pop-btns-title">PHANTOM SHELL CONTEST</span>
+			<a class="button" title="">Cancel</a>
+			<a class="button button-blue" title="">submit</a>
+		</div>
+		<div class="pop-cont">
+			<div class="pop-cont-title">Chance to color a Phantom Shell and win great prizes with your design!</div>
+			<div class="pop-cont-text">The Phantom, an iconic product from DJI, has enjoyed immense popularity over the past few years. From the hobbyist to the experienced, the Phantom range has helped countless people enjoy the spirit of flying, alongside taking epic aerial shots.</div>
+			<div class="pop-cont-other">
+				custom ...
+			</div>
+		</div>
+	</div>
+
+	<div class="pop large" style="top:640px;">
+		<a class="pop-close" href="#none"><i class="icon-cancel"></i></a>
+		<div class="pop-btns top">
+			<span class="pop-btns-title">PHANTOM SHELL CONTEST</span>
+			<a class="button" title="">Cancel</a>
+			<a class="button button-blue" title="">submit</a>
+		</div>
+		<div class="pop-cont">
+			<div class="pop-cont-title">Chance to color a Phantom Shell and win great prizes with your design!</div>
+			<div class="pop-cont-text">The Phantom, an iconic product from DJI, has enjoyed immense popularity over the past few years. From the hobbyist to the experienced, the Phantom range has helped countless people enjoy the spirit of flying, alongside taking epic aerial shots.</div>
+			<div class="pop-cont-other">
+				custom ...
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../js/custom.js"></script>
+
+</body>
+</html>
