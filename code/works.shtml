@@ -23,8 +23,8 @@
 		<h4>普通</h4>
 		<div class="work-warp" style="width:105%;">
 
-			<div class="work-cell">
-				<a href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=400x400"></a>
+			<div class="work-cell photo">
+				<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
 				<span class="work-score">99.8</span>
 				<div class="work-info-hover">
 					<p class="work-info-title">Harbour of sunset</p>
@@ -42,8 +42,8 @@
 				</div>
 			</div>
 
-			<div class="work-cell">
-				<a href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=400x400"></a>
+			<div class="work-cell photo">
+				<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
 				<span class="work-score">99.8</span>
 				<div class="work-info-hover">
 					<p class="work-info-title">Harbour of sunset</p>
@@ -61,8 +61,8 @@
 				</div>
 			</div>
 
-			<div class="work-cell">
-				<a href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=400x400"></a>
+			<div class="work-cell photo">
+				<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
 				<span class="work-score">99.8</span>
 				<div class="work-info-hover">
 					<p class="work-info-title">Harbour of sunset</p>
@@ -80,8 +80,8 @@
 				</div>
 			</div>
 
-			<div class="work-cell">
-				<a href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=400x400"></a>
+			<div class="work-cell photo">
+				<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
 				<span class="work-score">99.8</span>
 				<div class="work-info-hover">
 					<p class="work-info-title">Harbour of sunset</p>
@@ -104,7 +104,7 @@
 		<div class="work-warp" style="width:105%;">
 
 			<div class="work-cell size1x1">
-				<a href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
+				<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
 				<span class="work-score">99.8</span>
 				<div class="work-info-hover">
 					<p class="work-info-title">Harbour of sunset</p>
@@ -123,7 +123,7 @@
 			</div>
 
 			<div class="work-cell size1x2">
-				<a href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x594"></a>
+				<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x594"></a>
 				<span class="work-score">99.8</span>
 				<div class="work-info-hover">
 					<p class="work-info-title">Harbour of sunset</p>
@@ -142,7 +142,7 @@
 			</div>
 
 			<div class="work-cell size2x1">
-				<a href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=594x292"></a>
+				<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=594x292"></a>
 				<span class="work-score">99.8</span>
 				<div class="work-info-hover">
 					<p class="work-info-title">Harbour of sunset</p>
@@ -165,9 +165,9 @@
 		<h2>视频</h2>
 		<div class="work-warp" style="width:105%;">
 
-			<div class="work-cell">
+			<div class="work-cell video">
 				<a class="work-link" href="#none">
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=400x300">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
 					<span class="spr video-play-btn"></span>
 				</a>
 				<span class="work-score">99.8</span>
@@ -188,9 +188,9 @@
 				</div>
 			</div>
 
-			<div class="work-cell">
+			<div class="work-cell video">
 				<a class="work-link" href="#none">
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=400x300">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
 					<span class="spr video-play-btn"></span>
 				</a>
 				<span class="work-score">99.8</span>
@@ -211,9 +211,9 @@
 				</div>
 			</div>
 
-			<div class="work-cell">
+			<div class="work-cell video">
 				<a class="work-link" href="#none">
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=400x300">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
 					<span class="spr video-play-btn"></span>
 				</a>
 				<span class="work-score">99.8</span>
@@ -234,9 +234,9 @@
 				</div>
 			</div>
 
-			<div class="work-cell">
+			<div class="work-cell video">
 				<a class="work-link" href="#none">
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=400x300">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
 					<span class="spr video-play-btn"></span>
 				</a>
 				<span class="work-score">99.8</span>
@@ -263,9 +263,9 @@
 		<h4>图片</h4>
 		<div class="work-warp" style="width:105%;">
 
-			<div class="work-cell">
+			<div class="work-cell photo">
 				<a class="work-link" href="#none">
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=400x400">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x292">
 				</a>
 				<div class="work-edit">
 					<a class="btn edit" href="manage_photo_edit.shtml">Edit</a>
@@ -278,9 +278,9 @@
 				</div>
 			</div>
 
-			<div class="work-cell">
+			<div class="work-cell photo">
 				<a class="work-link" href="#none" disabled>
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=400x400">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x292">
 					<div class="work-status rejected"><span class="text">Rejected</span></div>
 				</a>
 				<div class="work-info">
@@ -290,9 +290,9 @@
 				</div>
 			</div>
 
-			<div class="work-cell">
+			<div class="work-cell photo">
 				<a class="work-link" href="#none" disabled>
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=400x400">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x292">
 					<span class="work-private-status">Private</span>
 				</a>
 				<div class="work-info">
@@ -306,9 +306,9 @@
 		<h4>视频</h4>
 		<div class="work-warp" style="width:105%">
 
-			<div class="work-cell">
+			<div class="work-cell video">
 				<a class="work-link" href="#none">
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=400x300">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
 					<span class="spr video-play-btn"></span>
 				</a>
 				<div class="work-edit">
@@ -322,9 +322,9 @@
 				</div>
 			</div>
 
-			<div class="work-cell">
+			<div class="work-cell video">
 				<a class="work-link" href="#none">
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=400x300">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
 					<span class="spr video-play-btn"></span>
 					<div class="work-status rejected"><span class="text">Rejected</span></div>
 				</a>
@@ -335,9 +335,9 @@
 				</div>
 			</div>
 
-			<div class="work-cell">
+			<div class="work-cell video">
 				<a class="work-link" href="#none">
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=400x300">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
 					<span class="spr video-play-btn"></span>
 					<span class="work-private-status">Private</span>
 				</a>
