@@ -47,9 +47,10 @@
 		<br /><br />
 		<p>作品相关：</p>
 		<a href="code/works.shtml" title="">作品单元格(works.shtml)</a>
+		<a href="code/list.shtml" title="">作品列表(list.shtml)</a>
 		<p>upload</p>
 		<a href="code/upload.shtml" title="">首页(upload.shtml)</a>
-		<a href="code/upload_edit.shtml" title="">侧边栏(upload_edit.shtml)</a>
+		<a href="code/upload_edit.shtml" title="">上传编辑(upload_edit.shtml)</a>
 		<p>弹层</p>
 		<a href="code/pop.shtml" title="">信息弹层(pop.shtml)</a>
 		<p>轮播组件</p>

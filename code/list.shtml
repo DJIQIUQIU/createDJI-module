@@ -1,0 +1,466 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-store, must-revalidate">
+	<meta http-equiv="expires" content="wed, 26 feb 1997 08:21:57 gmt">
+	<meta http-equiv="expires" content="0">
+	<meta name="author" content="jia.xu">
+	<meta name="keywords" content="CreateDJI" />
+	<meta name="description" content="CreateDJI" />
+	<title>CreateDJI</title>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/module.css">
+</head>
+<body>
+
+<!-- #include file="/code/header.shtml" -->
+
+<div class="page">
+
+	<div class="list video-list">
+		<div class="container">
+
+			<div class="list-nav">
+				<span class="list-nav-title">Videos</span>
+				<ul>
+					<li class="active"><a href="#none" alt="">Latest</a></li>
+					<li><a href="#none" alt="">popula</a></li>
+				</ul>
+			</div>
+			<div class="work-warp" style="width:105%;">
+
+				<div class="work-cell video">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
+						<span class="spr video-play-btn"></span>
+					</a>
+					<span class="work-score">99.8</span>
+					<div class="work-info">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China</p>
+						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell video">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
+						<span class="spr video-play-btn"></span>
+					</a>
+					<span class="work-score">99.8</span>
+					<div class="work-info">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China</p>
+						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell video">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
+						<span class="spr video-play-btn"></span>
+					</a>
+					<span class="work-score">99.8</span>
+					<div class="work-info">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China</p>
+						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell video">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
+						<span class="spr video-play-btn"></span>
+					</a>
+					<span class="work-score">99.8</span>
+					<div class="work-info">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China</p>
+						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell video">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
+						<span class="spr video-play-btn"></span>
+					</a>
+					<span class="work-score">99.8</span>
+					<div class="work-info">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China</p>
+						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell video">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
+						<span class="spr video-play-btn"></span>
+					</a>
+					<span class="work-score">99.8</span>
+					<div class="work-info">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China</p>
+						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell video">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
+						<span class="spr video-play-btn"></span>
+					</a>
+					<span class="work-score">99.8</span>
+					<div class="work-info">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China</p>
+						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell video">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
+						<span class="spr video-play-btn"></span>
+					</a>
+					<span class="work-score">99.8</span>
+					<div class="work-info">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China</p>
+						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="more-link">
+				<a class="spr" href="#none">More</a>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="list photo-list">
+		<div class="container">
+
+			<div class="list-nav">
+				<span class="list-nav-title">Photos</span>
+				<ul>
+					<li class="active"><a href="#none" alt="">Latest</a></li>
+					<li><a href="#none" alt="">popula</a></li>
+				</ul>
+			</div>
+
+			<div class="work-warp cascade" style="width:105%;">
+
+				<div class="work-cell size1x1 cascade_1_1">
+					<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
+					<span class="work-score">99.8</span>
+					<div class="work-info-hover">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell size1x1 cascade_1_2">
+					<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
+					<span class="work-score">99.8</span>
+					<div class="work-info-hover">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell size1x2 cascade_1_3">
+					<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x594"></a>
+					<span class="work-score">99.8</span>
+					<div class="work-info-hover">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell size2x1 cascade_1_4">
+					<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=594x292"></a>
+					<span class="work-score">99.8</span>
+					<div class="work-info-hover">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell size1x1 cascade_1_5">
+					<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
+					<span class="work-score">99.8</span>
+					<div class="work-info-hover">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell size1x1 cascade_1_6">
+					<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
+					<span class="work-score">99.8</span>
+					<div class="work-info-hover">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell size2x1 cascade_1_7">
+					<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=594x292"></a>
+					<span class="work-score">99.8</span>
+					<div class="work-info-hover">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="work-cell size1x1 cascade_1_8">
+					<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
+					<span class="work-score">99.8</span>
+					<div class="work-info-hover">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="work-cell size1x1 cascade_1_9">
+					<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
+					<span class="work-score">99.8</span>
+					<div class="work-info-hover">
+						<p class="work-info-title">Harbour of sunset</p>
+						<p class="work-info-artist"><i class="icon-user-1"></i>husham alasadi</p>
+						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
+					</div>
+					<div class="js_show_share share">
+						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<ul class="share-list">
+							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-gplus-circled"></i></a></li>
+							<li><a class="share-icon" href="#none"><i class="icon-pinterest-circled"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="more-link">
+				<a class="spr" href="#none">More</a>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="list event-list">
+		<div class="container">
+			
+			<div class="list-nav">
+				<span class="list-nav-title">Event</span>
+			</div>
+
+			<div class="work-warp" style="width:105%">
+
+				<div class="work-cell event">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=594x280">
+					</a>
+					<div class="work-info">
+						<p class="work-info-title">2013 DJI Photo Contest</p>
+						<p class="work-info-event">Winners of the 2013 DJI Photo Contest have finally been selected! Thank you everyone for your patience. Picking winners was a very difficult task, causing hours of intense debate. </p>
+					</div>
+				</div>
+
+				<div class="work-cell event">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=594x280">
+					</a>
+					<div class="work-info">
+						<p class="work-info-title">Phantom Shell Contest</p>
+						<p class="work-info-event">The Phantom, an iconic product from DJI, has enjoyed immense popularity over the past few years. From the hobbyist to the experienced, the Phantom range has helped countless people enjoy the spirit of flying, alongside taking epic aerial shots.</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="more-link">
+				<a class="spr" href="#none">More</a>
+			</div>
+
+		</div>
+	</div>
+
+</div>
+
+<!-- #include file="/code/footer.shtml" -->
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
