@@ -23,12 +23,12 @@
 	<div class="container">
 
 		<div class="account-warp">
-			<h1>Your account has been created</h1>
+			<h2>Your account has been created!</h2>
 
 			<div class="account-signup-success">
 				<a class="button button-green" href="#none">Experience Now</a>
-				<p>comfirm your email address to improve your account security. <br />A confirmation message was sent to</p>
-				<p>landy.zhou@dji.com</p>
+				<p>comfirm your email address to improve your account security. <br />A confirmation message was sent to <strong>landy.zhou@dji.com</strong></p>
+				<p></p>
 			</div><!-- / -->
 
 		</div>
