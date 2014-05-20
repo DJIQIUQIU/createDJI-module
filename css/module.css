@@ -503,6 +503,19 @@ a.btn-next {
   bottom: 15px;
   font-size: 48px;
 }
+.event-carousel {
+  width: 1200px;
+  overflow: hidden;
+}
+.event-carousel .carousel-list li {
+  margin-right: 15px;
+}
+.event-carousel a.btn-prev {
+  left: 45px;
+}
+.event-carousel a.btn-next {
+  right: 45px;
+}
 .pop-mask {
   position: fixed;
   top: 0px;
@@ -1737,10 +1750,10 @@ a.btn-next {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-.upload-work-cell.foucs .upload-work-img {
+.upload-work-cell.focus .upload-work-img {
   border: 4px solid #eb6100;
 }
-.import-list .upload-work-cell.foucs .upload-work-img {
+.import-list .upload-work-cell.focus .upload-work-img {
   border-color: #f39800;
 }
 .upload-work-cell.status-error .upload-work-status.error,
@@ -1750,7 +1763,7 @@ a.btn-next {
 .upload-work-cell.status-error .upload-work-mask,
 .upload-work-cell.status-success .upload-work-mask,
 .upload-work-cell.status-uploading .upload-work-mask,
-.upload-work-cell.foucs .checked {
+.upload-work-cell.focus .checked {
   display: block;
 }
 .logined-box {

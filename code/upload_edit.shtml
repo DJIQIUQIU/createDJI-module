@@ -71,7 +71,7 @@
 				
 				<div class="upload-cell-warp">
 					
-					<!-- 选取事件触发 给upload-work-cell添加样式 foucs； -->
+					<!-- 选取事件触发 给upload-work-cell添加样式 focus； -->
 					<p style="padding-bottom:8px;">图片</p>
 
 					<div class="upload-work-cell">

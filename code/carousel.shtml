@@ -61,6 +61,49 @@
 
 	</div>
 
+	<div class="container event-carousel">
+
+		<div class="carousel">
+			<ul class="carousel-list" style="margin-left:-748px;">
+				<li>
+					<a href="#none"><img src="http://jiagege.cn/source/?x=878x510/d0d7b7/fff"></a>
+					<div class="carousel-info">
+						<p class="carousel-info-title">Having fun on the beach</p>
+						<p class="carousel-info-other">Shooting horses on Aruba beach, using for the first time our new F450</p>
+						<span class="carousel-info-score">99.8</span>
+					</div>
+				</li>
+				<li class="active">
+					<a href="#none"><img src="http://jiagege.cn/source/?x=878x510/fbbd6c/fff"></a>
+					<div class="carousel-info">
+						<p class="carousel-info-title">Having fun on the beach</p>
+						<p class="carousel-info-other">Shooting horses on Aruba beach, using for the first time our new F450</p>
+						<span class="carousel-info-score">99.8</span>
+					</div>
+				</li>
+				<li>
+					<a href="#none"><img src="http://jiagege.cn/source/?x=878x510/60b5e1/fff"></a>
+					<div class="carousel-info">
+						<p class="carousel-info-title">Having fun on the beach</p>
+						<p class="carousel-info-other">Shooting horses on Aruba beach, using for the first time our new F450</p>
+						<span class="carousel-info-score">99.8</span>
+					</div>
+				</li>
+			</ul>
+			<ol class="carousel-indicators">
+				<li></li>
+				<li></li>
+				<li class="active"></li>
+				<li></li>
+			</ol>
+			<div class="carousel-btn">
+				<a class="spr btn-prev">prev</a>
+            	<a class="spr btn-next">next</a>
+			</div>
+		</div>
+
+	</div>
+
 </div>
 
 <!-- #include file="/code/footer.shtml" -->
