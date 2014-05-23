@@ -1094,7 +1094,7 @@ a.btn-next {
 }
 .manage-uesrinfo {
   width: 100%;
-  padding-top: 45px;
+  padding: 45px 0 0 58px;
   overflow: hidden;
 }
 .manage-userimg {
@@ -1625,7 +1625,7 @@ a.btn-next {
 .upload-work-cell .upload-work-img {
   position: relative;
   width: 100%;
-  height: 168px;
+  height: 166px;
   border: 4px solid #959595;
   background: #ffffff url(../img/loading.gif) no-repeat center center;
 }
