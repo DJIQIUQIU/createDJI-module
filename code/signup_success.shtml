@@ -16,7 +16,7 @@
 </head>
 <body class="account">
 
-<!-- #include file="/code/header.shtml" -->
+<!-- #include file="header.shtml" -->
 
 <div class="page account signup-success">
 
@@ -37,7 +37,7 @@
 
 </div>
 
-<!-- #include file="/code/footer.shtml" -->
+<!-- #include file="footer.shtml" -->
 
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>

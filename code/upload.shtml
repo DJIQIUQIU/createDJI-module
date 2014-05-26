@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../css/module.css">
 </head>
 <body>
-<!-- #include file="/code/header.shtml" -->
+<!-- #include file="header.shtml" -->
 <div class="page upload-page" style="background:url(../img/upload_bg.jpg) no-repeat center 0;">
 	<div class="upload-page-bg">
 		<div class="container">
@@ -55,7 +55,7 @@
 	<div class="pop-cont">
 		<div class="upload-cell-warp import-list">
 
-			<div class="upload-work-cell video">
+			<div class="upload-work-cell video focus">
 				<div class="upload-work-img">
 					<img class="width-responsive" src="http://jiagege.cn/source/?x=204x150/fff" />
 					<span class="spr video-play-btn"></span>
@@ -119,7 +119,7 @@
 	</div>
 </div>
 
-<!-- #include file="/code/footer.shtml" -->
+<!-- #include file="footer.shtml" -->
 <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="../js/custom.js"></script>
 <script type="text/javascript">

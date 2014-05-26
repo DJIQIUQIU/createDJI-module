@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../css/module.css">
 </head>
 <body>
-<!-- #include file="/code/header.shtml" -->
+<!-- #include file="header.shtml" -->
 <div class="page">
 	<div class="container">
 
