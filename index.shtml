@@ -36,6 +36,8 @@
 		<a href="code/forgot_pwd.shtml" title="">忘记密码(forgot_pwd.shtml)</a>
 		<a href="code/reset_pwd.shtml" title="">重置密码(reset_pwd.shtml)</a>
 		<a href="code/email.shtml" title="">激活邮件(email.shtml)</a>
+		<a href="code/reset_pwd_email.shtml" title="">密码重置邮件(reset_pwd_email.shtml)</a>
+		<a href="code/reset_pwd_email_failed.shtml" title="">重置邮件失效(reset_pwd_email_failed.shtml)</a>
 		<br /><br />
 		<p>个人中心：</p>
 		<a href="code/manage_header.shtml" title="">头部(manage_header.shtml)</a>
@@ -48,6 +50,7 @@
 		<p>作品相关：</p>
 		<a href="code/works.shtml" title="">作品单元格(works.shtml)</a>
 		<a href="code/list.shtml" title="">作品列表(list.shtml)</a>
+		<a href="code/single_work.shtml" title="">单个作品展示(single_work.shtml)</a>
 		<p>upload</p>
 		<a href="code/upload.shtml" title="">首页(upload.shtml)</a>
 		<a href="code/upload_edit.shtml" title="">上传编辑(upload_edit.shtml)</a>

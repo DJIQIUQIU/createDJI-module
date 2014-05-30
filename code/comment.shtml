@@ -1,0 +1,96 @@
+
+<link rel="stylesheet" href="../css/font.css">
+<link rel="stylesheet" href="../css/global.css">
+<link rel="stylesheet" href="../css/module.css">
+
+
+<div class="comment logined">
+	<!-- 已登录： 给comment 添加样式 logined
+	未登录： 去除样式，只保留comment -->
+
+	<div class="comment-title"><span class="text">COMMENTS</span><span class="num">54</span></div>
+
+	<div class="js_login_state comment-cell comment-reply">
+		<div class="nologin-box">
+			<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+			<div class="reply-msg">
+				<a class="js_login_btn reply-btn" href="javascript:;">Join the discussion</a>
+			</div>
+		</div>
+		<div class="logined-box">
+			<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+			<div class="reply-msg">
+				<textarea class="form-control" rows="3"></textarea>
+				<a class="button button-green">Post comment</a>
+			</div>
+		</div>
+	</div>
+
+	<ul class="comment-msg">
+		<li class="comment-cell">
+			<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+			<div class="reply-msg">
+				<div class="reply-msg-left">
+					<p class="name-line">James Binder</p>
+					<p class="time-line">2 days ago</p>
+					<p class="other-line">
+						<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+					</p>
+				</div>
+				<div class="reply-msg-right">
+					<p>wow amazing night shot, fantastic milkyway well done V&F wow amazing night shot, fantastic</p>
+				</div>
+			</div>
+		</li>
+		<li class="comment-cell">
+			<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+			<div class="reply-msg">
+				<div class="reply-msg-left">
+					<p class="name-line">James Binder</p>
+					<p class="time-line">2 days ago</p>
+					<p class="other-line">
+						<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+					</p>
+				</div>
+				<div class="reply-msg-right">
+					<p>wow amazing night shot, fantastic milkyway well done V&F wow amazing night shot, fantastic</p>
+				</div>
+			</div>
+		</li>
+		<li class="comment-cell">
+			<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+			<div class="reply-msg">
+				<div class="reply-msg-left">
+					<p class="name-line">James Binder</p>
+					<p class="time-line">2 days ago</p>
+					<p class="other-line">
+						<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+					</p>
+				</div>
+				<div class="reply-msg-right">
+					<p>wow amazing night shot, fantastic milkyway well done V&F wow amazing night shot, fantastic</p>
+				</div>
+			</div>
+		</li>
+		<li class="comment-cell">
+			<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+			<div class="reply-msg">
+				<div class="reply-msg-left">
+					<p class="name-line">James Binder</p>
+					<p class="time-line">2 days ago</p>
+					<p class="other-line">
+						<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+					</p>
+				</div>
+				<div class="reply-msg-right">
+					<p>wow amazing night shot, fantastic milkyway well done V&F wow amazing night shot, fantastic</p>
+				</div>
+			</div>
+		</li>
+	</ul>
+
+	<div class="comment-more">
+		<a class="read-more-link" href="javascript:;">Read more</a>
+	</div>
+
+</div>

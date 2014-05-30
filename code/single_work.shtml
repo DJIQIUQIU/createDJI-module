@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-store, must-revalidate">
+	<meta http-equiv="expires" content="wed, 26 feb 1997 08:21:57 gmt">
+	<meta http-equiv="expires" content="0">
+	<meta name="author" content="jia.xu">
+	<meta name="keywords" content="CreateDJI" />
+	<meta name="description" content="CreateDJI" />
+	<title>CreateDJI</title>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/module.css">
+</head>
+<body>
+
+<div class="js_login_state header logined">
+	<div class="container">
+
+		<div class="header-logo">
+			<a class="header-logo-link" href="#none">
+				<img width="152" height="64" src="../img/logo.jpg" alt="">
+			</a>
+		</div>
+
+		<ul class="header-nav">
+			<li class="header-photos active"><a href="#none">Photos</a></li>
+			<li class="header-videos"><a href="#none">Videos</a></li>
+			<li class="header-events"><a href="#none">Events & Activities</a></li>
+		</ul>
+
+		<div class="header-login-state">
+
+			<div class="nologin-box">
+				<ul class="header-login">
+					<li><a href="login.shtml">Login</a></li>
+					<li><a href="register.shtml">Register</a></li>
+				</ul>
+			</div>
+			<div class="logined-box">
+				<ul class="header-login">
+					<li>
+						<a class="user-link js-drop-down-btn" href="manage_show_photos.shtml"><img width="33" height="33" src="http://jiagege.cn/source/?x=33x33" alt=""></a>
+						<ul class="header-drop-down">
+							<li><a href="#none">My profile</a></li>
+							<li><a href="#none">My work</a></li>
+							<li><a href="#none">My Favourites</a></li>
+							<li><a href="#none">My password</a></li>
+							<li class="last"><a href="#none">Log out</a></li>
+						</ul>
+					</li>
+					<li><a class="button button-blue" href="manage_upload_photo.shtml">Upload</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="header-search">
+			<!-- <i class="icon-search"></i> -->
+			<input type="text" class="spr form-control search-input" placeholder="Search here...">
+		</div>
+
+	</div>
+</div>
+
+<div class="page">
+
+	<div class="work-single-top">
+		<div class="container">
+			<div class="work-single-cont">
+				<img src="http://jiagege.cn/source/?x=1200x510" />
+				<a class="spr btn-prev">prev</a>
+            	<a class="spr btn-next">next</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="work-single-info">
+		<div class="container">
+			<p class="work-single-title">Having fun on the beach</p>
+			<div class="fullscreen-toolbar" style="position: static; float: right; width: auto; padding: 20px 0 0 0;">
+	            <span class="text big">99.8</span>
+	            <span class="widget-rate" data-level="3">
+	                <span class="icon-star"></span>
+	                <span class="icon-star"></span>
+	                <span class="icon-star"></span>
+	                <span class="icon-star"></span>
+	                <span class="icon-star-empty"></span>
+	            </span>
+	            <span class="widget-zan" data-num="1438">
+	                <span class="tool zan"></span>
+	                <span class="text zan-num"></span>
+	            </span>
+	            <span class="widget-like tool like"></span>
+	            <span class="widget-share tool share active" data-tooltip='<div class="work-single-share"><a class="share-link tw" href="javascript:;"></a><a class="share-link fb" href="javascript:;"></a><a class="share-link wb" href="javascript:;"></a><a class="share-link gg" href="javascript:;"></a></div>'></span>
+	            <span class="tool fullscr active"><a style="display: block; height: 100%;" href="photo_fullscreen.html"></a></span>
+	        </div>
+		</div>
+	</div>
+
+	<div class="work-single-bot">
+		<div class="container">
+			<div class="left-cont">
+
+				<div class="work-single-desc">
+					<p class="title">Description</p>
+					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+
+				<div class="work-single-append">
+					<p><strong>Product info:</strong> Phantom 2 Vision+ , HD-3D</p>
+					<p><strong>Location:</strong> Surrey, UK, E31 42, N56, 11</p>
+				</div>
+
+				<div class="work-single-comments">
+					<!-- #include file="inc/single_comments.html" -->
+				</div>
+
+			</div>
+			<div class="right-cont">
+				
+				<div class="work-single-userinfo">
+					<div class="left">
+						<a href="show_photos.shtml"><img class="img-responsive" src="img/junge.jpg"></a>
+						<span class="vip">VIP Vote</span>
+					</div>
+					<div class="right">
+						<P class="name">Ali Erturk</P>
+						<p class="intro">remaining essentially unchanged. It was popularised in the 1960s with </p>
+					</div>
+				</div>
+
+				<div class="work-single-userwork">
+					<ul>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/1.jpg"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/2.jpg"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/3.jpg"></a></li>
+					</ul>
+				</div>
+
+				<div class="work-single-tags">
+					<div class="title">TAGS</div>
+					<p class="links">
+						<a href="photos.shtml">B&W</a><span>|</span>
+						<a href="photos.shtml">Black & White</a><span>|</span><br>
+						<a href="photos.shtml">District</a><span>|</span>
+						<a href="photos.shtml">Efex Pro</a><span>|</span>
+						<a href="photos.shtml">RainRiverRock SkyStorm</a><span>|</span>
+						<a href="photos.shtml">StreamValley</a><span>|</span>
+						<a href="photos.shtml">WaterWeather</a>
+					</p>
+				</div>
+
+				<div class="work-single-userwork no-border">
+					<div class="title">Other recommended Photos</div>
+					<ul>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/1.jpg"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/2.jpg"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/3.jpg"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/4.jpg"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/1.jpg"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/2.jpg"></a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="footer">
+    <div class="container">
+    
+        <div class="row">
+
+            <ul class="footer-link">
+                <li><a href="#none">About CreateDJI</a></li>
+                <li><a href="#none">Contact CreateDJI</a></li>
+                <li><a href="#none">Information Center</a></li>
+                <li><a href="#none">Careers</a></li>
+                <li><a href="#none">Website Feedback</a></li>
+            </ul>
+
+            <hr>
+
+            <p class="copy-right">Copyright &copy; 2014 DJI All Rights Reserved.  <a href="#none">Privacy Policy</a><a href="#none">Terms of Use</a></p>
+
+            <div class="connect-dji">
+                <!-- <img src="img/connect.png" /> -->
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../js/custom.js"></script>
+
+</body>
+</html>

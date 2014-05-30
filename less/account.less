@@ -5,7 +5,8 @@
 .account-warp{position:relative;width:100%;min-height:371px;padding:70px 110px 45px 90px;border:1px solid #dcdcdc;background-color:#fff;overflow:hidden;}
 .account-warp h1{position:absolute;width:100%;top:0px;left:0px;padding:23px 0px 18px 90px;margin:0;border-bottom:1px solid #d6d6d6;font-size:@font-size-h1;color:#434343;}
 .account-warp .account-text{position: absolute;top: -35px;left: 0px; padding-bottom:20px;font-size:@font-size-normal;color:#898989;}
-.account-warp .form-control{font-size:20px;}
+.account-warp .form-control{font-family:Arial; font-size:20px;}
+.account-warp label.error{}
 
 .account-warp .login-quick,
 .account-warp .account-form{margin-top: 50px;}
@@ -28,9 +29,22 @@
 .account-warp .account-form-other p a{font-size:12px;color:#00abd0;}
 
 // 忘记&重置 密码
+.account-forgot-pwd{width: 100%;padding-top:25px;}
 .account.forgot-pwd .account-warp{width: 505px;margin: 0 auto;padding:70px 90px 45px 90px;}
-.account-forgot-pwd{width: 100%;margin: 0 auto;padding-top:25px;}
+.account-forgot-pwd .form-group{width: 450px;}
 .account-forgot-pwd .title{margin-bottom:20px;font-size:@font-size-normal;color: #959595;font-weight: normal;}
+.account-forgot-pwd .account-form-other{width: 450px;}
+
+.account-forgot-pwd .account-send-msg{position: relative; width: 100%;padding: 33px 33px 33px 125px;border-radius: 2px;background-color: #deeef2;color: #00abd0;}
+.account-forgot-pwd .account-send-msg i{position: absolute;top: 35px;left:26px; font-size: 54px;color: #00abd0;}
+.account-forgot-pwd .account-send-msg p{line-height: 30px;}
+
+.account-forgot-pwd .account-send-msg.failed{width:450px;padding-left:33px;text-align: center;}
+
+.email-failed{padding-top:120px;text-align: center;color: #7d7d7d;}
+.email-failed .failed-text{width: 615px;margin: 0 auto; padding-left: 85px;text-align: left;line-height: 20px;}
+.email-failed .failed-ico{display: block;float:left;width: 34px;height: 32px;margin-right:20px;background-position: -426px -243px;}
+.email-failed .buttons-line{padding: 33px 0;}
 
 // 注册成功
 .account.signup-success h2{padding-left:0px;padding-bottom:50px;text-align:center;border-bottom:1px solid #d6d6d6;}

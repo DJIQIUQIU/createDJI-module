@@ -18,12 +18,12 @@
 
 <!-- #include file="header.shtml" -->
 
-<div class="page account forgot-pwd">
+<div class="page account">
 
 	<div class="container">
 
 		<div class="account-warp">
-			<h1>Reset your password</h1>
+			<h1>Set up your password</h1>
 			
 			<div class="account-forgot-pwd">
 				<div class="form-group">

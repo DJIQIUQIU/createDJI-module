@@ -22,31 +22,12 @@
 
 	<div class="container">
 
-		<div class="account-warp">
-			<h1>Forgot your password?</h1>
-			
-			<div class="account-forgot-pwd">
-				<div class="form-group">
-					<label class="title" for="exampleInputEmail1">Please enter your emaill address below.</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="EMAIL">
-				</div>
-				
-				<div class="account-form-other hide">
-					<a class="button button-green button-submit" href="">Confirmation</a>
-				</div>
+		<div class="account-warp email-failed">
 
-				<div class="account-send-msg success hide">
-					<i class="icon-ok"></i>
-					<p>We've sent an email to jun.wang@dji.com. Click the link in the email to reset your password.</p>
-				</div>
-
-				<div class="account-send-msg failed">
-					Email sent failed！
-					<a class="button button-blue" href="#none">Retry</a>
-				</div>
-
+			<p class="failed-text"><i class="spr failed-ico"></i>Your password reset code is invalid.Please  receice a new password reset code.</p>
+			<div class="buttons-line">
+				<a class="button button-blue" href="#none">Receice</a>
 			</div>
-
 		</div>
 
 	</div>
