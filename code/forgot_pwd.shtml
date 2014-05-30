@@ -25,17 +25,20 @@
 		<div class="account-warp">
 			<h1>Forgot your password?</h1>
 			
-			<div class="account-forgot-pwd">
+			<div class="account-forgot-pwd status-success">
+				<!-- 三种状态:  默认去除status相关类
+						  成功添加类 status-success
+						  错误添加类 status-failed  -->
 				<div class="form-group">
 					<label class="title" for="exampleInputEmail1">Please enter your emaill address below.</label>
 					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="EMAIL">
 				</div>
 				
-				<div class="account-form-other hide">
+				<div class="account-form-other confirmation">
 					<a class="button button-green button-submit" href="">Confirmation</a>
 				</div>
 
-				<div class="account-send-msg success hide">
+				<div class="account-send-msg success">
 					<i class="icon-ok"></i>
 					<p>We've sent an email to jun.wang@dji.com. Click the link in the email to reset your password.</p>
 				</div>

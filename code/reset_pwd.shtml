@@ -25,7 +25,10 @@
 		<div class="account-warp">
 			<h1>Set up your password</h1>
 			
-			<div class="account-forgot-pwd">
+			<div class="account-forgot-pwd status-success">
+				<!-- 三种状态:  默认去除status相关类
+						  成功添加类 status-success
+						  错误添加类 status-failed  -->
 				<div class="form-group">
 					<label class="title" for="exampleInputEmail1">Please  enter your new password.</label>
 					<input type="password" class="form-control" id="exampleInputEmail1" placeholder="New Password">
@@ -34,8 +37,13 @@
 					<input type="password" class="form-control" id="exampleInputEmail1" placeholder="Repeat password">
 				</div>
 				
-				<div class="account-form-other hide">
+				<div class="account-form-other confirmation">
 					<a class="button button-green button-submit" href="index_logined.shtml">Confirmation</a>
+				</div>
+
+				<div class="account-send-msg success">
+					<i class="icon-ok"></i>
+					<p>Set up new password successfully!<br /> Login now.</p>
 				</div>
 
 				<div class="account-send-msg failed">

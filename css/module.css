@@ -831,9 +831,10 @@ a.btn-next {
 }
 .account-forgot-pwd .account-send-msg {
   position: relative;
-  width: 100%;
+  width: 450px;
+  min-height: 126px;
   padding: 33px 33px 33px 125px;
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: #deeef2;
   color: #00abd0;
 }
@@ -847,10 +848,22 @@ a.btn-next {
 .account-forgot-pwd .account-send-msg p {
   line-height: 30px;
 }
+.account-forgot-pwd .account-send-msg.success,
+.account-forgot-pwd .account-send-msg.failed {
+  display: none;
+}
 .account-forgot-pwd .account-send-msg.failed {
   width: 450px;
   padding-left: 33px;
   text-align: center;
+}
+.account-forgot-pwd.status-success .account-send-msg.success,
+.account-forgot-pwd.status-failed .account-send-msg.failed {
+  display: block;
+}
+.account-forgot-pwd.status-success .confirmation,
+.account-forgot-pwd.status-failed .confirmation {
+  display: none;
 }
 .email-failed {
   padding-top: 120px;
