@@ -34,8 +34,13 @@
 					<input type="password" class="form-control" id="exampleInputEmail1" placeholder="Repeat password">
 				</div>
 				
-				<div class="account-form-other">
+				<div class="account-form-other hide">
 					<a class="button button-green button-submit" href="index_logined.shtml">Confirmation</a>
+				</div>
+
+				<div class="account-send-msg failed">
+					Set up new password failed！
+					<a class="button button-blue" href="#none">Retry</a>
 				</div>
 			</div>
 
