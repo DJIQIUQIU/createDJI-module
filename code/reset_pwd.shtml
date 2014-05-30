@@ -43,7 +43,7 @@
 
 				<div class="account-send-msg success">
 					<i class="icon-ok"></i>
-					<p>Set up new password successfully!<br /> Login now.</p>
+					<p>Set up new password successfully!<br /> Go Log In.</p>
 				</div>
 
 				<div class="account-send-msg failed">
