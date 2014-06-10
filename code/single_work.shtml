@@ -79,23 +79,76 @@
 
 	<div class="work-single-info">
 		<div class="container">
-			<p class="work-single-title">Having fun on the beach</p>
-			<div class="fullscreen-toolbar" style="position: static; float: right; width: auto; padding: 20px 0 0 0;">
-	            <span class="text big">99.8</span>
-	            <span class="widget-rate" data-level="3">
-	                <span class="icon-star"></span>
-	                <span class="icon-star"></span>
-	                <span class="icon-star"></span>
-	                <span class="icon-star"></span>
-	                <span class="icon-star-empty"></span>
-	            </span>
-	            <span class="widget-zan" data-num="1438">
-	                <span class="tool zan"></span>
-	                <span class="text zan-num"></span>
-	            </span>
-	            <span class="widget-like tool like"></span>
-	            <span class="widget-share tool share active" data-tooltip='<div class="work-single-share"><a class="share-link tw" href="javascript:;"></a><a class="share-link fb" href="javascript:;"></a><a class="share-link wb" href="javascript:;"></a><a class="share-link gg" href="javascript:;"></a></div>'></span>
-	            <span class="tool fullscr active"><a style="display: block; height: 100%;" href="photo_fullscreen.html"></a></span>
+			<div class="work-single-title">
+				<a class="work-user-img vip" href="#none"> <!-- if vip addClass vip -->
+					<img width="56" height="53" src="http://jiagege.cn/source/?x=56x53">
+					<span class="spr vip-vote"></span>
+				</a>
+				<p class="title-text">Having fun on the beach</p>
+				<span class="work-user-name">Ali Erturk</span>
+				<div class="work-user-info"><!-- 显示添加类 show -->
+					<p class="info-text">Welcome to the page of PEC GG. I am active in the name of the PEC GG freelance photographer in Japan. Kazumi Yokoyama gender is 1951 </p>
+					<div class="other-list">
+						<a class="spr btn prev" href="#none"></a>
+						<a class="spr btn next" href="#none"></a>
+						<div class="list-warp">
+							<ul style="width:300%;">
+								<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+								<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+								<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+								<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+								<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="work-single-toolbar">
+	            <ul class="widget">
+	            	<li class="widget-score"><span>99.8</span></li>
+	            	<li class="widget-rate">
+	            		<div class="mod-rate level-3" data-level="3"><!-- 星级样式 level-3 替换后面数字 -->
+	            			<i class="icon icon-star star-1 active"></i><!-- active为star激活样式，去除即为默认 -->
+	            			<i class="icon icon-star star-2"></i>
+	            			<i class="icon icon-star star-3"></i>
+	            			<i class="icon icon-star star-4"></i>
+	            			<i class="icon icon-star star-5"></i>
+	            		</div>
+	            	</li>
+	            	<li class="widget-view">
+	            		<a class="widget-link">
+	            			<i class="icon icon-eye active"></i>
+	            			<span class="num">2167</span>
+	            		</a>
+	            	</li>
+	            	<li class="widget-thumbs-up">
+	            		<a class="widget-link">
+	            			<i class="icon icon-thumbs-up-alt"></i>
+	            			<span class="num">99999</span>
+	            		</a>
+	            	</li>
+	            	<li class="widget-like">
+	            		<a class="widget-link">
+	            			<i class="icon icon-heart active"></i>
+	            		</a>
+	            	</li>
+	            	<li class="widget-share">
+	            		<a class="widget-link">
+	            			<i class="icon icon-share active"></i>
+	            		</a>
+	            		<div class="share-links">
+	            			<a class="share-icons tw"><i class="icon-twitter"></i></a>
+	            			<a class="share-icons fb"><i class="icon-facebook"></i></a>
+	            			<a class="share-icons wb"><i class="icon-sina-weibo"></i></a>
+	            			<a class="share-icons gg"><i class="icon-gplus"></i></a>
+	            		</div>
+	            	</li>
+	            	<li class="widget-share">
+	            		<a class="widget-link">
+	            			<i class="spr icon icon-fullscreen"></i>
+	            		</a>
+	            	</li>
+	            </ul>
 	        </div>
 		</div>
 	</div>
@@ -109,13 +162,117 @@
 					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 				</div>
 
+				<div class="work-single-tags">
+					<div class="title">TAGS</div>
+					<p class="links">
+						<a href="#none">B&W</a><span>|</span>
+						<a href="#none">Black & White</a><span>|</span>
+						<a href="#none">District</a><span>|</span>
+						<a href="#none">Efex Pro</a><span>|</span>
+						<a href="#none">RainRiverRock SkyStorm</a><span>|</span>
+						<a href="#none">StreamValley</a><span>|</span>
+						<a href="#none">WaterWeather</a>
+					</p>
+				</div>
+
 				<div class="work-single-append">
 					<p><strong>Product info:</strong> Phantom 2 Vision+ , HD-3D</p>
 					<p><strong>Location:</strong> Surrey, UK, E31 42, N56, 11</p>
 				</div>
 
 				<div class="work-single-comments">
-					<!-- #include file="inc/single_comments.html" -->
+
+					<div class="comment logined">
+						<!-- 已登录： 给comment 添加样式 logined
+						未登录： 去除样式，只保留comment -->
+
+						<div class="comment-title"><span class="text">COMMENTS</span><span class="num">54</span></div>
+
+						<div class="js_login_state comment-cell comment-reply">
+							<div class="nologin-box">
+								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="reply-msg">
+									<a class="js_login_btn reply-btn" href="javascript:;">Join the discussion</a>
+								</div>
+							</div>
+							<div class="logined-box">
+								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="reply-msg">
+									<textarea class="form-control" rows="3"></textarea>
+									<a class="button button-green">Post comment</a>
+								</div>
+							</div>
+						</div>
+
+						<ul class="comment-msg">
+							<li class="comment-cell">
+								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="reply-msg">
+									<div class="reply-msg-left">
+										<p class="name-line">James Binder</p>
+										<p class="time-line">2 days ago</p>
+										<p class="other-line">
+											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+										</p>
+									</div>
+									<div class="reply-msg-right">
+										<p>wow amazing night shot, fantastic milkyway well done V&F wow amazing night shot, fantastic</p>
+									</div>
+								</div>
+							</li>
+							<li class="comment-cell">
+								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="reply-msg">
+									<div class="reply-msg-left">
+										<p class="name-line">James Binder</p>
+										<p class="time-line">2 days ago</p>
+										<p class="other-line">
+											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+										</p>
+									</div>
+									<div class="reply-msg-right">
+										<p>wow amazing night shot, fantastic milkyway well done V&F wow amazing night shot, fantastic</p>
+									</div>
+								</div>
+							</li>
+							<li class="comment-cell">
+								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="reply-msg">
+									<div class="reply-msg-left">
+										<p class="name-line">James Binder</p>
+										<p class="time-line">2 days ago</p>
+										<p class="other-line">
+											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+										</p>
+									</div>
+									<div class="reply-msg-right">
+										<p>wow amazing night shot, fantastic milkyway well done V&F wow amazing night shot, fantastic</p>
+									</div>
+								</div>
+							</li>
+							<li class="comment-cell">
+								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="reply-msg">
+									<div class="reply-msg-left">
+										<p class="name-line">James Binder</p>
+										<p class="time-line">2 days ago</p>
+										<p class="other-line">
+											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+										</p>
+									</div>
+									<div class="reply-msg-right">
+										<p>wow amazing night shot, fantastic milkyway well done V&F wow amazing night shot, fantastic</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+
+						<div class="comment-more">
+							<a class="read-more-link" href="javascript:;">Read more</a>
+						</div>
+
+					</div>
+
 				</div>
 
 			</div>

@@ -134,11 +134,11 @@
 							<p><i class="icon-user-1"></i>jun.wang@dji.com</p>
 						</div>
 						<div class="col-md-5">
-							<a class="account-btn tw active" href="#none" title=""><i class="icon-twitter-bird"></i>Twitter</a><a class="button button-green" href="#none"><i class="icon-link"></i>Link</a>
+							<a class="account-btn tw active" href="#none" title=""><i class="icon-twitter"></i>Twitter</a><a class="button button-green" href="#none"><i class="icon-link"></i>Link</a>
 							<p>Link your Twitter account</p>
 						</div>
 						<div class="col-md-5">
-							<a class="account-btn wb active" href="#none" title=""><i class="icon-weibo"></i>Sina weibo</a><a class="button" href="#none"><i class="icon-unlink"></i>UnLink</a>
+							<a class="account-btn wb active" href="#none" title=""><i class="icon-sina-weibo"></i>Sina weibo</a><a class="button" href="#none"><i class="icon-unlink"></i>UnLink</a>
 							<p><i class="icon-user-1"></i>jun.wang@dji.com</p>
 						</div>
 					</div>
