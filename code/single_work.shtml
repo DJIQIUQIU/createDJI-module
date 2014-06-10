@@ -219,6 +219,7 @@
 										<p>wow amazing night shot, fantastic milkyway well done V&F wow amazing night shot, fantastic</p>
 									</div>
 								</div>
+								<a class="spr del-btn" href="#none">delete</a>
 							</li>
 							<li class="comment-cell">
 								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
@@ -277,48 +278,16 @@
 
 			</div>
 			<div class="right-cont">
-				
-				<div class="work-single-userinfo">
-					<div class="left">
-						<a href="show_photos.shtml"><img class="img-responsive" src="img/junge.jpg"></a>
-						<span class="vip">VIP Vote</span>
-					</div>
-					<div class="right">
-						<P class="name">Ali Erturk</P>
-						<p class="intro">remaining essentially unchanged. It was popularised in the 1960s with </p>
-					</div>
-				</div>
-
-				<div class="work-single-userwork">
-					<ul>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/1.jpg"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/2.jpg"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/3.jpg"></a></li>
-					</ul>
-				</div>
-
-				<div class="work-single-tags">
-					<div class="title">TAGS</div>
-					<p class="links">
-						<a href="photos.shtml">B&W</a><span>|</span>
-						<a href="photos.shtml">Black & White</a><span>|</span><br>
-						<a href="photos.shtml">District</a><span>|</span>
-						<a href="photos.shtml">Efex Pro</a><span>|</span>
-						<a href="photos.shtml">RainRiverRock SkyStorm</a><span>|</span>
-						<a href="photos.shtml">StreamValley</a><span>|</span>
-						<a href="photos.shtml">WaterWeather</a>
-					</p>
-				</div>
 
 				<div class="work-single-userwork no-border">
 					<div class="title">Other recommended Photos</div>
 					<ul>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/1.jpg"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/2.jpg"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/3.jpg"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/4.jpg"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/1.jpg"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="img/photos/2.jpg"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
 					</ul>
 				</div>
 

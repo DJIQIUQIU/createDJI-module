@@ -696,6 +696,17 @@ a.btn-next {
   color: #fff;
   font-weight: bold;
 }
+.comment-cell .del-btn {
+  display: block;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  width: 18px;
+  height: 17px;
+  background-position: -474px -215px;
+  line-height: 300px;
+  overflow: hidden;
+}
 .comment-cell .button-green {
   float: right;
   margin: 13px 0 19px 0;
