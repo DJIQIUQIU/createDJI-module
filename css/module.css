@@ -827,6 +827,53 @@ a.btn-next {
   float: left;
   padding: 12px 0 8px 0;
 }
+.search-warp {
+  width: 100%;
+  padding-top: 35px;
+}
+.search-warp h2 {
+  float: left;
+  margin: 0px;
+  padding: 2px 0 0 0;
+}
+.search-warp .note {
+  display: inline-block;
+  margin: 0 5px 0 15px;
+  padding: 10px 5px 5px 5px;
+  font-size: 14px;
+}
+.search-nav {
+  float: left;
+  width: 100%;
+  height: 65px;
+  padding-top: 22px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #dddddd;
+}
+.search-nav li {
+  display: inline-block;
+  float: left;
+  height: 43px;
+  padding: 3px 0;
+  z-index: 1;
+}
+.search-nav li.active {
+  border-bottom: 4px solid #b0b0b0;
+}
+.search-nav li.active a {
+  color: #000;
+}
+.search-nav a {
+  display: block;
+  padding: 0 25px;
+  border-right: 1px solid #b0b0b0;
+  font-size: 16px;
+  z-index: 1;
+  color: #b1b1b1;
+}
+.search-nav a.last {
+  border: none;
+}
 .page.account {
   width: 100%;
   padding: 32px 0 45px 0;
@@ -2466,5 +2513,5 @@ hr {
   display: none !important;
 }
 .show {
-  display: block !!important;
+  display: block !important;
 }
