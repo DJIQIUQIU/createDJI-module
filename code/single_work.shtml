@@ -86,7 +86,7 @@
 				</a>
 				<p class="title-text">Having fun on the beach</p>
 				<span class="work-user-name">Ali Erturk</span>
-				<div class="work-user-info show"><!-- 显示添加类 show -->
+				<div class="work-user-info"><!-- 显示添加类 show -->
 					<p class="info-text">Welcome to the page of PEC GG. I am active in the name of the PEC GG freelance photographer in Japan. Kazumi Yokoyama gender is 1951</p>
 					<div class="other-list">
 						<a class="spr btn prev" href="#none"></a>
@@ -145,7 +145,7 @@
 	            	</li>
 	            	<li class="widget-share">
 	            		<a class="widget-link">
-	            			<i class="spr icon icon-fullscreen"></i>
+	            			<i class="spr icon icon-zoom-in"></i>
 	            		</a>
 	            	</li>
 	            </ul>

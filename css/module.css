@@ -331,6 +331,14 @@ img {
   content: '\e844';
 }
 /* '' */
+.icon-ok:before {
+  content: '\e845';
+}
+/* '' */
+.icon-cancel:before {
+  content: '\e846';
+}
+/* '' */
 /* 头部 
 ============================================================= */
 .header {
@@ -533,7 +541,6 @@ img {
   margin: 0 0 54px 0;
 }
 .carousel .carousel-list {
-  width: 400%;
   height: 510px;
 }
 .carousel .carousel-list li {
@@ -1291,6 +1298,38 @@ a.btn-next {
 .work-cell.event .work-info p.work-info-title {
   padding: 15px 0 10px 0;
   font-size: 18px;
+  color: #434343;
+}
+.work-cell.event-row {
+  width: 100%;
+}
+.work-cell.event-row .work-link {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 220px;
+  height: 156px;
+  overflow: hidden;
+}
+.work-cell.event-row .work-info {
+  float: left;
+  padding-left: 230px;
+  min-height: 156px;
+  _height: 156px;
+}
+.work-cell.event-row .work-info p.work-info-title {
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.work-cell.event-row .work-info p.work-info-event {
+  height: auto;
+}
+.work-cell.event-row .work-info a.button {
+  position: absolute;
+  bottom: 0px;
+  left: 234px;
+  padding: 8px 10px;
 }
 .work-cell.size1x1,
 .work-cell.size1x2,
@@ -1434,7 +1473,7 @@ a.btn-next {
   display: inline-block;
   float: left;
   width: 100%;
-  padding: 10px 0 0 10px;
+  padding: 8px 0 0 10px;
   font-size: 18px;
   color: #000;
   white-space: nowrap;
@@ -1563,10 +1602,15 @@ a.btn-next {
 .work-single-toolbar .icon.active {
   color: #17b2d3;
 }
-.work-single-toolbar .icon-fullscreen {
+.work-single-toolbar .icon-zoom-in {
   width: 18px;
   height: 18px;
   background-position: -474px -181px;
+}
+.work-single-toolbar .icon-zoom-out {
+  width: 18px;
+  height: 18px;
+  background-position: -474px -161px;
 }
 /* 评分模块 
 =====================================================*/
@@ -1576,6 +1620,7 @@ a.btn-next {
 .mod-rate .icon-star {
   float: left;
   cursor: pointer;
+  color: #959595;
 }
 .mod-rate .icon-star.active {
   color: #ff7b06;
@@ -1791,6 +1836,45 @@ a.btn-next {
 .work-single-tags .links span {
   display: inline-block;
   padding: 0 12px;
+}
+/* 样式重置 */
+.fullscreen .btn-prev {
+  left: 10px;
+}
+.fullscreen .btn-next {
+  right: 10px;
+}
+.fullscreen .title-text,
+.fullscreen .work-user-name {
+  color: #FFF;
+}
+.fullscreen {
+  background-color: #000;
+}
+.fullscreen-header {
+  width: 100%;
+  padding: 20px 60px 0;
+}
+.fullscreen-img-wrapper {
+  position: relative;
+  height: 100%;
+  padding: 80px 60px;
+  text-align: center;
+}
+.fullscreen-img {
+  display: none;
+}
+.fullscreen-toolbar {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  left: 0px;
+  color: #FFF;
+}
+.fullscreen-toolbar .work-single-toolbar {
+  float: none;
+  width: 650px;
+  margin: 0 auto;
 }
 /* manage_header */
 .manage-head {
@@ -2510,8 +2594,8 @@ hr {
   background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
 }
 .hide {
-  display: none !important;
+  display: none;
 }
 .show {
-  display: block !important;
+  display: block;
 }

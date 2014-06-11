@@ -51,6 +51,7 @@
 		<a href="code/works.shtml" title="">作品单元格(works.shtml)</a>
 		<a href="code/list.shtml" title="">作品列表(list.shtml)</a>
 		<a href="code/single_work.shtml" title="">单个作品展示(single_work.shtml)</a>
+		<a href="code/fullscreen.shtml" title="">作品全屏展示(fullscreen.shtml)</a>
 		<p>upload</p>
 		<a href="code/upload.shtml" title="">首页(upload.shtml)</a>
 		<a href="code/upload_edit.shtml" title="">上传编辑(upload_edit.shtml)</a>
