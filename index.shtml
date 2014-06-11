@@ -46,6 +46,7 @@
 		<a href="code/manage_my_profile.shtml" title="">my_profile(manage_my_profile.shtml)</a>
 		<a href="code/manage_work_edit.shtml" title="">作品编辑(manage_work_edit.shtml)</a>
 		<a href="code/manage_change_password.shtml" title="">密码修改(manage_change_password.shtml)</a>
+		<a href="code/manage_event_work.shtml" title="">event作品管理(manage_event_work.shtml)</a>
 		<br /><br />
 		<p>作品相关：</p>
 		<a href="code/works.shtml" title="">作品单元格(works.shtml)</a>

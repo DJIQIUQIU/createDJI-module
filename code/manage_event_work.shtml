@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-store, must-revalidate">
+	<meta http-equiv="expires" content="wed, 26 feb 1997 08:21:57 gmt">
+	<meta http-equiv="expires" content="0">
+	<meta name="author" content="jia.xu">
+	<meta name="keywords" content="CreateDJI" />
+	<meta name="description" content="CreateDJI" />
+	<title>CreateDJI</title>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/module.css">
+</head>
+<body>
+
+
+<div class="page">
+
+	<!-- 插入manage-header位置 -->
+
+	<div class="container manage-container">
+
+		<!-- 侧边栏/s 外层需要 manage-container包裹 -->
+		<div class="sidebar">
+			<div class="sidebar-upload"><a class="button button-blue button-upload" href="manage_upload_photo.shtml" title="">Upload</a></div>
+			<ul>
+				<li><a class="sidebar-link profile" href="manage_my_profile.shtml">My profile</a></li>
+				<li><a class="sidebar-link work active" href="manage_my_woks_photo.shtml">My work</a></li>
+				<li><a class="sidebar-link favourites" href="manage_my_favourites_photo.shtml">My favourites</a></li>
+				<li><a class="sidebar-link password" href="manage_my_password.shtml">My password</a></li>
+			</ul>
+		</div>
+		<!-- 侧边栏/e -->
+
+		<div class="manage-pagecont">
+			<div class="bg"></div>
+			<div class="manage-pagecont-warp">
+				
+				<!-- 分类导航 /s -->
+				<ul class="manage-tab clearfix">
+					<li class="tab-item"><a class="fake-link" href="#none">My Photos</a></li>
+					<li class="tab-item"><a class="fake-link" href="#none">My Videos</a></li>
+					<li class="tab-item last active"><a class="fake-link" href="#none">Event</a></li>
+				</ul>
+				<!-- 分类导航 /e -->
+
+				<div class="work-cell event-row">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=216x152">
+					</a>
+					<div class="work-info">
+						<p class="work-info-title">Phantom Shell Contest</p>
+						<p class="work-info-event">The Phantom, an iconic product from DJI, has enjoyed immense popularity over the past few years. From the hobbyist to the experienced, the Phantom range has helped countless people enjoy the spirit of flying, alongside taking epic aerial shots.</p>
+						<a class="button button-green" href="#none">More</a>
+					</div>
+				</div>
+
+				<div class="work-warp" style="width:105%;">
+
+					<div class="work-cell event-photo">
+						<a class="work-link" href="#none">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=216x216">
+						</a>
+						<div class="work-edit">
+							<a class="btn del" href="javascript:;">Del</a>
+						</div>
+					</div>
+
+					<div class="work-cell event-photo">
+						<a class="work-link" href="#none" disabled>
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=216x216">
+							<div class="work-status rejected"><span class="text">Rejected</span></div>
+						</a>
+						<div class="work-edit">
+							<a class="btn del" href="javascript:;">Del</a>
+						</div>
+					</div>
+
+					<div class="work-cell event-photo">
+						<a class="work-link" href="#none" disabled>
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=216x216">
+							<span class="work-private-status">Private</span>
+						</a>
+						<div class="work-edit">
+							<a class="btn del" href="javascript:;">Del</a>
+						</div>
+					</div>
+
+					<div class="work-cell event-photo">
+						<a class="work-link" href="#none">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=216x216">
+						</a>
+						<div class="work-edit">
+							<a class="btn del" href="javascript:;">Del</a>
+						</div>
+					</div>
+
+				</div>
+
+				<hr>
+
+				<div class="work-cell event-row">
+					<a class="work-link" href="#none">
+						<img class="width-responsive" src="http://jiagege.cn/source/?x=216x152">
+					</a>
+					<div class="work-info">
+						<p class="work-info-title">Phantom Shell Contest</p>
+						<p class="work-info-event">The Phantom, an iconic product from DJI, has enjoyed immense popularity over the past few years. From the hobbyist to the experienced, the Phantom range has helped countless people enjoy the spirit of flying, alongside taking epic aerial shots.</p>
+						<a class="button button-green" href="#none">More</a>
+					</div>
+				</div>
+
+				<div class="work-warp" style="width:105%">
+
+					<div class="work-cell event-video">
+						<a class="work-link" href="#none">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=216x162">
+							<span class="spr video-play-btn"></span>
+						</a>
+						<div class="work-edit">
+							<a class="btn del" href="javascript:;">Del</a>
+						</div>
+					</div>
+
+					<div class="work-cell event-video">
+						<a class="work-link" href="#none" disabled>
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=216x162">
+							<span class="spr video-play-btn"></span>
+							<div class="work-status rejected"><span class="text">Rejected</span></div>
+						</a>
+						<div class="work-edit">
+							<a class="btn del" href="javascript:;">Del</a>
+						</div>
+					</div>
+
+					<div class="work-cell event-video">
+						<a class="work-link" href="#none" disabled>
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=216x162">
+							<span class="spr video-play-btn"></span>
+							<span class="work-private-status">Private</span>
+						</a>
+						<div class="work-edit">
+							<a class="btn del" href="javascript:;">Del</a>
+						</div>
+					</div>
+
+					<div class="work-cell event-video">
+						<a class="work-link" href="#none">
+							<img class="width-responsive" src="http://jiagege.cn/source/?x=216x162">
+							<span class="spr video-play-btn"></span>
+						</a>
+						<div class="work-edit">
+							<a class="btn del" href="javascript:;">Del</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+
+<script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../js/custom.js"></script>
+</body>
+</html>

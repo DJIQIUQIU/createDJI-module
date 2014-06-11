@@ -375,21 +375,86 @@
 
 		</div>
 		<h4>单个横排</h4>
-		<div class="work-warp" style="width:100%">
+		<div class="work-cell event-row">
+			<a class="work-link" href="#none">
+				<img class="width-responsive" src="http://jiagege.cn/source/?x=220x156">
+			</a>
+			<div class="work-info">
+				<p class="work-info-title">Phantom Shell Contest</p>
+				<p class="work-info-event">The Phantom, an iconic product from DJI, has enjoyed immense popularity over the past few years. From the hobbyist to the experienced, the Phantom range has helped countless people enjoy the spirit of flying, alongside taking epic aerial shots.</p>
+				<a class="button button-green" href="#none">More</a>
+			</div>
+		</div>
+		
+		<h4>my works</h4>
+		<div class="work-warp" style="width:105%">
 
-			<div class="work-cell event-row">
+			<div class="work-cell event-photo">
 				<a class="work-link" href="#none">
-					<img class="width-responsive" src="http://jiagege.cn/source/?x=220x156">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=220x220">
 				</a>
-				<div class="work-info">
-					<p class="work-info-title">Phantom Shell Contest</p>
-					<p class="work-info-event">The Phantom, an iconic product from DJI, has enjoyed immense popularity over the past few years. From the hobbyist to the experienced, the Phantom range has helped countless people enjoy the spirit of flying, alongside taking epic aerial shots.</p>
-					<a class="button button-green" href="#none">More</a>
+				<div class="work-edit">
+					<a class="btn del" href="javascript:;">Del</a>
+				</div>
+			</div>
+
+			<div class="work-cell event-photo">
+				<a class="work-link" href="#none" disabled>
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=220x220">
+					<div class="work-status rejected"><span class="text">Rejected</span></div>
+				</a>
+				<div class="work-edit">
+					<a class="btn del" href="javascript:;">Del</a>
+				</div>
+			</div>
+
+			<div class="work-cell event-photo">
+				<a class="work-link" href="#none" disabled>
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=220x220">
+					<span class="work-private-status">Private</span>
+				</a>
+				<div class="work-edit">
+					<a class="btn del" href="javascript:;">Del</a>
 				</div>
 			</div>
 
 		</div>
 
+		<div class="work-warp" style="width:105%">
+
+			<div class="work-cell event-video">
+				<a class="work-link" href="#none">
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=220x166">
+					<span class="spr video-play-btn"></span>
+				</a>
+				<div class="work-edit">
+					<a class="btn del" href="javascript:;">Del</a>
+				</div>
+			</div>
+
+			<div class="work-cell event-video">
+				<a class="work-link" href="#none" disabled>
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=220x166">
+					<span class="spr video-play-btn"></span>
+					<div class="work-status rejected"><span class="text">Rejected</span></div>
+				</a>
+				<div class="work-edit">
+					<a class="btn del" href="javascript:;">Del</a>
+				</div>
+			</div>
+
+			<div class="work-cell event-video">
+				<a class="work-link" href="#none" disabled>
+					<img class="width-responsive" src="http://jiagege.cn/source/?x=220x166">
+					<span class="spr video-play-btn"></span>
+					<span class="work-private-status">Private</span>
+				</a>
+				<div class="work-edit">
+					<a class="btn del" href="javascript:;">Del</a>
+				</div>
+			</div>
+
+		</div>
 	</div>
 </div>
 
