@@ -86,19 +86,21 @@
 				</a>
 				<p class="title-text">Having fun on the beach</p>
 				<span class="work-user-name">Ali Erturk</span>
-				<div class="work-user-info"><!-- 显示添加类 show -->
-					<p class="info-text">Welcome to the page of PEC GG. I am active in the name of the PEC GG freelance photographer in Japan. Kazumi Yokoyama gender is 1951</p>
-					<div class="other-list">
-						<a class="spr btn prev" href="#none"></a>
-						<a class="spr btn next" href="#none"></a>
-						<div class="list-warp">
-							<ul style="width:300%;">
-								<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-								<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-								<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-								<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-								<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-							</ul>
+				<div class="work-user-info-warp show"> <!-- padding:12px 35px;width: 435px; -->
+					<div class="work-user-info"><!-- 此块可抽出 -->
+						<p class="info-text">Welcome to the page of PEC GG. I am active in the name of the PEC GG freelance photographer in Japan. Kazumi Yokoyama gender is 1951</p>
+						<div class="other-list">
+							<a class="spr btn prev" href="#none"></a>
+							<a class="spr btn next" href="#none"></a>
+							<div class="list-warp">
+								<ul style="width:300%;">
+									<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+									<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+									<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+									<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+									<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -136,11 +138,13 @@
 	            		<a class="widget-link">
 	            			<i class="icon icon-share active"></i>
 	            		</a>
-	            		<div class="share-links">
-	            			<a class="share-icons tw"><i class="icon-twitter"></i></a>
-	            			<a class="share-icons fb"><i class="icon-facebook"></i></a>
-	            			<a class="share-icons wb"><i class="icon-sina-weibo"></i></a>
-	            			<a class="share-icons gg"><i class="icon-gplus"></i></a>
+	            		<div class="share-links-warp"> <!-- width:232px;padding: 15px; -->
+		            		<div class="share-links"> <!-- 此块可抽出 -->
+		            			<a class="share-icons tw"><i class="icon-twitter"></i></a>
+		            			<a class="share-icons fb"><i class="icon-facebook"></i></a>
+		            			<a class="share-icons wb"><i class="icon-sina-weibo"></i></a>
+		            			<a class="share-icons gg"><i class="icon-gplus"></i></a>
+		            		</div>
 	            		</div>
 	            	</li>
 	            	<li class="widget-share">

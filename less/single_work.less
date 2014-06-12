@@ -10,8 +10,9 @@
 .work-single-title .work-user-img .vip-vote{display: none;position: absolute;width:27px;height: 22px;top:0px;left:0px;background-position: -426px -192px;}
 .work-single-title .work-user-img.vip .vip-vote{display: block;}
 
-.work-single-title .work-user-info{display: none;position: absolute;top:-35px;left: 102px;width: 435px;min-height: 145px;padding:12px 35px;background-color: rgba(255, 255, 255, 0.95);background-color: #fff \9;border-radius: 6px;box-shadow:0 0 10px 1px rgba(0,0,0,.1);border: 1px solid #eeeeee;}
-.work-single-title .work-user-info:before{
+.work-user-info-warp{display: none;position: absolute;top:-35px;left: 102px;width: 435px;min-height: 145px;padding:12px 35px;background-color: rgba(255, 255, 255, 0.95);background-color: #fff \9;border-radius: 6px;box-shadow:0 0 10px 1px rgba(0,0,0,.1);border: 1px solid #eeeeee;}
+.work-user-info-warp.show{display: block;}
+.work-user-info-warp:before{
 	content: "";
 	display: block;
 	position: absolute;
@@ -24,15 +25,14 @@
 	left: -18px;
 	margin-top: -9px;
 }
-.work-single-title .work-user-info.show{display: block;}
-.work-single-title .work-user-info .info-text{margin-bottom:8px;font-size:12px;line-height: 16px;color: #707070;}
 
-.work-single-title .other-list{position: relative; width: 100%;}
-.work-single-title .other-list .list-warp{width: 100%;overflow: hidden;}
-.work-single-title .other-list li{display: inline-block;float: left;width: 66px;height: 66px;margin-right:8px;overflow: hidden;}
-.work-single-title .other-list .btn{position: absolute;top: 50%;width: 11px;height: 21px;margin-top: -8px;}
-.work-single-title .other-list .btn.prev{left:-25px;background-position: -426px -215px;}
-.work-single-title .other-list .btn.next{right:-23px;background-position: -438px -215px;}
+.work-user-info .info-text{margin-bottom:8px;font-size:12px;line-height: 16px;color: #707070;}
+.work-user-info .other-list{position: relative; width: 100%;}
+.work-user-info .other-list .list-warp{width: 100%;overflow: hidden;}
+.work-user-info .other-list li{display: inline-block;float: left;width: 66px;height: 66px;margin-right:8px;overflow: hidden;}
+.work-user-info .other-list .btn{position: absolute;top: 50%;width: 11px;height: 21px;margin-top: -8px;}
+.work-user-info .other-list .btn.prev{left:-25px;background-position: -426px -215px;}
+.work-user-info .other-list .btn.next{right:-23px;background-position: -438px -215px;}
 
 .work-single-toolbar{float: right;height: 65px;padding-top: 24px;}
 .work-single-toolbar .widget li{display: inline-block;float: left;position: relative;height:16px;padding: 0 16px;border-right: 2px solid #959595;}
@@ -55,8 +55,8 @@
 .level-5 .star-1,.level-5 .star-2,.level-5 .star-3,.level-5 .star-4,.level-5 .star-5{color: #ff7b06;}
 
 /* 分享模块 */
-.widget-share .share-links{position: absolute;width:232px;padding: 15px;top: -88px;left: -88px;background-color: rgba(255, 255, 255, 0.95); background-color: #fff\9;border-radius: 6px;box-shadow:0 0 10px 1px rgba(0,0,0,.1);border: 1px solid #eeeeee;}
-.widget-share .share-links:before{
+.share-links-warp{position: absolute;width:232px;padding: 15px;top: -88px;left: -88px;background-color: rgba(255, 255, 255, 0.95); background-color: #fff\9;border-radius: 6px;box-shadow:0 0 10px 1px rgba(0,0,0,.1);border: 1px solid #eeeeee;}
+.share-links-warp:before{
 	content: "";
 	display: block;
 	position: absolute;
@@ -69,12 +69,12 @@
 	left: 50%;
 	margin-left: -6px;
 }
-.widget-share .share-icons{display: inline-block;float: left;width: 40px;height: 40px;margin: 0 5px;border-radius: 4px;line-height: 45px;text-align: center;}
-.widget-share .share-icons i{color: #fff;font-size: 18px;}
-.widget-share .share-icons.tw{background-color: #33ccff;}
-.widget-share .share-icons.fb{background-color: #385993;}
-.widget-share .share-icons.wb{background-color: #d72829;}
-.widget-share .share-icons.gg{background-color: #e46044;}
+.share-links .share-icons{display: inline-block;float: left;width: 40px;height: 40px;margin: 0 5px;border-radius: 4px;line-height: 45px;text-align: center;}
+.share-links .share-icons i{color: #fff;font-size: 18px;}
+.share-links .share-icons.tw{background-color: #33ccff;}
+.share-links .share-icons.fb{background-color: #385993;}
+.share-links .share-icons.wb{background-color: #d72829;}
+.share-links .share-icons.gg{background-color: #e46044;}
 
 .work-single-bot{width:100%;min-height:500px;margin:25px 0;font-size:14px;}
 .work-single-bot .left-cont{float:left;width:904px;height:100%;padding-right:25px;border-right:1px solid #E5E5E5;}

@@ -1526,7 +1526,7 @@ a.btn-next {
 .work-single-title .work-user-img.vip .vip-vote {
   display: block;
 }
-.work-single-title .work-user-info {
+.work-user-info-warp {
   display: none;
   position: absolute;
   top: -35px;
@@ -1540,7 +1540,10 @@ a.btn-next {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid #eeeeee;
 }
-.work-single-title .work-user-info:before {
+.work-user-info-warp.show {
+  display: block;
+}
+.work-user-info-warp:before {
   content: "";
   display: block;
   position: absolute;
@@ -1553,24 +1556,21 @@ a.btn-next {
   left: -18px;
   margin-top: -9px;
 }
-.work-single-title .work-user-info.show {
-  display: block;
-}
-.work-single-title .work-user-info .info-text {
+.work-user-info .info-text {
   margin-bottom: 8px;
   font-size: 12px;
   line-height: 16px;
   color: #707070;
 }
-.work-single-title .other-list {
+.work-user-info .other-list {
   position: relative;
   width: 100%;
 }
-.work-single-title .other-list .list-warp {
+.work-user-info .other-list .list-warp {
   width: 100%;
   overflow: hidden;
 }
-.work-single-title .other-list li {
+.work-user-info .other-list li {
   display: inline-block;
   float: left;
   width: 66px;
@@ -1578,18 +1578,18 @@ a.btn-next {
   margin-right: 8px;
   overflow: hidden;
 }
-.work-single-title .other-list .btn {
+.work-user-info .other-list .btn {
   position: absolute;
   top: 50%;
   width: 11px;
   height: 21px;
   margin-top: -8px;
 }
-.work-single-title .other-list .btn.prev {
+.work-user-info .other-list .btn.prev {
   left: -25px;
   background-position: -426px -215px;
 }
-.work-single-title .other-list .btn.next {
+.work-user-info .other-list .btn.next {
   right: -23px;
   background-position: -438px -215px;
 }
@@ -1659,7 +1659,7 @@ a.btn-next {
   color: #ff7b06;
 }
 /* 分享模块 */
-.widget-share .share-links {
+.share-links-warp {
   position: absolute;
   width: 232px;
   padding: 15px;
@@ -1671,7 +1671,7 @@ a.btn-next {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid #eeeeee;
 }
-.widget-share .share-links:before {
+.share-links-warp:before {
   content: "";
   display: block;
   position: absolute;
@@ -1684,7 +1684,7 @@ a.btn-next {
   left: 50%;
   margin-left: -6px;
 }
-.widget-share .share-icons {
+.share-links .share-icons {
   display: inline-block;
   float: left;
   width: 40px;
@@ -1694,20 +1694,20 @@ a.btn-next {
   line-height: 45px;
   text-align: center;
 }
-.widget-share .share-icons i {
+.share-links .share-icons i {
   color: #fff;
   font-size: 18px;
 }
-.widget-share .share-icons.tw {
+.share-links .share-icons.tw {
   background-color: #33ccff;
 }
-.widget-share .share-icons.fb {
+.share-links .share-icons.fb {
   background-color: #385993;
 }
-.widget-share .share-icons.wb {
+.share-links .share-icons.wb {
   background-color: #d72829;
 }
-.widget-share .share-icons.gg {
+.share-links .share-icons.gg {
   background-color: #e46044;
 }
 .work-single-bot {
