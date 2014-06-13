@@ -65,11 +65,13 @@
 	            		<a class="widget-link">
 	            			<i class="icon icon-share active"></i>
 	            		</a>
-	            		<div class="share-links">
-	            			<a class="share-icons tw"><i class="icon-twitter"></i></a>
-	            			<a class="share-icons fb"><i class="icon-facebook"></i></a>
-	            			<a class="share-icons wb"><i class="icon-sina-weibo"></i></a>
-	            			<a class="share-icons gg"><i class="icon-gplus"></i></a>
+	            		<div class="share-links-warp">
+		            		<div class="share-links">
+		            			<a class="share-icons tw"><i class="icon-twitter"></i></a>
+		            			<a class="share-icons fb"><i class="icon-facebook"></i></a>
+		            			<a class="share-icons wb"><i class="icon-sina-weibo"></i></a>
+		            			<a class="share-icons gg"><i class="icon-gplus"></i></a>
+		            		</div>
 	            		</div>
 	            	</li>
 	            	<li class="widget-share">

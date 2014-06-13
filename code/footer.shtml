@@ -2,24 +2,20 @@
 <div class="footer">
     <div class="container">
     
-        <div class="row">
+        <ul class="footer-link">
+            <li><a href="#none">About CreateDJI</a></li>
+            <li><a href="#none">Contact CreateDJI</a></li>
+            <li><a href="#none">Information Center</a></li>
+            <li><a href="#none">Careers</a></li>
+            <li><a href="#none">Website Feedback</a></li>
+        </ul>
 
-            <ul class="footer-link">
-                <li><a href="#none">About CreateDJI</a></li>
-                <li><a href="#none">Contact CreateDJI</a></li>
-                <li><a href="#none">Information Center</a></li>
-                <li><a href="#none">Careers</a></li>
-                <li><a href="#none">Website Feedback</a></li>
-            </ul>
+        <hr>
 
-            <hr>
+        <p class="copy-right">Copyright &copy; 2014 DJI All Rights Reserved.  <a href="#none">Privacy Policy</a><a href="#none">Terms of Use</a></p>
 
-            <p class="copy-right">Copyright &copy; 2014 DJI All Rights Reserved.  <a href="#none">Privacy Policy</a><a href="#none">Terms of Use</a></p>
-
-            <div class="connect-dji">
-                <!-- <img src="img/connect.png" /> -->
-            </div>
-
+        <div class="connect-dji">
+            <!-- <img src="img/connect.png" /> -->
         </div>
 
     </div>
