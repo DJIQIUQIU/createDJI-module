@@ -65,7 +65,7 @@
 	</div>
 </div>
 
-<div class="page about">
+<div class="page contact-us">
 
 	<div class="page-bg">
 		<div class="page-bg-line bg01"></div>
@@ -76,32 +76,65 @@
 		<div class="page-bg-line bg06"></div>
 	</div>
 	<div class="container">
-		<ul class="about-list">
-			<li class="title-line">
-				<h2>About CreateDJI</h2>
-				<p>You can see the most professional  work aerial work at here <br>just enjoy the  charm of aerial</p>
-			</li>
-			<li>
-				<h3>Who we are</h3>
-				<p>CreateDJI is a community platform of Aerial work enthusiasts and UAV users. We want people see<br> the aerial photos and photos from every corner of the world,to get more interest in Aerial Photography.<br>Show us the fascination of aerial.</p>
-			</li>
-			<li>
-				<h3>Areial photos & videos</h3>
-				<p>CreateDJI is the best platform to collect all kinds of areial works and share your works wih ohers. Get<br>started your aerial journey at here.</p>
-			</li>
-			<li>
-				<h3>Enthusiasts gathering</h3>
-				<p>CreateDJI have gathered more than 80000 areial work enhusiasts,you can share your comments<br> at will here.</p>
-			</li>
-			<li>
-				<h3>Masters settled</h3>
-				<p>CreateDJI have more than 80 masters of Aerial Photography settled. We will provide you the<br> professional advice and score.</p>
-			</li>
-			<li>
-				<h3>Areial events</h3>
-				<p>CreateDJI will ogranzie all kinds of Areial-Work events from time to time.</p>
-			</li>
-		</ul>
+
+		<div class="warp">
+
+			<h2>Contact us</h2>
+
+			<div class="list">
+
+				<div class="cell left">
+					<div class="title">Email us</div>
+					<div class="cont">
+						<span class="spr icon icon-email"></span>
+						<p>Send us an email and we’ll get back to you in less than 24 hours. <br><a href="#none">Email Support</a></p>
+					</div>
+				</div>
+				<div class="cell right">
+					<div class="title">Call us</div>
+					<div class="cont">
+						<span class="spr icon icon-phone"></span>
+						<p>Available Monday through Friday <br>from 9 AM to 6 PM ET <br>(917) 746 9895</p>
+					</div>
+				</div>
+
+			
+				<ul class="other-list">
+					<li>
+						<span class="title">Business</span>
+						<span class="text">If you are managing a business and want to partner with CreateDJI</span>
+						<span class="email">webmaster@dji.com</span>
+					</li>
+					<li>
+						<span class="title">Event</span>
+						<span class="text">If you want to hold events by cooperating with CreateDJI</span>
+						<span class="email">webmaster@dji.com</span>
+					</li>
+					<li>
+						<span class="title">Press & Editorial</span>
+						<span class="text">If you are a journalist and want to write about CreateDJI</span>
+						<span class="email">webmaster@dji.com</span>
+					</li>
+					<li>
+						<span class="title">Legal Department</span>
+						<span class="text">If you need to contact CreateDJI regarding a legal matter</span>
+						<span class="email">webmaster@dji.com</span>
+					</li>
+					<li>
+						<span class="title">Human Resources</span>
+						<span class="text">If you want to join CreateDJI,send your resume to</span>
+						<span class="email">webmaster@dji.com</span>
+					</li>
+					<li>
+						<span class="title">Business</span>
+						<span class="text">If you want to join CreateDJI,send your resume to</span>
+						<span class="email">webmaster@dji.com</span>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
 	</div>
 
 </div>
