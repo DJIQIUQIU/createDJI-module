@@ -1387,6 +1387,7 @@ img {
   -o-text-overflow: ellipsis;
   overflow: hidden;
   text-transform: uppercase;
+  line-height: 18px;
 }
 .work-single-title .work-user-name {
   display: block;
@@ -1556,7 +1557,7 @@ img {
   color: #ff7b06;
 }
 /* 分享模块 */
-.share-links-warp {
+.layer-warp {
   position: absolute;
   width: 232px;
   padding: 15px;
@@ -1567,8 +1568,10 @@ img {
   border-radius: 6px;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid #eeeeee;
+  font-size: 14px;
+  line-height: 18px;
 }
-.share-links-warp:before {
+.layer-warp:before {
   content: "";
   display: block;
   position: absolute;
@@ -1580,6 +1583,15 @@ img {
   bottom: -16px;
   left: 50%;
   margin-left: -6px;
+}
+.layer-waro strong {
+  color: #000000;
+}
+.layer-waro p {
+  color: #434343;
+}
+.layer-warp a {
+  color: #00aad0;
 }
 .share-links .share-icons {
   display: inline-block;
@@ -1786,13 +1798,25 @@ img {
   left: 15px;
 }
 .page.fullscreen .work-single-toolbar {
+  float: none;
   position: absolute;
-  width: 630px;
-  max-width: 700px;
+  width: 100%;
   bottom: 15px;
-  left: 50%;
-  margin-left: -315px;
+  left: 0;
   color: #fff;
+  text-align: center;
+}
+.page.fullscreen .work-single-toolbar li {
+  float: none;
+  padding: 0 18px 0 16px;
+  line-height: 20px;
+}
+.page.fullscreen .work-single-toolbar a {
+  display: inline-block;
+  float: left;
+}
+.page.fullscreen .work-single-toolbar .mod-rate {
+  float: left;
 }
 .page.fullscreen .work-user-info-warp {
   top: 5px;

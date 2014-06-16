@@ -65,7 +65,7 @@
 	</div>
 </div>
 
-<div class="page fullscreen"><!-- 全屏添加样式 fullscreen -->
+<div class="page"><!-- 全屏添加样式 fullscreen -->
 
 	<div class="work-single-warp"><!-- 用于全屏提出 -->
 
@@ -135,12 +135,15 @@
 		            		<a class="widget-link">
 		            			<i class="icon icon-heart active"></i>
 		            		</a>
+		            		<div class="layer-warp">
+		            			<p>View  your favored work in <strong>My Favourites.</strong> <a href="#none">Experience Now</a></p>
+		            		</div>
 		            	</li>
 		            	<li class="widget-share">
 		            		<a class="widget-link">
 		            			<i class="icon icon-share active"></i>
 		            		</a>
-		            		<div class="share-links-warp"> <!-- width:232px;padding: 15px; -->
+		            		<div class="layer-warp hide" style="width:232px;"> <!-- width:232px;padding: 15px; -->
 			            		<div class="share-links"> <!-- 此块可抽出 -->
 			            			<a class="share-icons tw"><i class="icon-twitter"></i></a>
 			            			<a class="share-icons fb"><i class="icon-facebook"></i></a>
