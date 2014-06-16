@@ -1749,7 +1749,68 @@ img {
   display: inline-block;
   padding: 0 12px;
 }
-/* 样式重置 */
+/* single_work 样式重置 */
+.page.fullscreen .work-single-warp {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 99997;
+}
+.page.fullscreen .work-single-top {
+  height: 100%;
+  padding: 90px 0;
+}
+.page.fullscreen .work-single-bot {
+  display: none;
+}
+.page.fullscreen .container {
+  width: 100%;
+}
+.page.fullscreen .work-single-cont {
+  position: static;
+  text-align: center;
+}
+.page.fullscreen .work-single-cont img {
+  display: inline-block;
+}
+.page.fullscreen .work-single-info {
+  background: none;
+  border: none;
+}
+.page.fullscreen .work-single-title {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.page.fullscreen .work-single-toolbar {
+  position: absolute;
+  width: 630px;
+  max-width: 700px;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -315px;
+  color: #fff;
+}
+.page.fullscreen .work-user-info-warp {
+  top: 5px;
+}
+.page.fullscreen .work-user-info-warp:before {
+  top: 18px;
+}
+.page.fullscreen .btn-prev {
+  left: 20px;
+}
+.page.fullscreen .btn-next {
+  right: 20px;
+}
+/* 新页面 */
+.fullscreen {
+  position: relative;
+  background-color: #000;
+}
 .fullscreen .btn-prev {
   left: 10px;
 }
@@ -1759,9 +1820,6 @@ img {
 .fullscreen .title-text,
 .fullscreen .work-user-name {
   color: #FFF;
-}
-.fullscreen {
-  background-color: #000;
 }
 .fullscreen-header {
   width: 100%;

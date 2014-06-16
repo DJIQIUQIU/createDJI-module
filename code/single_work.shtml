@@ -65,96 +65,100 @@
 	</div>
 </div>
 
-<div class="page">
+<div class="page fullscreen"><!-- 全屏添加样式 fullscreen -->
 
-	<div class="work-single-top">
-		<div class="container">
-			<div class="work-single-cont">
-				<img src="http://jiagege.cn/source/?x=1200x510" />
-				<a class="spr btn-prev">prev</a>
-            	<a class="spr btn-next">next</a>
+	<div class="work-single-warp"><!-- 用于全屏提出 -->
+
+		<div class="work-single-top">
+			<div class="container">
+				<div class="work-single-cont">
+					<img src="http://jiagege.cn/source/?x=1200x510" />
+					<a class="spr btn-prev">prev</a>
+	            	<a class="spr btn-next">next</a>
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="work-single-info">
-		<div class="container">
-			<div class="work-single-title">
-				<a class="work-user-img vip" href="#none"> <!-- if vip addClass vip -->
-					<img width="56" height="53" src="http://jiagege.cn/source/?x=56x53">
-					<span class="spr vip-vote"></span>
-				</a>
-				<p class="title-text">Having fun on the beach</p>
-				<span class="work-user-name">Ali Erturk</span>
-				<div class="work-user-info-warp show"> <!-- padding:12px 35px;width: 435px; -->
-					<div class="work-user-info"><!-- 此块可抽出 -->
-						<p class="info-text">Welcome to the page of PEC GG. I am active in the name of the PEC GG freelance photographer in Japan. Kazumi Yokoyama gender is 1951</p>
-						<div class="other-list">
-							<a class="spr btn prev" href="#none"></a>
-							<a class="spr btn next" href="#none"></a>
-							<div class="list-warp">
-								<ul style="width:300%;">
-									<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-									<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-									<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-									<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-									<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-								</ul>
+		<div class="work-single-info">
+			<div class="container">
+				<div class="work-single-title">
+					<a class="work-user-img vip" href="#none"> <!-- if vip addClass vip -->
+						<img width="56" height="53" src="http://jiagege.cn/source/?x=56x53">
+						<span class="spr vip-vote"></span>
+					</a>
+					<p class="title-text">Having fun on the beach</p>
+					<span class="work-user-name">Ali Erturk</span>
+					<div class="work-user-info-warp"> <!-- padding:12px 35px;width: 435px; -->
+						<div class="work-user-info"><!-- 此块可抽出 -->
+							<p class="info-text">Welcome to the page of PEC GG. I am active in the name of the PEC GG freelance photographer in Japan. Kazumi Yokoyama gender is 1951</p>
+							<div class="other-list">
+								<a class="spr btn prev" href="#none"></a>
+								<a class="spr btn next" href="#none"></a>
+								<div class="list-warp">
+									<ul style="width:300%;">
+										<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+										<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+										<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+										<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+										<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="work-single-toolbar">
-	            <ul class="widget">
-	            	<li class="widget-score"><span>99.8</span></li>
-	            	<li class="widget-rate">
-	            		<div class="mod-rate level-3" data-level="3"><!-- 星级样式 level-3 替换后面数字 -->
-	            			<i class="icon icon-star star-1 active"></i><!-- active为star激活样式，去除即为默认 -->
-	            			<i class="icon icon-star star-2"></i>
-	            			<i class="icon icon-star star-3"></i>
-	            			<i class="icon icon-star star-4"></i>
-	            			<i class="icon icon-star star-5"></i>
-	            		</div>
-	            	</li>
-	            	<li class="widget-view">
-	            		<a class="widget-link">
-	            			<i class="icon icon-eye active"></i>
-	            			<span class="num">2167</span>
-	            		</a>
-	            	</li>
-	            	<li class="widget-thumbs-up">
-	            		<a class="widget-link">
-	            			<i class="icon icon-thumbs-up-alt"></i>
-	            			<span class="num">99999</span>
-	            		</a>
-	            	</li>
-	            	<li class="widget-like">
-	            		<a class="widget-link">
-	            			<i class="icon icon-heart active"></i>
-	            		</a>
-	            	</li>
-	            	<li class="widget-share">
-	            		<a class="widget-link">
-	            			<i class="icon icon-share active"></i>
-	            		</a>
-	            		<div class="share-links-warp"> <!-- width:232px;padding: 15px; -->
-		            		<div class="share-links"> <!-- 此块可抽出 -->
-		            			<a class="share-icons tw"><i class="icon-twitter"></i></a>
-		            			<a class="share-icons fb"><i class="icon-facebook"></i></a>
-		            			<a class="share-icons wb"><i class="icon-sina-weibo"></i></a>
-		            			<a class="share-icons gg"><i class="icon-gplus"></i></a>
+				<div class="work-single-toolbar">
+		            <ul class="widget">
+		            	<li class="widget-score"><span>99.8</span></li>
+		            	<li class="widget-rate">
+		            		<div class="mod-rate level-3" data-level="3"><!-- 星级样式 level-3 替换后面数字 -->
+		            			<i class="icon icon-star star-1 active"></i><!-- active为star激活样式，去除即为默认 -->
+		            			<i class="icon icon-star star-2"></i>
+		            			<i class="icon icon-star star-3"></i>
+		            			<i class="icon icon-star star-4"></i>
+		            			<i class="icon icon-star star-5"></i>
 		            		</div>
-	            		</div>
-	            	</li>
-	            	<li class="widget-share">
-	            		<a class="widget-link">
-	            			<i class="spr icon icon-zoom-in"></i>
-	            		</a>
-	            	</li>
-	            </ul>
-	        </div>
+		            	</li>
+		            	<li class="widget-view">
+		            		<a class="widget-link">
+		            			<i class="icon icon-eye active"></i>
+		            			<span class="num">2167</span>
+		            		</a>
+		            	</li>
+		            	<li class="widget-thumbs-up">
+		            		<a class="widget-link">
+		            			<i class="icon icon-thumbs-up-alt"></i>
+		            			<span class="num">99999</span>
+		            		</a>
+		            	</li>
+		            	<li class="widget-like">
+		            		<a class="widget-link">
+		            			<i class="icon icon-heart active"></i>
+		            		</a>
+		            	</li>
+		            	<li class="widget-share">
+		            		<a class="widget-link">
+		            			<i class="icon icon-share active"></i>
+		            		</a>
+		            		<div class="share-links-warp"> <!-- width:232px;padding: 15px; -->
+			            		<div class="share-links"> <!-- 此块可抽出 -->
+			            			<a class="share-icons tw"><i class="icon-twitter"></i></a>
+			            			<a class="share-icons fb"><i class="icon-facebook"></i></a>
+			            			<a class="share-icons wb"><i class="icon-sina-weibo"></i></a>
+			            			<a class="share-icons gg"><i class="icon-gplus"></i></a>
+			            		</div>
+		            		</div>
+		            	</li>
+		            	<li class="widget-share">
+		            		<a class="widget-link">
+		            			<i class="spr icon icon-zoom-in"></i><!-- 对应样式 icon-zoom-out -->
+		            		</a>
+		            	</li>
+		            </ul>
+		        </div>
+			</div>
 		</div>
+
 	</div>
 
 	<div class="work-single-bot">
