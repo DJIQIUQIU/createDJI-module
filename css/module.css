@@ -1656,6 +1656,8 @@ img {
   color: #434343;
 }
 .layer-warp a {
+  display: inline;
+  float: none;
   color: #00aad0;
 }
 .share-links .share-icons {
