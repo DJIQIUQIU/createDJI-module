@@ -111,7 +111,7 @@
 				<div class="work-single-toolbar">
 
 		            <ul class="widget">
-						<li class="widget-rate">
+						<li class="widget-rate"><!-- 已打分添加样式rated -->
 		            		<div class="mod-rate level-3" data-level="3"><!-- 星级样式 level-3 替换后面数字 -->
 		            			<i class="icon icon-star star-1 active"></i><!-- active为star激活样式，去除即为默认 -->
 		            			<i class="icon icon-star star-2"></i>

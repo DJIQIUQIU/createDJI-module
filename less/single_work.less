@@ -39,7 +39,7 @@
 
 .work-single-toolbar{float: right;height: 65px;padding-top: 24px;}
 .work-single-toolbar a{display: inline-block;float: left;}
-.work-single-toolbar .widget li{display: inline-block;position: relative;height:16px;padding:0 18px 0 16px;line-height: 20px;border-right: 2px solid #959595;}
+.work-single-toolbar .widget li{display: inline-block;position: relative;height:16px;padding:0 18px 0 16px;line-height: 20px;border-right: 2px solid #959595;color: #5e5b5b;}
 .work-single-toolbar .widget-score{font-size: 24px;}
 
 .work-single-toolbar .icon{display: inline-block; color: #959595;font-size: 18px;}
@@ -51,15 +51,19 @@
 
 /* 评分模块 
 =====================================================*/
+.widget li.widget-rate{display: none; padding:0px;border: none;}
+.widget li.widget-rate.rated{border-right: 2px solid #959595;}
 .work-single-info.expert-show .widget li.widget-rate{display: inline-block;}
 
-.widget li.widget-rate{display: none; padding:0px;border: none;}
-.widget li.widget-rate .mod-rate{margin-top: -14px;}
-
-.mod-rate{float: left;position: relative; width: 224px;height: 46px;padding: 6px 7px 6px 14px;background-color: #313131;border-radius: 5px;line-height: 38px; overflow: hidden;}
+.mod-rate{float: left;position: relative; width: 224px;height: 46px;padding: 6px 7px 6px 14px;margin-top: -14px;background-color: #313131;border-radius: 5px;line-height: 38px; overflow: hidden;}
 .mod-rate .icon-star{float:left;cursor: pointer;color: #959595;font-size: 16px;}
 .mod-rate .icon-star.active{color: #ff7b06;}
 .mod-rate .button{position: absolute;right: 7px;top:6px;line-height: 1em;font-size: 14px;}
+
+.rated .mod-rate{width: auto;height: auto;padding:0 18px 0 16px;margin-top: 0px;background: none !important;line-height: 1em;border-radius: 0;}
+.rated .mod-rate .button{display: none;}
+.rated .mod-rate .icon-star{font-size: 18px;}
+
 /* 全星级样式 */
 .level-1 .star-1,
 .level-2 .star-1,.level-2 .star-2,
