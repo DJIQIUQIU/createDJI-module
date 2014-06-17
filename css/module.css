@@ -1310,6 +1310,16 @@ img {
   font-size: 25px;
   color: #434343;
 }
+.list .list-nav .list-nav-tag {
+  display: inline-block;
+  float: left;
+  padding: 9px 12px 6px 12px;
+  margin: 26px 0 0 20px;
+  background-color: #a0a0a0;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 14px;
+}
 .list .list-nav ul {
   float: right;
   text-align: right;

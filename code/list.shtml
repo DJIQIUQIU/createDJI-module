@@ -25,6 +25,7 @@
 
 			<div class="list-nav">
 				<span class="list-nav-title">Videos</span>
+				<span class="list-nav-tag">Tag word</span>
 				<ul>
 					<li class="active"><a href="#none" alt="">Latest</a></li>
 					<li><a href="#none" alt="">popula</a></li>
@@ -230,13 +231,14 @@
 
 			<div class="list-nav">
 				<span class="list-nav-title">Photos</span>
+				<span class="list-nav-tag">Tag word</span>
 				<ul>
 					<li class="active"><a href="#none" alt="">Latest</a></li>
 					<li><a href="#none" alt="">popula</a></li>
 				</ul>
 			</div>
 
-			<div class="work-warp cascade" style="width:105%;">
+			<div class="work-warp cascade" style="width:105%;height:908px;">
 
 				<div class="work-cell size1x1 cascade_1_1">
 					<a class="work-link" href="#none"><img class="width-responsive" src="http://jiagege.cn/source/?x=292x292"></a>
