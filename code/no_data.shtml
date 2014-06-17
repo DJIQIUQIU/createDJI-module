@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-store, must-revalidate">
+	<meta http-equiv="expires" content="wed, 26 feb 1997 08:21:57 gmt">
+	<meta http-equiv="expires" content="0">
+	<meta name="author" content="jia.xu">
+	<meta name="keywords" content="CreateDJI" />
+	<meta name="description" content="CreateDJI" />
+	<title>CreateDJI</title>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/module.css">
+</head>
+<body>
+
+<div class="js_login_state header logined">
+	<div class="container">
+
+		<div class="header-logo">
+			<a class="header-logo-link" href="#none">
+				<img width="152" height="64" src="../img/logo.jpg" alt="">
+			</a>
+		</div>
+
+		<ul class="header-nav">
+			<li class="header-photos active"><a href="#none">Photos</a></li>
+			<li class="header-videos"><a href="#none">Videos</a></li>
+			<li class="header-events"><a href="#none">Events & Activities</a></li>
+		</ul>
+
+		<div class="header-login-state">
+
+			<div class="nologin-box">
+				<ul class="header-login">
+					<li><a href="login.shtml">Login</a></li>
+					<li><a href="register.shtml">Register</a></li>
+				</ul>
+			</div>
+			<div class="logined-box">
+				<ul class="header-login">
+					<li>
+						<a class="user-link js-drop-down-btn" href="manage_show_photos.shtml"><img width="33" height="33" src="http://jiagege.cn/source/?x=33x33" alt=""></a>
+						<ul class="header-drop-down">
+							<li><a href="#none">My profile</a></li>
+							<li><a href="#none">My work</a></li>
+							<li><a href="#none">My Favourites</a></li>
+							<li><a href="#none">My password</a></li>
+							<li class="last"><a href="#none">Log out</a></li>
+						</ul>
+					</li>
+					<li><a class="button button-blue" href="manage_upload_photo.shtml">Upload</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="header-search">
+			<!-- <i class="icon-search"></i> -->
+			<input type="text" class="spr form-control search-input" placeholder="Search here...">
+		</div>
+
+	</div>
+</div>
+
+<div class="page">
+	<div class="container">
+
+		<div class="no-data-msg">
+			<p class="title"></p>
+			
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../js/custom.js"></script>
+</body>
+</html>
