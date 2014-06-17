@@ -14,8 +14,9 @@
 .work-cell .work-private-status{position: absolute;top:10px; right:10px; padding: 8px 10px 4px 10px;background: rgba(0, 0, 0, 0.5);background: #000\9;color: #FFF;border-radius: 4px;}
 
 .work-cell img{display: block;}
-.work-cell p{margin-bottom:4px;color:#fff;}
+.work-cell p{margin-bottom:4px;color:#fff;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;}
 .work-cell p i{color: #5fc5f2;}
+.work-cell p a{color: #ffffff;}
 
 .work-cell p.work-info-title{margin:4px;font-weight:bold;font-size:@font-size-normal;}
 .work-cell p.work-info-artist,
@@ -23,6 +24,7 @@
 .work-cell p.work-info-date{font-size:@font-size-small;}
 
 .work-cell .work-info p{margin:8px 0;color: #707070;}
+.work-cell .work-info p a{color: #707070;}
 .work-cell .work-info p.work-info-title{margin: 10px 4px 6px 4px;}
 .work-cell .work-info p.work-info-event{height:75px;margin:0 4px;font-size:@font-size-normal;line-height: 20px;overflow: hidden;}
 

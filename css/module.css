@@ -6,6 +6,7 @@ img {
 }
 .form-control {
   height: 42px;
+  font-family: Arial;
 }
 .container {
   width: 1230px;
@@ -623,19 +624,25 @@ img {
 .comment-cell .reply-msg-left .time-line {
   color: #959595;
 }
+.comment-cell .reply-msg-left .other-line {
+  margin-top: 6px;
+}
 .comment-cell .reply-msg-left .icon-btn {
   color: #707070;
+}
+.comment-cell .reply-msg-left .icon-btn.active {
+  color: #19b3d5;
 }
 .comment-cell .reply-msg-left .icon-btn .icon-thumbs-up-alt {
   float: left;
   font-size: 16px;
+  margin-left: -4px;
 }
 .comment-cell .reply-msg-left .icon-btn .icon-thumbs-up-alt.active {
   color: #19b3d5;
 }
 .comment-cell .reply-msg-left .icon-btn .num {
   display: inline-block;
-  float: left;
   padding-left: 4px;
   line-height: 22px;
 }
@@ -1065,9 +1072,16 @@ img {
 .work-cell p {
   margin-bottom: 4px;
   color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
 }
 .work-cell p i {
   color: #5fc5f2;
+}
+.work-cell p a {
+  color: #ffffff;
 }
 .work-cell p.work-info-title {
   margin: 4px;
@@ -1081,6 +1095,9 @@ img {
 }
 .work-cell .work-info p {
   margin: 8px 0;
+  color: #707070;
+}
+.work-cell .work-info p a {
   color: #707070;
 }
 .work-cell .work-info p.work-info-title {
@@ -2158,7 +2175,7 @@ img {
   margin-bottom: 35px;
 }
 .my-profile .control-label {
-  padding-top: 11px;
+  padding-top: 14px;
   font-size: 16px;
   color: #707070;
 }
@@ -2175,7 +2192,6 @@ img {
 .my-profile .form-group {
   padding: 15px 0;
   margin: 0px;
-  border-bottom: 1px solid #c4c4c4;
 }
 .my-profile .form-group label {
   font-size: 14px;
@@ -2198,10 +2214,7 @@ img {
   color: #189ffe;
   text-decoration: underline;
 }
-.my-profile .form-group .input-margin-bottom {
-  margin-bottom: 4px;
-}
-.my-profile .form-group .add-btn {
+.my-profile .form-group .single-line a.add-btn {
   display: block;
   position: absolute;
   right: -28px;
@@ -2215,6 +2228,9 @@ img {
   overflow: hidden;
   color: #fff;
 }
+.my-profile .form-group .input-margin-bottom {
+  margin-bottom: 4px;
+}
 .my-profile .form-group .email-line {
   position: relative;
 }
@@ -2227,7 +2243,7 @@ img {
   background-position: -178px -251px;
 }
 .my-profile .profile-avatar {
-  padding: 52px 0 42px 0;
+  padding: 52px 0 18px 0;
   margin: 0px;
 }
 .my-profile .profile-avatar .button {
@@ -2243,6 +2259,11 @@ img {
 .my-profile .profile-avatar p {
   float: left;
   font-size: 12px;
+}
+.my-profile .profile-about {
+  padding: 15px 0 36px 0;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #c4c4c4;
 }
 .my-profile .save-btn-line {
   border: none;
@@ -2340,6 +2361,11 @@ img {
 }
 .work-edit .preview-form .input-tags {
   width: 530px;
+}
+.work-edit .preview-form .input-location {
+  display: inline-block;
+  width: 195px;
+  margin-right: 8px;
 }
 .my-password .form-group {
   padding: 15px 0 5px 0;
@@ -2451,7 +2477,6 @@ img {
 .upload-edit-sidebar input,
 .upload-edit-sidebar textarea {
   font-size: 18px;
-  font-weight: bold;
   color: #bfbfbf;
 }
 .upload-edit-sidebar label {

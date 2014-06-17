@@ -135,7 +135,7 @@
 		            	</li>
 		            	<li class="widget-like">
 		            		<a class="widget-link">
-		            			<i class="icon icon-heart active"></i>
+		            			<i class="icon icon-heart"></i>
 		            		</a>
 		            		<div class="layer-warp">
 		            			<p>View  your favored work in <strong>My Favourites.</strong> <a href="#none">Experience Now</a></p>
@@ -143,7 +143,7 @@
 		            	</li>
 		            	<li class="widget-share">
 		            		<a class="widget-link">
-		            			<i class="icon icon-share active"></i>
+		            			<i class="icon icon-share"></i>
 		            		</a>
 		            		<div class="layer-warp hide" style="width:232px;"> <!-- width:232px;padding: 15px; -->
 			            		<div class="share-links"> <!-- 此块可抽出 -->
@@ -225,7 +225,7 @@
 										<p class="name-line">James Binder</p>
 										<p class="time-line">2 days ago</p>
 										<p class="other-line">
-											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+											<a class="icon-btn active" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span> like</a>
 										</p>
 									</div>
 									<div class="reply-msg-right">
@@ -241,7 +241,7 @@
 										<p class="name-line">James Binder</p>
 										<p class="time-line">2 days ago</p>
 										<p class="other-line">
-											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span> like</a>
 										</p>
 									</div>
 									<div class="reply-msg-right">
@@ -256,7 +256,7 @@
 										<p class="name-line">James Binder</p>
 										<p class="time-line">2 days ago</p>
 										<p class="other-line">
-											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span> like</a>
 										</p>
 									</div>
 									<div class="reply-msg-right">
@@ -271,7 +271,7 @@
 										<p class="name-line">James Binder</p>
 										<p class="time-line">2 days ago</p>
 										<p class="other-line">
-											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span></a>
+											<a class="icon-btn" href="javascript:;"><span class="icon-thumbs-up-alt"></span> <span class="num">1124</span> like</a>
 										</p>
 									</div>
 									<div class="reply-msg-right">

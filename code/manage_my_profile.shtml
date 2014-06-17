@@ -44,12 +44,18 @@
 										<a class="button" href="#none" title="">Delete</a>
 										<p>Maximum 500kb or 500 px x 500 px in size</p>
 									</div>
-									
+								</div>
+							</div>
+
+							<div class="form-group profile-about">
+								<label class="col-md-3 control-label">About me</label>
+								<div class="col-md-5">
+									<textarea class="form-control" rows="2"></textarea>
 								</div>
 							</div>
 
 							<div class="form-group">
-								<label class="col-md-3 control-label" style="padding-top:6px">Gender</label>
+								<label class="col-md-3 control-label" style="padding-top:4px">Gender</label>
 								<div class="col-md-9">
 									<label class="label-radio">
 										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
@@ -94,6 +100,12 @@
 									</div>
 								</div>
 								<div class="single-line">
+									<label class="col-md-3 control-label">Webpage</label>
+									<div class="col-md-5">
+										<input type="webpage" class="form-control" id="" placeholder="http://">
+									</div>
+								</div>
+								<div class="single-line">
 									<label class="col-md-3 control-label">Location</label>
 									<div class="col-md-5">
 										<input type="email" class="form-control input-margin-bottom" id="inputEmail3" placeholder="Country">
@@ -101,15 +113,13 @@
 										<input type="email" class="form-control input-margin-bottom" id="inputEmail3" placeholder="City">
 									</div>
 								</div>
-							</div>
-
-							<div class="form-group" style="padding-bottom:35px;">
-								<label class="col-md-3 control-label">Add Equipments</label>
-								<div class="col-md-5">
-									<input type="email" class="form-control input-margin-bottom" id="inputEmail3" placeholder="">
-									<a id="js_add_btn" class="add-btn" href="#none"><i class="icon-plus"></i></a>
+								<div class="single-line">
+									<label class="col-md-3 control-label">Add Equipments</label>
+									<div class="col-md-5">
+										<input type="email" class="form-control input-margin-bottom" id="inputEmail3" placeholder="">
+										<a id="js_add_btn" class="add-btn" href="#none"><i class="icon-plus"></i></a>
+									</div>
 								</div>
-
 							</div>
 
 							<div class="form-group save-btn-line">
