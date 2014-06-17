@@ -1361,7 +1361,7 @@ img {
 }
 .work-single-info {
   width: 100%;
-  height: 65px;
+  height: 67px;
   border-top: 1px solid #ddddde;
   border-bottom: 1px solid #ddddde;
   background: #eeeeef;
@@ -1369,9 +1369,9 @@ img {
 .work-single-title {
   position: relative;
   float: left;
-  width: 478px;
+  width: 600px;
   padding-top: 5px;
-  padding-left: 56px;
+  padding-left: 62px;
   font-size: 18px;
   color: #1b1b1b;
 }
@@ -1379,7 +1379,7 @@ img {
   display: inline-block;
   float: left;
   width: 100%;
-  padding: 8px 0 0 10px;
+  padding: 10px 0 0 10px;
   font-size: 18px;
   color: #000;
   white-space: nowrap;
@@ -1399,23 +1399,29 @@ img {
 }
 .work-single-title .work-user-img {
   position: absolute;
-  top: 5px;
+  top: 3px;
   left: 0px;
-  width: 56px;
-  height: 53px;
-  border-radius: 6px;
+  width: 62px;
+  height: 60px;
   overflow: hidden;
 }
-.work-single-title .work-user-img .vip-vote {
+.work-single-title .expert {
   display: none;
   position: absolute;
-  width: 27px;
-  height: 22px;
-  top: 0px;
+  bottom: 0px;
   left: 0px;
-  background-position: -426px -192px;
+  width: 100%;
+  height: 15px;
+  background-color: #ff6600;
+  text-align: center;
+  line-height: 18px;
+  color: #ffffff;
+  font-size: 12px;
 }
-.work-single-title .work-user-img.vip .vip-vote {
+.work-single-info.exp .work-single-title {
+  width: 450px;
+}
+.work-single-info.exp .work-single-title .expert {
   display: block;
 }
 .work-user-info-warp {
@@ -1431,6 +1437,7 @@ img {
   border-radius: 6px;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid #eeeeee;
+  z-index: 100;
 }
 .work-user-info-warp.show {
   display: block;
@@ -1490,12 +1497,16 @@ img {
   height: 65px;
   padding-top: 24px;
 }
-.work-single-toolbar .widget li {
+.work-single-toolbar a {
   display: inline-block;
   float: left;
+}
+.work-single-toolbar .widget li {
+  display: inline-block;
   position: relative;
   height: 16px;
-  padding: 0 16px;
+  padding: 0 18px 0 16px;
+  line-height: 20px;
   border-right: 2px solid #959595;
 }
 .work-single-toolbar .widget-score {
@@ -1527,16 +1538,43 @@ img {
 }
 /* 评分模块 
 =====================================================*/
+.work-single-info.exp .widget li.widget-rate {
+  display: inline-block;
+}
+.widget li.widget-rate {
+  display: none;
+  padding: 0px;
+  border: none;
+}
+.widget li.widget-rate .mod-rate {
+  margin-top: -14px;
+}
 .mod-rate {
+  float: left;
+  position: relative;
+  width: 224px;
+  height: 46px;
+  padding: 6px 7px 6px 14px;
+  background-color: #313131;
+  border-radius: 5px;
+  line-height: 38px;
   overflow: hidden;
 }
 .mod-rate .icon-star {
   float: left;
   cursor: pointer;
   color: #959595;
+  font-size: 16px;
 }
 .mod-rate .icon-star.active {
   color: #ff7b06;
+}
+.mod-rate .button {
+  position: absolute;
+  right: 7px;
+  top: 6px;
+  line-height: 1em;
+  font-size: 14px;
 }
 /* 全星级样式 */
 .level-1 .star-1,
@@ -1752,7 +1790,12 @@ img {
   font-size: 14px;
 }
 .work-single-tags .links a {
-  color: #a0a0a0;
+  display: inline-block;
+  padding: 4px 8px 0px 8px;
+  margin-right: 4px;
+  background-color: #e5e5e5;
+  border-radius: 4px;
+  color: #7d7d7d;
 }
 .work-single-tags .links a:hover {
   color: #7d7d7d;
@@ -1796,6 +1839,7 @@ img {
   position: absolute;
   top: 15px;
   left: 15px;
+  width: 100% !important;
 }
 .page.fullscreen .work-single-toolbar {
   float: none;
@@ -1805,18 +1849,6 @@ img {
   left: 0;
   color: #fff;
   text-align: center;
-}
-.page.fullscreen .work-single-toolbar li {
-  float: none;
-  padding: 0 18px 0 16px;
-  line-height: 20px;
-}
-.page.fullscreen .work-single-toolbar a {
-  display: inline-block;
-  float: left;
-}
-.page.fullscreen .work-single-toolbar .mod-rate {
-  float: left;
 }
 .page.fullscreen .work-user-info-warp {
   top: 5px;

@@ -1,16 +1,19 @@
 /* work-single */
 .work-single-top{width:100%;min-height:524px;padding-top:15px;background:#000;}
 .work-single-cont{position:relative;}
-.work-single-info{width:100%;height:65px;border-top:1px solid #ddddde;border-bottom:1px solid #ddddde;background:#eeeeef;}
+.work-single-info{width:100%;height:67px;border-top:1px solid #ddddde;border-bottom:1px solid #ddddde;background:#eeeeef;}
 
-.work-single-title{position: relative;float:left;width:478px;padding-top:5px;padding-left:56px;font-size:18px;color:#1b1b1b;}
-.work-single-title .title-text{display: inline-block;float: left;width: 100%;padding: 8px 0 0 10px;font-size: 18px;color: #000;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; text-transform: uppercase;line-height: 18px;}
+.work-single-title{position: relative;float:left;width:600px;padding-top:5px;padding-left:62px;font-size:18px;color:#1b1b1b;}
+.work-single-title .title-text{display: inline-block;float: left;width: 100%;padding: 10px 0 0 10px;font-size: 18px;color: #000;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; text-transform: uppercase;line-height: 18px;}
 .work-single-title .work-user-name{display: block;padding:5px 0 0 10px;font-size: 14px;color: #535353;text-transform: uppercase; overflow: hidden;}
-.work-single-title .work-user-img{position: absolute;top:5px;left: 0px; width: 56px;height: 53px;border-radius: 6px;overflow: hidden;}
-.work-single-title .work-user-img .vip-vote{display: none;position: absolute;width:27px;height: 22px;top:0px;left:0px;background-position: -426px -192px;}
-.work-single-title .work-user-img.vip .vip-vote{display: block;}
+.work-single-title .work-user-img{position: absolute;top:3px;left: 0px; width: 62px;height: 60px;overflow: hidden;}
+.work-single-title .expert{display: none;position: absolute;bottom:0px;left:0px;width: 100%;height: 15px;background-color: #ff6600;text-align: center;line-height: 18px;color: #ffffff;font-size: 12px;}
 
-.work-user-info-warp{display: none;position: absolute;top:-35px;left: 102px;width: 435px;min-height: 145px;padding:12px 35px;background-color: rgba(255, 255, 255, 0.95);background-color: #fff \9;border-radius: 6px;box-shadow:0 0 10px 1px rgba(0,0,0,.1);border: 1px solid #eeeeee;}
+.work-single-info.exp .work-single-title{width: 450px;}
+.work-single-info.exp .work-single-title .expert{display: block;}
+
+
+.work-user-info-warp{display: none;position: absolute;top:-35px;left: 102px;width: 435px;min-height: 145px;padding:12px 35px;background-color: rgba(255, 255, 255, 0.95);background-color: #fff \9;border-radius: 6px;box-shadow:0 0 10px 1px rgba(0,0,0,.1);border: 1px solid #eeeeee;z-index: 100;}
 .work-user-info-warp.show{display: block;}
 .work-user-info-warp:before{
 	content: "";
@@ -35,8 +38,10 @@
 .work-user-info .other-list .btn.next{right:-23px;background-position: -438px -215px;}
 
 .work-single-toolbar{float: right;height: 65px;padding-top: 24px;}
-.work-single-toolbar .widget li{display: inline-block;float: left;position: relative;height:16px;padding: 0 16px;border-right: 2px solid #959595;}
+.work-single-toolbar a{display: inline-block;float: left;}
+.work-single-toolbar .widget li{display: inline-block;position: relative;height:16px;padding:0 18px 0 16px;line-height: 20px;border-right: 2px solid #959595;}
 .work-single-toolbar .widget-score{font-size: 24px;}
+
 .work-single-toolbar .icon{display: inline-block; color: #959595;font-size: 18px;}
 .work-single-toolbar .icon.active{color: #17b2d3;}
 .work-single-toolbar .icon-zoom-in{width: 18px;height: 18px;background-position: -474px -20px;}
@@ -46,9 +51,15 @@
 
 /* 评分模块 
 =====================================================*/
-.mod-rate{overflow: hidden;}
-.mod-rate .icon-star{float:left;cursor: pointer;color: #959595;}
+.work-single-info.exp .widget li.widget-rate{display: inline-block;}
+
+.widget li.widget-rate{display: none; padding:0px;border: none;}
+.widget li.widget-rate .mod-rate{margin-top: -14px;}
+
+.mod-rate{float: left;position: relative; width: 224px;height: 46px;padding: 6px 7px 6px 14px;background-color: #313131;border-radius: 5px;line-height: 38px; overflow: hidden;}
+.mod-rate .icon-star{float:left;cursor: pointer;color: #959595;font-size: 16px;}
 .mod-rate .icon-star.active{color: #ff7b06;}
+.mod-rate .button{position: absolute;right: 7px;top:6px;line-height: 1em;font-size: 14px;}
 /* 全星级样式 */
 .level-1 .star-1,
 .level-2 .star-1,.level-2 .star-2,
@@ -108,6 +119,6 @@
 .work-single-tags{width:100%;margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #e5e5e5;overflow:hidden;}
 .work-single-tags .title{padding-bottom:12px;font-size:16px;color:#7d7d7d;font-weight:bold;text-transform: uppercase;overflow:hidden;}
 .work-single-tags .links{color:#a0a0a0;line-height:20px;font-size: 14px;}
-.work-single-tags .links a{color:#a0a0a0;}
+.work-single-tags .links a{display: inline-block;padding: 4px 8px 0px 8px;margin-right:4px;background-color: #e5e5e5;border-radius: 4px; color:#7d7d7d;}
 .work-single-tags .links a:hover{color:#7d7d7d;}
 .work-single-tags .links span{display:inline-block;padding:0 12px;}

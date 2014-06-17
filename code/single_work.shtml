@@ -79,14 +79,15 @@
 			</div>
 		</div>
 
-		<div class="work-single-info">
+		<div class="work-single-info exp"> <!-- 如果是专家添加 exp-->
 			<div class="container">
 				<div class="work-single-title">
-					<a class="work-user-img vip" href="#none"> <!-- if vip addClass vip -->
-						<img width="56" height="53" src="http://jiagege.cn/source/?x=56x53">
-						<span class="spr vip-vote"></span>
+					<a class="work-user-img" href="#none">
+						<img width="62" height="60" src="http://jiagege.cn/source/?x=62x60">
+						<!-- <span class="spr vip-vote"></span> -->
+						<span class="expert">EXPERT</span>
 					</a>
-					<p class="title-text">Having fun on the beach</p>
+					<p class="title-text">Having fun on the beach Having fun on the beach</p>
 					<span class="work-user-name">Ali Erturk</span>
 					<div class="work-user-info-warp"> <!-- padding:12px 35px;width: 435px; -->
 						<div class="work-user-info"><!-- 此块可抽出 -->
@@ -108,21 +109,22 @@
 					</div>
 				</div>
 				<div class="work-single-toolbar">
+
 		            <ul class="widget">
-		            	<li class="widget-score"><span>99.8</span></li>
-		            	<li class="widget-rate">
+						<li class="widget-rate">
 		            		<div class="mod-rate level-3" data-level="3"><!-- 星级样式 level-3 替换后面数字 -->
 		            			<i class="icon icon-star star-1 active"></i><!-- active为star激活样式，去除即为默认 -->
 		            			<i class="icon icon-star star-2"></i>
 		            			<i class="icon icon-star star-3"></i>
 		            			<i class="icon icon-star star-4"></i>
 		            			<i class="icon icon-star star-5"></i>
+		            			<a class="button button-blue" href="#none">confirm</a>
 		            		</div>
 		            	</li>
+		            	<li class="widget-score"><span>99.8</span></li>
 		            	<li class="widget-view">
 		            		<a class="widget-link">
-		            			<i class="icon icon-eye active"></i>
-		            			<span class="num">2167</span>
+		            			<span class="num">2167 views</span>
 		            		</a>
 		            	</li>
 		            	<li class="widget-thumbs-up">
@@ -176,13 +178,13 @@
 				<div class="work-single-tags">
 					<div class="title">TAGS</div>
 					<p class="links">
-						<a href="#none">B&W</a><span>|</span>
-						<a href="#none">Black & White</a><span>|</span>
-						<a href="#none">District</a><span>|</span>
-						<a href="#none">Efex Pro</a><span>|</span>
-						<a href="#none">RainRiverRock SkyStorm</a><span>|</span>
-						<a href="#none">StreamValley</a><span>|</span>
-						<a href="#none">WaterWeather</a>
+						<a class="tag-link" href="#none">B&W</a>
+						<a class="tag-link" href="#none">Black & White</a>
+						<a class="tag-link" href="#none">District</a>
+						<a class="tag-link" href="#none">Efex Pro</a>
+						<a class="tag-link" href="#none">RainRiverRock SkyStorm</a>
+						<a class="tag-link" href="#none">StreamValley</a>
+						<a class="tag-link" href="#none">WaterWeather</a>
 					</p>
 				</div>
 
