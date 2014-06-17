@@ -79,7 +79,7 @@
 			</div>
 		</div>
 
-		<div class="work-single-info exp"> <!-- 如果是专家添加 exp-->
+		<div class="work-single-info expert-show"> <!-- 如果是专家添加 expert-show-->
 			<div class="container">
 				<div class="work-single-title">
 					<a class="work-user-img" href="#none">

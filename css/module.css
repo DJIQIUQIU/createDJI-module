@@ -1418,10 +1418,10 @@ img {
   color: #ffffff;
   font-size: 12px;
 }
-.work-single-info.exp .work-single-title {
+.work-single-info.expert-show .work-single-title {
   width: 450px;
 }
-.work-single-info.exp .work-single-title .expert {
+.work-single-info.expert-show .work-single-title .expert {
   display: block;
 }
 .work-user-info-warp {
@@ -1538,7 +1538,7 @@ img {
 }
 /* 评分模块 
 =====================================================*/
-.work-single-info.exp .widget li.widget-rate {
+.work-single-info.expert-show .widget li.widget-rate {
   display: inline-block;
 }
 .widget li.widget-rate {
