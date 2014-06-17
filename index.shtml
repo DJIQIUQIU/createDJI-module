@@ -62,6 +62,8 @@
 		<a href="code/carousel.shtml" title="">轮播组件(carousel.shtml)</a>
 		<p>搜索页面</p>
 		<a href="code/search.shtml" title="">搜索结果页(search.shtml)</a>
+		<p>无数据提示信息</p>
+		<a href="code/no_data.shtml" title="">无数据提示信息(no_data.shtml)</a>
 	<div>
 </div>
 

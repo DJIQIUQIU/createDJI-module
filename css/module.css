@@ -2875,3 +2875,10 @@ hr {
 .right {
   float: right;
 }
+.no-data-msg {
+  width: 680px;
+  height: 200px;
+  margin: 60px auto;
+  background-color: #eeeeee;
+  border-radius: 6px;
+}

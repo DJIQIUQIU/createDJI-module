@@ -16,14 +16,12 @@
 </head>
 <body>
 
-<div class="page">
-
 	<div class="pop-mask"></div>
 	<!-- 弹层尺寸目前定义了3种：
 	small  宽度：642px;
 	normal 宽度：800px;
 	large  宽度：998px; -->
-	<div class="pop small" style="top:40px;">
+	<div class="pop small" style="display:block; top:40px;">
 		<a class="pop-close" href="#none"><i class="icon-cancel"></i></a>
 		<div class="pop-title">
 			Phantom Shell Contest
@@ -71,8 +69,6 @@
 		</div>
 	</div>
 
-
-</div>
 
 <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="../js/custom.js"></script>
