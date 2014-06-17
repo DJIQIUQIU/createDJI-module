@@ -26,6 +26,22 @@
 
 		<!-- upload侧边栏/s 外层需要 manage-container包裹 -->
 		<div class="upload-edit-sidebar">
+
+			<div class="btns-line">
+				<!-- <a class="button button-select" href="" title="">Select all</a> -->
+				<div class="btns-line-top">
+					<a class="button button-subsidiary left" href="#none">
+						<i class="spr icon icon-edit-all"></i>
+						Edit all
+					</a>
+					<a class="button button-subsidiary right" href="#none">
+						<i class="spr icon icon-add"></i>
+						Add
+					</a>
+				</div>
+				<a class="button button-confirm" href="" title="">Upload 6 photos</a>
+			</div>
+
 			<div class="edit-status">
 				Editing 2 photo:
 			</div>
@@ -33,7 +49,7 @@
 
 				<div class="single-line">
 					<label class="control-label">Title:</label>
-					<input type="email" class="form-control" id="inputEmail3" placeholder="Title">
+					<input type="text" class="form-control" id="" placeholder="Title">
 				</div>
 
 				<div class="single-line">
@@ -43,7 +59,12 @@
 
 				<div class="single-line">
 					<label class="control-label">TAGS:</label>
-					<input type="email" class="form-control" id="inputEmail3" placeholder="TAGS">
+					<input type="text" class="form-control" id="" placeholder="TAGS">
+				</div>
+
+				<div class="single-line">
+					<label class="control-label">Location:</label>
+					<input type="text" class="form-control" id="" placeholder="Location">
 				</div>
 
 				<div class="single-line">
@@ -58,10 +79,7 @@
 				</div>
 
 			</div>
-			<div class="btns-line">
-				<a class="button button-select" href="" title="">Select all</a>
-				<a class="button button-confirm" href="" title="">Confirm</a>
-			</div><!-- / -->
+			
 		</div>
 		<!-- upload侧边栏/e -->
 

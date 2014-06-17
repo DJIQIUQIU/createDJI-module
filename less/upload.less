@@ -28,10 +28,12 @@
 
 
 // sidebar
-.upload-edit-sidebar{position: absolute;top: 0px;left: 15px;width: 255px;color:#707070;z-index: 22;}
+.upload-edit-sidebar{position: absolute;top: 0px;left: 15px;width: 255px;padding-top:26px;color:#707070;z-index: 22;}
 .upload-edit-sidebar input,
 .upload-edit-sidebar textarea{font-size:18px;color: #bfbfbf;}
 .upload-edit-sidebar label{font-weight: normal;}
+.upload-edit-sidebar .form-control{background-color: #f8f8f8;}
+.upload-edit-sidebar .form-control:focus{background-color: #FFFFFF;}
 
 .upload-edit-sidebar .edit-status{width: 100%;height: 52px;font-size:18px;line-height: 52px;}
 .upload-edit-sidebar .single-line{width: 100%;margin-bottom: 12px;}
@@ -41,6 +43,10 @@
 .upload-edit-sidebar .button-select{background-color: #59bd00;color: #fff;}
 .upload-edit-sidebar .button-confirm{background-color: #00abd0;color: #fff;}
 
+.upload-edit-sidebar .button-subsidiary{width: 120px;height: 40px;background-color: #eeeeee;border: 1px solid #dcdcdc;border-radius: 4px;font-size: 16px;color: #7d7d7d;line-height: 20px;}
+.upload-edit-sidebar .icon{display: inline-block;float:left;width: 16px;height: 16px;}
+.upload-edit-sidebar .icon-edit-all{background-position: -475px -99px;}
+.upload-edit-sidebar .icon-add{background-position: -475px -117px;}
 
 // 作品上传单元格
 .upload-cell-warp{width: 105%;}
@@ -63,11 +69,12 @@
 .upload-work-cell p.work-info-title{margin:8px 0 4px 2px;font-weight:bold;font-size:@font-size-normal;}
 .upload-work-cell p.work-info-date{font-size:@font-size-small;}
 
-.upload-work-cell .form-control{height: 34px;margin-top: 4px;border-radius: 0px;font-size: 18px;border-color:#f6f6f6;
+.upload-work-cell .form-control{height: 34px;margin-top: 4px;border-radius: 0px;font-size: 16px;border-color:#f6f6f6;color: #959595;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.0);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,0.0);
 	-webkit-transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;
 	transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;}
+.upload-work-cell .form-control:focus{color: #555;}
 .upload-work-cell .upload-work-btns{display: none;}
 
 .upload-work-cell .btn{position: absolute;top: -8px;width: 28px;height: 28px;border: 2px solid #FFF;background-color:#000;border-radius: 25px; opacity:0.6;line-height: 25px;text-align: center;color: #FFF;font-size: 14px;}

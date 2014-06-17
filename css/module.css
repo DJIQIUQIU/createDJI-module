@@ -7,6 +7,7 @@ img {
 .form-control {
   height: 42px;
   font-family: Arial;
+  border-radius: 0px;
 }
 .container {
   width: 1230px;
@@ -2471,6 +2472,7 @@ img {
   top: 0px;
   left: 15px;
   width: 255px;
+  padding-top: 26px;
   color: #707070;
   z-index: 22;
 }
@@ -2481,6 +2483,12 @@ img {
 }
 .upload-edit-sidebar label {
   font-weight: normal;
+}
+.upload-edit-sidebar .form-control {
+  background-color: #f8f8f8;
+}
+.upload-edit-sidebar .form-control:focus {
+  background-color: #FFFFFF;
 }
 .upload-edit-sidebar .edit-status {
   width: 100%;
@@ -2509,6 +2517,28 @@ img {
 .upload-edit-sidebar .button-confirm {
   background-color: #00abd0;
   color: #fff;
+}
+.upload-edit-sidebar .button-subsidiary {
+  width: 120px;
+  height: 40px;
+  background-color: #eeeeee;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #7d7d7d;
+  line-height: 20px;
+}
+.upload-edit-sidebar .icon {
+  display: inline-block;
+  float: left;
+  width: 16px;
+  height: 16px;
+}
+.upload-edit-sidebar .icon-edit-all {
+  background-position: -475px -99px;
+}
+.upload-edit-sidebar .icon-add {
+  background-position: -475px -117px;
 }
 .upload-cell-warp {
   width: 105%;
@@ -2604,12 +2634,16 @@ img {
   height: 34px;
   margin-top: 4px;
   border-radius: 0px;
-  font-size: 18px;
+  font-size: 16px;
   border-color: #f6f6f6;
+  color: #959595;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
   -webkit-transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;
   transition: border-color ease-in-out 0s, box-shadow ease-in-out 0s;
+}
+.upload-work-cell .form-control:focus {
+  color: #555;
 }
 .upload-work-cell .upload-work-btns {
   display: none;
