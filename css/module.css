@@ -2877,8 +2877,27 @@ hr {
 }
 .no-data-msg {
   width: 680px;
-  height: 200px;
   margin: 60px auto;
+  padding: 65px 35px;
   background-color: #eeeeee;
   border-radius: 6px;
+  text-align: center;
+}
+.no-data-msg .icon {
+  color: #00abd0;
+}
+.no-data-msg p {
+  text-align: center;
+  color: #7d7d7d;
+}
+.no-data-msg p.title {
+  margin-bottom: 14px;
+  font-size: 30px;
+}
+.no-data-msg p.text {
+  font-size: 18px;
+}
+.no-data-msg p a {
+  color: #00abd0;
+  text-decoration: underline;
 }

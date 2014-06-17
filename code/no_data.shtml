@@ -69,8 +69,21 @@
 	<div class="container">
 
 		<div class="no-data-msg">
-			<p class="title"></p>
-			
+			<p class="title">You haven't uploaded any photo!</p>
+			<p class="text"><a href="#none">Go to upload a photo</a></p>
+		</div>
+
+		<div class="no-data-msg">
+			<p class="title">You have no favourite work yet.</p>
+			<p class="text">Remember to favor <i class="icon icon-heart"></i> the work next time.</p>
+		</div>
+
+		<div class="no-data-msg">
+			<p class="title">The author hasn't uploaded any photo yet.</p>
+		</div>
+
+		<div class="no-data-msg">
+			<p class="title">The author has no favourite work.</p>
 		</div>
 
 	</div>
