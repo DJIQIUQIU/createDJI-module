@@ -2489,6 +2489,10 @@ img {
 }
 .upload-edit-sidebar .form-control:focus {
   background-color: #FFFFFF;
+  color: #555;
+}
+.upload-edit-sidebar .input-margin-bottom {
+  margin-bottom: 4px;
 }
 .upload-edit-sidebar .edit-status {
   width: 100%;
@@ -2515,6 +2519,7 @@ img {
   color: #fff;
 }
 .upload-edit-sidebar .button-confirm {
+  margin-bottom: 4px;
   background-color: #00abd0;
   color: #fff;
 }
