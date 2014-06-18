@@ -73,7 +73,6 @@
 	                    </div>
 	                </div>
 	                <div class="preview-action">
-	                    <a class="button">Delete</a>
 	                    <a class="button">Cancel</a>
 	                    <a class="button button-green">Save Changes</a>
 	                </div>

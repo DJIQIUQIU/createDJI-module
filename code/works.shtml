@@ -269,7 +269,7 @@
 				</a>
 				<div class="work-edit">
 					<a class="btn edit" href="manage_photo_edit.shtml">Edit</a>
-					<a class="btn del" href="javascript:;">Del</a>
+					<a class="spr btn del" href="javascript:;">Del</a>
 				</div>
 				<div class="work-info">
 					<p class="work-info-title"><a href="#none" alt="Harbour of sunset Harbour of sunset">Harbour of sunset Harbour of sunset</a></p>
@@ -313,7 +313,7 @@
 				</a>
 				<div class="work-edit">
 					<a class="btn edit" href="manage_photo_edit.shtml">Edit</a>
-					<a class="btn del" href="javascript:;">Del</a>
+					<a class="spr btn del" href="javascript:;">Del</a>
 				</div>
 				<div class="work-info">
 					<p class="work-info-title"><a href="#none" alt="Harbour of sunset Harbour of sunset">Harbour of sunset Harbour of sunset</a></p>
@@ -394,7 +394,7 @@
 					<img class="width-responsive" src="http://jiagege.cn/source/?x=220x220">
 				</a>
 				<div class="work-edit">
-					<a class="btn del" href="javascript:;">Del</a>
+					<a class="spr btn del" href="javascript:;">Del</a>
 				</div>
 			</div>
 
@@ -404,7 +404,7 @@
 					<div class="work-status rejected"><span class="text">Rejected</span></div>
 				</a>
 				<div class="work-edit">
-					<a class="btn del" href="javascript:;">Del</a>
+					<a class="spr btn del" href="javascript:;">Del</a>
 				</div>
 			</div>
 
@@ -414,7 +414,7 @@
 					<span class="work-private-status">Private</span>
 				</a>
 				<div class="work-edit">
-					<a class="btn del" href="javascript:;">Del</a>
+					<a class="spr btn del" href="javascript:;">Del</a>
 				</div>
 			</div>
 
@@ -428,7 +428,7 @@
 					<span class="spr video-play-btn"></span>
 				</a>
 				<div class="work-edit">
-					<a class="btn del" href="javascript:;">Del</a>
+					<a class="spr btn del" href="javascript:;">Del</a>
 				</div>
 			</div>
 
@@ -439,7 +439,7 @@
 					<div class="work-status rejected"><span class="text">Rejected</span></div>
 				</a>
 				<div class="work-edit">
-					<a class="btn del" href="javascript:;">Del</a>
+					<a class="spr btn del" href="javascript:;">Del</a>
 				</div>
 			</div>
 
@@ -450,7 +450,7 @@
 					<span class="work-private-status">Private</span>
 				</a>
 				<div class="work-edit">
-					<a class="btn del" href="javascript:;">Del</a>
+					<a class="spr btn del" href="javascript:;">Del</a>
 				</div>
 			</div>
 
