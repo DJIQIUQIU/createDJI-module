@@ -32,7 +32,7 @@
 					<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China</p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -51,7 +51,7 @@
 					<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -70,7 +70,7 @@
 					<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -89,7 +89,7 @@
 					<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -112,7 +112,7 @@
 					<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -131,7 +131,7 @@
 					<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -150,7 +150,7 @@
 					<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -178,7 +178,7 @@
 					<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -201,7 +201,7 @@
 					<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -224,7 +224,7 @@
 					<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -247,7 +247,7 @@
 					<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 				</div>
 				<div class="js_show_share share">
-					<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+					<a class="js_show_share_btn spr share-btn"></a>
 					<ul class="share-list">
 						<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 						<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
