@@ -78,7 +78,7 @@
 									<div class="email-line col-md-5">
 										<input type="email" class="form-control" id="inputEmail3" placeholder="jia.xu@dji.com" disabled>
 										<p class="ohter-info">Please verify your email address. <a class="resend-link" href="#none">Resend comfirmation</a></p>
-										<span class="spr mark"></span>
+										<span class="spr icon icon-alert"></span>
 									</div>
 								</div>
 								<div class="single-line">

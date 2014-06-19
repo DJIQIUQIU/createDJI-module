@@ -21,9 +21,14 @@
 	small  宽度：642px;
 	normal 宽度：800px;
 	large  宽度：998px; -->
+
 	<div class="pop small" style="display:block; top:40px;">
 		<a class="pop-close" href="#none"><i class="icon-cancel"></i></a>
 		<div class="pop-title">
+			<!-- <i class="spr icon icon-alert"></i> -->
+			<i class="spr icon icon-msg"></i>
+			<!-- <i class="spr icon icon-succeed"></i> -->
+			<!-- <i class="spr icon icon-error"></i> -->
 			Phantom Shell Contest
 		</div>
 		<div class="pop-cont">
@@ -67,6 +72,19 @@
 				custom ...
 			</div>
 		</div>
+	</div>
+
+	<div class="pop small" style="display:block; top:940px;">
+		<a class="pop-close" href="#none"><i class="icon-cancel"></i></a>
+		
+		<div class="pop-cont">
+			<div class="account-link-info">
+				<i class="spr icon icon-information"></i>
+				<p class="title">Sorry,link account failure.</p>
+				<p class="text">Please try again.</p>
+			</div>
+		</div>
+		
 	</div>
 
 
