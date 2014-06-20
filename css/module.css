@@ -12,6 +12,38 @@ img {
 .container {
   width: 1230px;
 }
+.div.tagsinput span.tag {
+  background: #dcdcdc !important;
+  border: 1px solid #dcdcdc !important;
+  color: #707070 !important;
+}
+div.tagsinput span.tag a {
+  color: #707070 !important;
+}
+.ui-menu {
+  height: 160px !important;
+  padding: 0px !important;
+  border-color: #dcdcdc !important;
+  border-radius: 0px !important;
+  z-index: 99;
+  overflow-y: scroll !important;
+}
+.ui-menu .ui-menu-item a {
+  border: none !important;
+  color: #666 !important;
+  font-size: 12px !important;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border-radius: 0px !important;
+  background: #d2d2d2 !important;
+  border: none !important;
+  font-size: 12px !important;
+}
 .spr {
   background: url(../img/spr.png) no-repeat;
 }
@@ -464,11 +496,11 @@ img {
 }
 .header .header-search input {
   height: 33px;
-  padding-top: 10px;
+  padding-top: 7px;
   padding-left: 35px;
   border-radius: 30px;
   background-color: #fdfdfd;
-  background-position: -466px -251px;
+  background-position: -255px -288px;
   color: #5e5b5b;
 }
 /* footer */
@@ -881,10 +913,10 @@ img {
 .account-warp .login-quick-link.fb {
   background-position: 0 0;
 }
-.account-warp .login-quick-link.tw {
+.account-warp .login-quick-link.gg {
   background-position: 0 -50px;
 }
-.account-warp .login-quick-link.gg {
+.account-warp .login-quick-link.tw {
   background-position: 0 -100px;
 }
 .account-warp .login-quick-link.wb {
@@ -1170,8 +1202,7 @@ img {
 .work-cell .share-list {
   display: none;
   width: 42px;
-  height: 118px;
-  padding-top: 5px;
+  padding: 5px 0px;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
 }
@@ -1180,16 +1211,54 @@ img {
 }
 .work-cell .share-list li {
   display: block;
-  width: 21px;
-  height: 21px;
-  margin: 5px 6px;
+  width: 28px;
+  height: 27px;
+  margin: 5px 7px;
 }
 .work-cell .share-list .share-icon {
   display: block;
-  width: 21px;
-  height: 21px;
-  font-size: 21px;
+  width: 28px;
+  height: 27px;
   color: #fff;
+}
+.work-cell .share-list i {
+  display: block;
+  width: 28px;
+  height: 27px;
+  background: url(../img/spr.png) no-repeat;
+}
+.work-cell .share-list i:before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 27px;
+  margin: 0px;
+  left: 0px;
+  line-height: 0px;
+}
+.work-cell .share-list i.icon-twitter-circled {
+  background-position: -594px -221px;
+}
+.work-cell .share-list i.icon-twitter-circled:hover {
+  background-position: -594px -249px;
+}
+.work-cell .share-list i.icon-facebook-circled {
+  background-position: -594px -109px;
+}
+.work-cell .share-list i.icon-facebook-circled:hover {
+  background-position: -594px -137px;
+}
+.work-cell .share-list i.icon-weibo-circled {
+  background-position: -594px -277px;
+}
+.work-cell .share-list i.icon-weibo-circled:hover {
+  background-position: -594px -305px;
+}
+.work-cell .share-list i.icon-gplus-circled {
+  background-position: -594px -165px;
+}
+.work-cell .share-list i.icon-gplus-circled:hover {
+  background-position: -594px -193px;
 }
 .work-cell .work-edit {
   display: none;
@@ -1420,11 +1489,15 @@ img {
 .work-single-top {
   width: 100%;
   min-height: 524px;
-  padding-top: 15px;
+  padding: 15px 0 13px 0;
   background: #000;
 }
 .work-single-cont {
   position: relative;
+  text-align: center;
+}
+.work-single-cont img {
+  display: inline-block;
 }
 .work-single-info {
   width: 100%;
@@ -1683,8 +1756,8 @@ img {
   position: absolute;
   width: 232px;
   padding: 15px;
-  top: -88px;
-  left: -88px;
+  top: -100px;
+  left: -114px;
   background-color: rgba(255, 255, 255, 0.95);
   background-color: #fff\9;
   border-radius: 6px;
@@ -1702,9 +1775,9 @@ img {
   border-top: 8px solid rgba(255, 255, 255, 0.95);
   border-top: 8px solid #FFF \9;
   height: 8px;
-  bottom: -16px;
+  bottom: -17px;
   left: 50%;
-  margin-left: -6px;
+  margin-left: 17px;
 }
 .layer-warp strong {
   color: #000000;
@@ -2388,6 +2461,8 @@ img {
 }
 .work-edit .preview-form .label-line {
   display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 .work-edit .preview-form .input-title {
   display: inline-block;
@@ -2406,6 +2481,9 @@ img {
   display: inline-block;
   width: 195px;
   margin-right: 8px;
+}
+.work-edit .preview-form .input-location label {
+  padding-left: 2px;
 }
 .my-password .form-group {
   padding: 15px 0 5px 0;
@@ -2432,25 +2510,28 @@ img {
   width: 100%;
   height: 142px;
   border-bottom: 1px solid #808889;
+  padding-top: 52px;
 }
 .upload .upload-tab .tab-item {
   display: inline-block;
   float: left;
   width: 50%;
-  height: 100%;
-  padding-top: 52px;
+  padding: 20px 10px;
 }
 .upload .upload-tab .tab-item a.fake-link {
   display: block;
   width: 100%;
-  border-right: 1px solid #f2f4f5;
   color: #f2f4f5;
   text-align: center;
-  font-size: 42px;
-  font-weight: lighter;
+  font-size: 32px;
 }
 .upload .upload-tab .tab-item.last a.fake-link {
   border: none;
+}
+.upload .upload-tab .tab-item.active {
+  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #405f65 \9;
+  border-radius: 5px;
 }
 .upload .upload-tab .tab-item.active a.fake-link {
   font-weight: normal;
@@ -2606,10 +2687,14 @@ img {
   height: 166px;
   border: 4px solid #959595;
   background: #ffffff url(../img/loading.gif) no-repeat center center;
+  overflow: hidden;
 }
 .upload-work-cell.video .upload-work-img {
   width: 100%;
   height: 158px;
+}
+.upload-work-cell .upload-work-preview {
+  text-align: center;
 }
 .upload-work-cell .upload-work-img img {
   display: block;
@@ -2976,11 +3061,11 @@ a.btn-next {
 }
 a.btn-prev {
   background-position: 0 -200px;
-  left: -94px;
+  left: 15px;
 }
 a.btn-next {
   background-position: -66px -200px;
-  right: -94px;
+  right: 15px;
 }
 .logined-box {
   display: none;

@@ -58,18 +58,27 @@
 	                        <label class="radio-label"><input type="radio" name="type" checked> Public</label>
 	                    </div>
 	                    <div class="form-group">
-	                        <label for="description">Description</label>
+	                        <label class="label-line" for="description">Description</label>
 	                        <textarea class="form-control textarea-desc" id="description" rows="5"></textarea>
 	                    </div>
 	                    <div class="form-group">
-	                        <label for="tags">Tags</label>
+	                        <label class="label-line" for="tags">Tags</label>
 	                        <input type="text" class="form-control input-tags" id="tags">
 	                    </div>
 	                    <div class="form-group">
 	                        <label class="label-line" for="location">Location</label>
-	                        <input type="text" class="form-control input-location" id="location1" placeholder="Country">
-	                        <input type="text" class="form-control input-location" id="location2" placeholder="State">
-	                        <input type="text" class="form-control input-location" id="location3" placeholder="City">
+	                        <div class="input-location">
+	                        	<label>Country</label>
+	                        	<input type="text" class="form-control" id="location1" placeholder="">
+	                    	</div>
+	                    	<div class="input-location">
+	                    		<label>State</label>
+	                        	<input type="text" class="form-control input-location" id="location2" placeholder="">
+	                    	</div>
+	                        <div class="input-location">
+	                        	<label>City</label>
+	                        	<input type="text" class="form-control input-location" id="location3" placeholder="">
+	                    	</div>
 	                    </div>
 	                </div>
 	                <div class="preview-action">
