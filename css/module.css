@@ -9,6 +9,9 @@ img {
   font-family: Arial;
   border-radius: 0px;
 }
+.form-control:focus {
+  color: #000;
+}
 .container {
   width: 1230px;
 }
@@ -2310,6 +2313,9 @@ div.tagsinput span.tag a {
   font-size: 14px;
   color: #707070;
 }
+.my-profile .form-horizontal .control-label {
+  text-align: right;
+}
 .my-profile .form-group label.label-radio {
   padding-right: 15px;
   cursor: pointer;
@@ -2396,6 +2402,7 @@ div.tagsinput span.tag a {
 .experience p {
   display: block;
   float: left;
+  width: 100%;
   padding: 12px 0 18px 0;
   font-size: 14px;
   color: #707070;
