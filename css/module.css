@@ -1147,10 +1147,6 @@ div.tagsinput span.tag a {
 .work-cell p {
   margin-bottom: 4px;
   color: #fff;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  -o-text-overflow: ellipsis;
-  overflow: hidden;
 }
 .work-cell p i {
   color: #5fc5f2;
@@ -1159,6 +1155,7 @@ div.tagsinput span.tag a {
   color: #ffffff;
 }
 .work-cell p.work-info-title {
+  height: 15px;
   margin: 4px;
   font-weight: bold;
   font-size: 14px;
@@ -1573,7 +1570,6 @@ div.tagsinput span.tag a {
   top: -35px;
   left: 102px;
   width: 435px;
-  min-height: 145px;
   padding: 12px 35px;
   background-color: rgba(255, 255, 255, 0.95);
   background-color: #fff \9;
@@ -3103,6 +3099,12 @@ hr {
 }
 .right {
   float: right;
+}
+.text-overflow {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
 }
 .no-data-msg {
   width: 680px;
