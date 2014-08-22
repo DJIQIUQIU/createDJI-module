@@ -36,7 +36,8 @@
 				<div class="work-cell video">
 					<a class="work-link" href="#none">
 						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-						<span class="spr video-play-btn"></span>
+						<!-- <span class="spr video-play-btn"></span> -->
+						<span class="video-time-span">15:23</span>
 					</a>
 					<span class="work-score">99.8</span>
 					<div class="work-info">
@@ -46,7 +47,7 @@
 						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -59,7 +60,8 @@
 				<div class="work-cell video">
 					<a class="work-link" href="#none">
 						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-						<span class="spr video-play-btn"></span>
+						<!-- <span class="spr video-play-btn"></span> -->
+						<span class="video-time-span">15:23</span>
 					</a>
 					<span class="work-score">99.8</span>
 					<div class="work-info">
@@ -69,7 +71,7 @@
 						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -82,7 +84,8 @@
 				<div class="work-cell video">
 					<a class="work-link" href="#none">
 						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-						<span class="spr video-play-btn"></span>
+						<!-- <span class="spr video-play-btn"></span> -->
+						<span class="video-time-span">15:23</span>
 					</a>
 					<span class="work-score">99.8</span>
 					<div class="work-info">
@@ -92,7 +95,7 @@
 						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -105,7 +108,8 @@
 				<div class="work-cell video">
 					<a class="work-link" href="#none">
 						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-						<span class="spr video-play-btn"></span>
+						<!-- <span class="spr video-play-btn"></span> -->
+						<span class="video-time-span">15:23</span>
 					</a>
 					<span class="work-score">99.8</span>
 					<div class="work-info">
@@ -115,7 +119,7 @@
 						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -128,7 +132,8 @@
 				<div class="work-cell video">
 					<a class="work-link" href="#none">
 						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-						<span class="spr video-play-btn"></span>
+						<!-- <span class="spr video-play-btn"></span> -->
+						<span class="video-time-span">15:23</span>
 					</a>
 					<span class="work-score">99.8</span>
 					<div class="work-info">
@@ -138,7 +143,7 @@
 						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -151,7 +156,8 @@
 				<div class="work-cell video">
 					<a class="work-link" href="#none">
 						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-						<span class="spr video-play-btn"></span>
+						<!-- <span class="spr video-play-btn"></span> -->
+						<span class="video-time-span">15:23</span>
 					</a>
 					<span class="work-score">99.8</span>
 					<div class="work-info">
@@ -161,7 +167,7 @@
 						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -174,7 +180,8 @@
 				<div class="work-cell video">
 					<a class="work-link" href="#none">
 						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-						<span class="spr video-play-btn"></span>
+						<!-- <span class="spr video-play-btn"></span> -->
+						<span class="video-time-span">15:23</span>
 					</a>
 					<span class="work-score">99.8</span>
 					<div class="work-info">
@@ -184,7 +191,7 @@
 						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -197,7 +204,8 @@
 				<div class="work-cell video">
 					<a class="work-link" href="#none">
 						<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-						<span class="spr video-play-btn"></span>
+						<!-- <span class="spr video-play-btn"></span> -->
+						<span class="video-time-span">15:23</span>
 					</a>
 					<span class="work-score">99.8</span>
 					<div class="work-info">
@@ -207,7 +215,7 @@
 						<p class="work-info-date"><i class="icon-calendar-empty"></i>March 10 2014</p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -249,7 +257,7 @@
 						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -268,7 +276,7 @@
 						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -287,7 +295,7 @@
 						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -306,7 +314,7 @@
 						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -325,7 +333,7 @@
 						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -344,7 +352,7 @@
 						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -363,7 +371,7 @@
 						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -382,7 +390,7 @@
 						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>
@@ -401,7 +409,7 @@
 						<p class="work-info-location"><i class="icon-location"></i>Guangdong ,Shenzhen,China  </p>
 					</div>
 					<div class="js_show_share share">
-						<a class="js_show_share_btn share-btn"><i class="icon-share"></i></a>
+						<a class="js_show_share_btn spr share-btn"></a>
 						<ul class="share-list">
 							<li><a class="share-icon" href="#none"><i class="icon-facebook-circled"></i></a></li>
 							<li><a class="share-icon" href="#none"><i class="icon-twitter-circled"></i></a></li>

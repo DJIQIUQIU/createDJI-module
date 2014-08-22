@@ -15,7 +15,7 @@ img {
 .container {
   width: 1230px;
 }
-.div.tagsinput span.tag {
+div.tagsinput span.tag {
   background: #dcdcdc !important;
   border: 1px solid #dcdcdc !important;
   color: #707070 !important;
@@ -1080,7 +1080,7 @@ div.tagsinput span.tag a {
   background: #ffffff url(../img/loading.gif) no-repeat center center;
 }
 .work-cell .work-info-hover {
-  display: none;
+  display: block;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -1109,6 +1109,16 @@ div.tagsinput span.tag a {
   left: 50%;
   margin: -25px 0 0 -25px;
   background-position: -203px -226px;
+}
+.work-cell .video-time-span {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  padding: 5px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 3px;
+  font-family: Arial;
 }
 .work-cell .work-status {
   position: absolute;
@@ -1207,7 +1217,7 @@ div.tagsinput span.tag a {
 .work-cell .share-list {
   display: none;
   width: 42px;
-  padding: 5px 0px;
+  padding: 2px 0px;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
 }
@@ -1318,6 +1328,7 @@ div.tagsinput span.tag a {
   height: 280px;
 }
 .work-cell.event .work-info p.work-info-title {
+  height: 35px;
   padding: 15px 0 10px 0;
   font-size: 18px;
   color: #434343;

@@ -168,7 +168,8 @@
 			<div class="work-cell video">
 				<a class="work-link" href="#none">
 					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-					<span class="spr video-play-btn"></span>
+					<!-- <span class="spr video-play-btn"></span> -->
+					<span class="video-time-span">15:23</span>
 				</a>
 				<span class="work-score">99.8</span>
 				<div class="work-info">
@@ -191,7 +192,8 @@
 			<div class="work-cell video">
 				<a class="work-link" href="#none">
 					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-					<span class="spr video-play-btn"></span>
+					<!-- <span class="spr video-play-btn"></span> -->
+					<span class="video-time-span">15:23</span>
 				</a>
 				<span class="work-score">99.8</span>
 				<div class="work-info">
@@ -214,7 +216,8 @@
 			<div class="work-cell video">
 				<a class="work-link" href="#none">
 					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-					<span class="spr video-play-btn"></span>
+					<!-- <span class="spr video-play-btn"></span> -->
+					<span class="video-time-span">15:23</span>
 				</a>
 				<span class="work-score">99.8</span>
 				<div class="work-info">
@@ -237,7 +240,8 @@
 			<div class="work-cell video">
 				<a class="work-link" href="#none">
 					<img class="width-responsive" src="http://jiagege.cn/source/?x=292x220">
-					<span class="spr video-play-btn"></span>
+					<!-- <span class="spr video-play-btn"></span> -->
+					<span class="video-time-span">15:23</span>
 				</a>
 				<span class="work-score">99.8</span>
 				<div class="work-info">
