@@ -685,6 +685,12 @@ div.tagsinput span.tag a {
 .comment-cell .reply-msg-right {
   color: #707070;
 }
+.comment-cell .reply-msg-right p {
+  padding: 0 10px 26px 175px;
+  line-height: 20px;
+  word-wrap: break-word;
+  word-break: keep-all;
+}
 .pop-mask {
   position: fixed;
   top: 0px;
