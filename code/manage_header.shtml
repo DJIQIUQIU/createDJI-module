@@ -25,7 +25,7 @@
 
 			<div class="manage-uesrinfo">
 				
-				<div class="manage-userimg"><a href="manage_show_photos.shtml"><img src="http://jiagege.cn/source/?x=155x155"></a></div>
+				<div class="manage-userimg"><a href="manage_show_photos.shtml"><img src="http://dummyimage.com/155x155"></a></div>
 				<div class="manage-userintro">
 					<p class="userintro-name">Ali Erturk</p>
 					<div class="userintro-text-box">

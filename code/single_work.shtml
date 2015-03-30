@@ -42,7 +42,7 @@
 			<div class="logined-box">
 				<ul class="header-login">
 					<li>
-						<a class="user-link js-drop-down-btn" href="manage_show_photos.shtml"><img width="33" height="33" src="http://jiagege.cn/source/?x=33x33" alt=""></a>
+						<a class="user-link js-drop-down-btn" href="manage_show_photos.shtml"><img width="33" height="33" src="http://dummyimage.com/33x33" alt=""></a>
 						<ul class="header-drop-down">
 							<li><a href="#none">My profile</a></li>
 							<li><a href="#none">My work</a></li>
@@ -72,7 +72,7 @@
 		<div class="work-single-top">
 			<div class="container">
 				<div class="work-single-cont">
-					<img src="http://jiagege.cn/source/?x=1200x510" />
+					<img src="http://dummyimage.com/1200x510" />
 					<a class="spr btn-prev">prev</a>
 	            	<a class="spr btn-next">next</a>
 				</div>
@@ -83,7 +83,7 @@
 			<div class="container">
 				<div class="work-single-title">
 					<a class="work-user-img" href="#none">
-						<img width="62" height="60" src="http://jiagege.cn/source/?x=62x60">
+						<img width="62" height="60" src="http://dummyimage.com/62x60">
 						<!-- <span class="spr vip-vote"></span> -->
 						<span class="expert">EXPERT</span>
 					</a>
@@ -97,11 +97,11 @@
 								<a class="spr btn next" href="#none"></a>
 								<div class="list-warp">
 									<ul style="width:300%;">
-										<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-										<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-										<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-										<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
-										<li><a href="#none"><img width="66" height="66" src="http://jiagege.cn/source/?x=66x66"></a></li>
+										<li><a href="#none"><img width="66" height="66" src="http://dummyimage.com/66x66"></a></li>
+										<li><a href="#none"><img width="66" height="66" src="http://dummyimage.com/66x66"></a></li>
+										<li><a href="#none"><img width="66" height="66" src="http://dummyimage.com/66x66"></a></li>
+										<li><a href="#none"><img width="66" height="66" src="http://dummyimage.com/66x66"></a></li>
+										<li><a href="#none"><img width="66" height="66" src="http://dummyimage.com/66x66"></a></li>
 									</ul>
 								</div>
 							</div>
@@ -203,13 +203,13 @@
 
 						<div class="js_login_state comment-cell comment-reply">
 							<div class="nologin-box">
-								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="user-img"><img class="img-responsive" src="http://dummyimage.com/55x55" ></div>
 								<div class="reply-msg">
 									<a class="js_login_btn reply-btn" href="javascript:;">Join the discussion</a>
 								</div>
 							</div>
 							<div class="logined-box">
-								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="user-img"><img class="img-responsive" src="http://dummyimage.com/55x55" ></div>
 								<div class="reply-msg">
 									<textarea class="form-control" rows="3"></textarea>
 									<a class="button button-green">Post comment</a>
@@ -219,7 +219,7 @@
 
 						<ul class="comment-msg">
 							<li class="comment-cell">
-								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="user-img"><img class="img-responsive" src="http://dummyimage.com/55x55" ></div>
 								<div class="reply-msg">
 									<div class="reply-msg-left">
 										<p class="name-line">James Binder</p>
@@ -235,7 +235,7 @@
 								<a class="spr del-btn" href="#none">delete</a>
 							</li>
 							<li class="comment-cell">
-								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="user-img"><img class="img-responsive" src="http://dummyimage.com/55x55" ></div>
 								<div class="reply-msg">
 									<div class="reply-msg-left">
 										<p class="name-line">James Binder</p>
@@ -250,7 +250,7 @@
 								</div>
 							</li>
 							<li class="comment-cell">
-								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="user-img"><img class="img-responsive" src="http://dummyimage.com/55x55" ></div>
 								<div class="reply-msg">
 									<div class="reply-msg-left">
 										<p class="name-line">James Binder</p>
@@ -265,7 +265,7 @@
 								</div>
 							</li>
 							<li class="comment-cell">
-								<div class="user-img"><img class="img-responsive" src="http://jiagege.cn/source/?x=55x55" ></div>
+								<div class="user-img"><img class="img-responsive" src="http://dummyimage.com/55x55" ></div>
 								<div class="reply-msg">
 									<div class="reply-msg-left">
 										<p class="name-line">James Binder</p>
@@ -295,12 +295,12 @@
 				<div class="work-single-userwork no-border">
 					<div class="title">Other Recommended Photos</div>
 					<ul>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
-						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://jiagege.cn/source/?x=82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://dummyimage.com/82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://dummyimage.com/82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://dummyimage.com/82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://dummyimage.com/82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://dummyimage.com/82x82"></a></li>
+						<li><a href="javascript:;" title="photo name"><img class="img-responsive" src="http://dummyimage.com/82x82"></a></li>
 					</ul>
 				</div>
 

@@ -20,7 +20,7 @@
     	<div class="fullscreen-header">
 			<div class="work-single-title">
 				<a class="work-user-img vip" href="#none"> <!-- if vip addClass vip -->
-					<img width="56" height="53" src="http://jiagege.cn/source/?x=56x53">
+					<img width="56" height="53" src="http://dummyimage.com/56x53">
 					<span class="spr vip-vote"></span>
 				</a>
 				<p class="title-text">Having fun on the beach</p>

@@ -65,7 +65,7 @@
 
 					<div class="work-cell">
 						<a class="work-link" href="#none">
-							<img class="width-responsive" src="http://jiagege.cn/source/?x=400x400">
+							<img class="width-responsive" src="http://dummyimage.com/400x400">
 						</a>
 						<div class="work-edit">
 							<a class="btn edit" href="manage_photo_edit.shtml">Edit</a>
@@ -80,7 +80,7 @@
 
 					<div class="work-cell">
 						<a class="work-link" href="#none" disabled>
-							<img class="width-responsive" src="http://jiagege.cn/source/?x=400x400">
+							<img class="width-responsive" src="http://dummyimage.com/400x400">
 							<div class="work-status rejected"><span class="text">Rejected</span></div>
 						</a>
 						<div class="work-info">
@@ -92,7 +92,7 @@
 
 					<div class="work-cell">
 						<a class="work-link" href="#none" disabled>
-							<img class="width-responsive" src="http://jiagege.cn/source/?x=400x400">
+							<img class="width-responsive" src="http://dummyimage.com/400x400">
 							<span class="work-private-status">Private</span>
 						</a>
 						<div class="work-info">

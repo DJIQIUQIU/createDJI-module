@@ -49,7 +49,7 @@
 
 				<!-- 作品编辑 /s -->
 	            <div class="work-edit">
-	                <img class="width-responsive" src="http://jiagege.cn/source/?x=900x505">
+	                <img class="width-responsive" src="http://dummyimage.com/900x505">
 	                <div class="preview-form" role="form">
 	                   	<div class="form-group">
 	                        <label class="label-line" for="title">Title</label>

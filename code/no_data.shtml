@@ -42,7 +42,7 @@
 			<div class="logined-box">
 				<ul class="header-login">
 					<li>
-						<a class="user-link js-drop-down-btn" href="manage_show_photos.shtml"><img width="33" height="33" src="http://jiagege.cn/source/?x=33x33" alt=""></a>
+						<a class="user-link js-drop-down-btn" href="manage_show_photos.shtml"><img width="33" height="33" src="http://dummyimage.com/33x33" alt=""></a>
 						<ul class="header-drop-down">
 							<li><a href="#none">My profile</a></li>
 							<li><a href="#none">My work</a></li>

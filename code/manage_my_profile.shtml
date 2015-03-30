@@ -38,7 +38,7 @@
 							<div class="form-group profile-avatar">
 								<label class="col-xs-3 control-label">Avatar</label>
 								<div class="col-xs-6">
-									<img width="142" height="142" class="user-face" src="http://jiagege.cn/source/?x=142x142" alt="">
+									<img width="142" height="142" class="user-face" src="http://dummyimage.com/142x142" alt="">
 									<div class="buttons">
 										<a class="button button-green button-upload" href="#none" title="">Upload picture</a>
 										<a class="button" href="#none" title="">Delete</a>
