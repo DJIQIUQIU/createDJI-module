@@ -28,7 +28,7 @@
 			</div>
 		</div>
         <div class="fullscreen-img-wrapper">
-            <img style="display: inline-block;" class="fullscreen-img" src="http://www.jiagege.cn/html/createDJI/img/banner1.jpg">
+            <img style="display: inline-block;" class="fullscreen-img" src="http://dummyimage.com/1440x900">
         </div>
         <div class="fullscreen-toolbar">
 
@@ -65,7 +65,7 @@
 	            		<a class="widget-link">
 	            			<i class="icon icon-share active"></i>
 	            		</a>
-	            		<div class="share-links-warp">
+	            		<div class="share-links-warp hide">
 		            		<div class="share-links">
 		            			<a class="share-icons tw"><i class="icon-twitter"></i></a>
 		            			<a class="share-icons fb"><i class="icon-facebook"></i></a>

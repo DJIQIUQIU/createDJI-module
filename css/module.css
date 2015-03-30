@@ -2068,6 +2068,7 @@ div.tagsinput span.tag a {
   text-align: center;
 }
 .fullscreen-img {
+  width: 100%;
   display: none;
 }
 .fullscreen-toolbar {
